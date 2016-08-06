@@ -1,0 +1,97 @@
+.color-tables {
+  padding-top: 40px;
+  margin-bottom: 60px;
+}
+
+.value-table {
+  border-collapse: separate;
+  font-size: 14px;
+  width: 100%;
+
+  thead > tr > th {
+    padding-top: 0;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    line-height: 1;
+    color: $text-color;
+  }
+
+  tbody > tr:not(:first-child) > td {
+    border-top: 1px solid $oc-gray-2;
+  }
+
+  tr > th,
+  tr > td {
+    padding: 8px 12px;
+    text-align: right;
+    background-color: transparent;
+    transition: background-color 0.2s ease-out;
+    font-family: $font-family-headline;
+    width: calc(100% / 8);
+    color: $text-color-gray;
+    transition: all 0.2s ease-out;
+
+
+    &.level {
+      min-width: 110px;
+      text-align: left;
+      text-transform: uppercase;
+      letter-spacing: $letter-spacing-sm;
+      color: $text-color;
+    }
+
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+
+   > tbody > tr {
+    transition: all 0.2s ease-out;
+
+    &:hover {
+      background-color: $oc-gray-0;
+
+      > th,
+      > td {
+        color: $text-color;
+
+        &.rgb-red {
+          color: $oc-pink-6;
+        }
+
+        &.rgb-green {
+          color: $oc-teal-6;
+        }
+
+        &.rgb-blue {
+          color: $oc-indigo-6;
+        }
+      }
+    }
+  }
+  @media (max-width: 879px) {
+    margin-left: -$container-padding-base;
+    margin-right: -$container-padding-base;
+    width: 100vw;
+
+    thead > tr > th,
+    tbody > tr > td {
+
+      &:first-child {
+        padding-left: $container-padding-base;
+      }
+
+      &:last-child {
+        padding-right: $container-padding-base;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<section class="docs-section">
+  <h3 class="docs-title">Introduction</h3>
+  <div class="docs-content">
+    <p>Open color is a color sheme for UI design. You can use it for font, background, border etc. It contains a gray and 12 colors. All the color is perceptible by color blind (specifically deuteranopia and protanopia) person.</p>
+  </div>
+</section>
+<section class="docs-section">
+  <h3 class="docs-title">Installation</h3>
+  <div class="docs-content">
+  {% highlight bash %}$ npm install open-color{% endhighlight %}
+  </div>
+</section>
+<section class="docs-section">
+  <h3 class="docs-title">Variable convention</h3>
+  <div class="docs-content">
+  {% highlight scss %}$oc-(color)-(number){% endhighlight %}
+    <ul>
+      <li>
+        <span class="list-title">oc</span>
+        Abbreviation for Open color
+      </li>
+      <li>
+        <span class="list-title">(color)</span>
+        Color name like gray, red, lime ect.
+      </li>
+      <li>
+        <span class="list-title">(number)</span>
+        0 to 9. Color brightness spectrum
+      </li>
+    </ul>
+  </div>
+</section>
+<section class="docs-section">
+  <h3 class="docs-title">How to use</h3>
+  <div class="docs-content">
+    Import the file to your project and use the variables.
+    <h4 class="docs-subtitle">Example</h4>
+    {% highlight scss %}//SASS, SCSS
+@import 'path/open-color';
+
+.body {
+  backgrond-color: $oc-gray-0;
+  color: $oc-gray-7;
+}
+
+a {
+  color: $oc-teal-7;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $oc-indigo-7;
+  }
+}
+{% endhighlight %}
+  </div>
+</section>

@@ -1,0 +1,57 @@
+
+//  Grid
+//  ───────────────────────────────────
+
+$container-padding-base:     4%;
+$container-padding-lg:       ($container-padding-base * 1.2);
+$grid-gutter-width:          4px;
+$container-max-width: 1000px;
+$container-max-width-lg: 1600px;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 375px,
+  md: 544px,
+  lg: 768px,
+  xl: 992pxpx
+);
+
+
+//  Typography
+//  ───────────────────────────────────
+
+$font-family-base:  -apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif;
+$font-family-headline: $font-family-base;
+$font-family-mono: 'Roboto Mono', monospace;
+
+$font-size-base: 14px;
+$line-height-base: 1.5;
+$font-weight-b:       700;
+$font-weight-m:       700;
+$letter-spacing-base: 0.1em;
+$letter-spacing-lg: 0.3em;
+$letter-spacing-sm: 0.05em;
+
+$text-color:            $oc-gray-7;
+$text-color-gray:       $oc-gray-6;
+
+
+
+//  ───────────────────────────────────
+
+$color-chip-gutter: 4px;
+$link-color: $oc-orange-4;
+$link-hover-color: $oc-orange-4;
+$topnav-collapse-width: 768px;
+
+$chip-border-radius: 2px;
+$selection-bg: $oc-gray-2;
+
+$border-base: 0.5px solid $oc-gray-3;
+$nav-bg: $oc-gray-9;
+$nav-color: $oc-gray-6;
+$nav-color-highlight: $oc-gray-7;
+
+$index-color: $oc-gray-6;
+$index-color-highlight: $oc-gray-7;
+

@@ -1,0 +1,59 @@
+
+.shortcut-wrap {
+  padding: 36px 0;
+
+  .shortcut-menus {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  a.shortcut {
+    display: block;
+    padding: 8px 0;
+    width: 100%;
+    font-size: 12px;
+    color: $text-color-gray;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: $letter-spacing-base;
+    transition: all 0.2s ease-out;
+
+    .list-no {
+      // padding-right: 1em;
+      // color: $text-color;
+      // font-weight: 700;
+      // letter-spacing: $letter-spacing-sm;
+      // transition: all 0.2s ease-out;
+    }
+
+    @each $color-list, $selector in $oc-color-list {
+      $font-color: map-get($color-list , "7");
+      &.#{$selector} {
+        &:hover,
+        &:focus,
+        &:active {
+          @if $selector == "gray" {
+            color: $text-color;
+          } @else {
+            color: #{$font-color};
+          }
+        }
+      }
+      .list-no {
+        display: inline-block;
+        margin-top: -2px;
+        margin-right: 10px;
+        width: 12px;
+        height: 12px;
+        border-radius: 3px;
+        vertical-align: middle;
+      }
+
+      .list-no-#{$selector} {
+        background: $font-color;
+      }
+    }
+  }
+}

@@ -1,0 +1,174 @@
+@media (max-width: 543px) {
+  // nav
+  // --------------------------
+
+  .navigation {
+    padding-top: 1vw;
+    padding-bottom: 4vw;
+    margin-bottom: 0;
+    border-color: $oc-gray-4;
+  }
+
+  .title {
+    margin-bottom: 0;
+  }
+
+  a.blog-logo {
+    background-size: 50px 30px;
+    height: 60px;
+    margin-bottom: 0;
+  }
+
+  .infomation {
+    margin-top: 14px;
+    letter-spacing: 0;
+  }
+
+  .index .introduction {
+    margin-top: 0;
+
+    p {
+      font-size: 19px;
+      letter-spacing: -0.02em;
+    }
+
+    .introduction-color {
+      margin-top: -2px;
+      width: 20px;
+      height: 20px;
+    }
+
+    .note {
+      font-size: 12px;
+      line-height: 1.5;
+    }
+  }
+  .index .nav-menus-wrap {
+    margin-top: 30px;
+    padding-top: 20px;
+  }
+
+  .nav-menus-wrap {
+    margin-top: 10px;
+    border-top: $border-base;
+    border-color: $oc-gray-4;
+  }
+
+  .nav-menus {
+    > li > .nav-menu,
+    > li > ul > li > .nav-menu {
+      padding-top: 2vw;
+      padding-bottom: 2vw;
+    }
+
+    li.list-title {
+      padding-top: 4vw;
+    }
+  }
+
+  // shortcut
+  // -------------------------
+  .shortcut-wrap {
+    display: none;
+    margin-bottom: 10vw;
+    padding: 2vw 0;
+
+    a.shortcut {
+      padding: 9px 0;
+      letter-spacing: $letter-spacing-sm;
+      .list-no {
+        padding-right: 0.5em;
+      }
+    }
+  }
+  
+
+  // swatichs
+  // -------------------------
+
+  $color-chip-margin: 3vw;
+  $color-chip-height: 60px;
+  $color-chip-width: calc((100%/3) - #{$color-chip-margin});
+  $color-info-width: calc(200%/3);
+
+  .color-group {
+    padding-top: 5vw;
+  }
+  .color-title {
+    padding-bottom: 2vw;
+    margin-bottom: 5vw;
+    
+    span {
+      margin-right: 0.2em;
+    }
+  }
+
+  .color-chip {
+    padding-bottom: 1.2vw;
+    margin-bottom: 1.2vw;
+    border-bottom: $border-base;
+  }
+  
+  .color-chip-bg {
+    width: $color-chip-width;
+    height: $color-chip-height;
+    margin-right: $color-chip-margin;
+    float: left;
+
+    @media (max-width: 374px) {
+      width: $color-chip-width;
+    }
+  }
+  .color-name,
+  .color-var,
+  .color-hex {
+    display: inline-block;
+    width: $color-info-width;
+  }
+  .color-name {
+    padding: 10px 0 0;
+    font-weight: $font-weight-b;
+  }
+  .color-var,
+  .color-hex {
+    float: left;
+    padding: 2px 10px 2px 0;
+    width: calc(100%/3);
+  }
+  @media (max-width: 374px) {
+    .color-var {
+      width: 110px;
+    }
+    .color-hex {
+      width: 80px;
+      float: right;
+    }
+  }
+
+  // color tables
+  .value-table {
+    margin-left: -$container-padding-lg;
+    margin-right: -$container-padding-lg;
+    width: 100vw;
+
+    thead > tr > th,
+    tbody > tr > td {
+      padding: 12px;
+      font-size: 14px;
+
+      &:first-child {
+        padding-left: $container-padding-lg;
+      }
+
+      &:nth-child(5) {
+        padding-right: $container-padding-lg;
+      }
+
+      &:nth-child(6),
+      &:nth-child(7),
+      &:nth-child(8) {
+        display: none;
+      }
+    }
+  }
+}

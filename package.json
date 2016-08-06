@@ -1,0 +1,25 @@
+{
+  "name": "open-color",
+  "version": "1.0.0",
+  "description": "Open color scheme for web UI",
+  "main": "open-color.scss",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeun/open-color.git"
+  },
+  "keywords": [
+    "color",
+    "colorscheme",
+    "color swatches",
+    "SCSS"
+  ],
+  "author": "Jeong Heeyeun <hyd5012@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yeun/open-color/issues"
+  },
+  "homepage": "https://github.com/yeun/open-color"
+}

@@ -1,0 +1,63 @@
+.docs-section {
+  padding: 40px 0;
+}
+
+.docs-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 16px;
+  letter-spacing: $letter-spacing-sm;
+  text-transform: uppercase;
+  font-weight: $font-weight-m;
+  line-height: 1.5;
+}
+
+.docs-content {
+  font-size: 16px;
+
+  p {
+    margin-top: 0;
+  }
+
+  ul {
+    padding-left: 1.5em;
+  }
+
+  li .list-title {
+    font-weight: $font-weight-b;
+    width: 100px;
+    display: inline-block;
+  }
+}
+
+.highlight {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 20px 30px;
+  background-color: $oc-gray-0;
+  border-radius: 4px;
+}
+
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  line-height: $line-height-base;
+  white-space: pre;       /* css-3 */
+  white-space: -moz-pre;  /* Mozilla, since 1999 */
+  white-space: -pre;      /* Opera 4-6 */
+  white-space: -o-pre;    /* Opera 7 */
+  word-wrap: break-word;  /* Internet Explorer 5.5+ */
+  word-break: break-all;
+
+  code {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    white-space: pre-wrap;
+    word-break: break-all;
+    background-color: transparent;
+    border-radius: 0;
+  }
+}

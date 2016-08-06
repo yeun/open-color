@@ -1,0 +1,106 @@
+.navigation {
+  padding: 20px 0 60px;
+  list-style: none;
+  color: $nav-color;
+  border-bottom: $border-base;
+  text-transform: uppercase;
+  @include make-row;
+}
+
+a.blog-logo {
+  display: inline-block;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 40px;
+  background: url('../asset/images/logo.svg') no-repeat;
+  background-size: 40px 40px;
+  background-position: center left;
+  vertical-align: top;
+}
+
+.infomation {
+  line-height: 1.7;
+  padding: 0 0 12px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: $letter-spacing-sm;
+  color: $oc-gray-7;
+}
+
+.introduction {
+  display: none;
+}
+
+.nav-menus-wrap {
+  margin-top: 69px
+}
+
+.nav-menus {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+
+  li {
+    list-style: none;
+    
+    &.list-title {
+      padding: 6px 0 12px;
+      font-size: 11px;
+      font-weight: $font-weight-b;
+      letter-spacing: $letter-spacing-sm;
+      color: $oc-gray-7;
+    }
+    .nav-menu {
+      display: block;
+      padding: 6px 0;
+      width: 100%;
+      color: $nav-color;
+      font-family: $font-family-headline;
+      font-size: 12px;
+      line-height: $line-height-base;
+      letter-spacing: $letter-spacing-base;
+      text-transform: uppercase;
+      transition: all 0.2s ease-out;
+
+      @media (max-width: 543px) {
+        letter-spacing: $letter-spacing-sm;
+      }
+    }
+
+    a.nav-menu,
+    a.nav-menu > span {
+      &:hover {
+        color: $nav-color-highlight;
+      }
+
+      &:active,
+      &.active,
+      &:focus {
+        color: $nav-color-highlight;
+        font-weight: $font-weight-b;
+        text-decoration: none;
+        outline: none;
+      }
+    }
+
+    > ul {
+      padding-left: 0;
+
+      a.nav-menu {
+        padding-left: 0;
+
+        &:before {
+          content: "-";
+          padding-right: 2px;
+        }
+      }
+    }
+  }
+
+  &.menus-github {
+    @media (min-width: 768px) {
+      text-align: right;
+    }
+  }
+}

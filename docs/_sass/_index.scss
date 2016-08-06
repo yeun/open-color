@@ -1,0 +1,83 @@
+.index {
+  color: $index-color;
+
+  .container {
+    max-width: $container-max-width;
+  }
+
+  .logo,
+  .navigation {
+    border-bottom: none;
+    margin-bottom: 0;
+    border-bottom: none;
+  }
+
+  .nav-menus-wrap {
+    border-top: $border-base;
+    margin-top: 40px;
+    padding-top: 40px;
+  }
+
+  .nav-menus {
+    li {
+      .nav-menu {
+        color: $index-color;
+      }
+      a.nav-menu,
+      a.nav-menu > span {
+        &:hover {
+          color: $index-color-highlight;
+        }
+
+        &:active,
+        &.active,
+        &:focus {
+          color: $index-color-highlight;
+        }
+      }
+    }
+  }
+
+  .introduction {
+    margin-top: 64px;
+    color: $text-color;
+    display: block;
+
+    p {
+      margin: 0;
+      text-transform: initial;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 1.6;
+    }
+
+    .introduction-color {
+      display: inline-block;
+      margin-top: -3px;
+      margin-right: 2px;
+      width: 24px;
+      height: 24px;
+      border-radius: 3px;
+      vertical-align: middle;
+
+      &:last-child {
+        margin-right: -2px;
+      }
+    }
+
+    @each $color-list, $selector in $oc-color-list {
+      $font-color: map-get($color-list , "6");
+      &-#{$selector} {
+        background: $font-color;
+      }
+    }
+  }
+}
+
+
+.note {
+  margin-top: 20px;
+  text-transform: initial;
+  font-size: 16px;
+  line-height: 1.7;
+}

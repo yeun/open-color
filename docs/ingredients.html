@@ -1,0 +1,116 @@
+---
+layout: default
+---
+
+<div class="row">
+  {% include shortcuts.html %}
+  <section class="ingredient-wrapper">
+    {% for color in site.colors %}
+    <section class="color-tables" id="{{ color }}">
+      <h3 class="color-title">
+        {{ site['colors'][forloop.index0] }}
+      </h3>
+      <table class="value-table" id="table-{{ color }}">
+        <thead>
+          <tr>
+            <th class="level"></th>
+            <th class="rgb rgb-red">R</th>
+            <th class="rgb rgb-green">G</th>
+            <th class="rgb rgb-blue">B</th>
+            <th class="rgb rgb-lightness">L</th>
+            <th class="hsl hsl-hue">H</th>
+            <th class="hsl hsl-saturation">S</th>
+            <th class="hsl hsl-value">V</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% assign hex = color | append: '-hexs' %}
+          {% for level in (0..9) %}
+            {% assign rgb = site[hex][level] | remove: '#' | split: '' %}
+            {% assign str = '' %}
+            {% assign chars = 'a,b,c,d,e,f' | split: ',' %}
+            {% assign remainders = '10,11,12,13,14,15' | split: ',' %}
+            {% for n in (0..5) %}
+              {% assign char = 0 %}
+              {% for c in (0..5) %}
+                {% if char != 1 %}
+                  {% if rgb[n] == chars[c] %}
+                    {% assign char = 1 %}
+                    {% capture str %}{{ str }}{{ remainders[c] }}|{% endcapture %}
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+              {% if char == 0 %}
+                {% capture str %}{{ str }}{{ rgb[n] }}|{% endcapture %}
+              {% endif %}
+            {% endfor %}
+            {% assign rgb = str | split: "|" %}
+            {% assign red = rgb[0] | times: 16 | plus: rgb[1] %}
+            {% assign green = rgb[2] | times: 16 | plus: rgb[3] %}
+            {% assign blue = rgb[4] | times: 16 | plus: rgb[5] %}
+            <tr>
+              <td class="level">{{ color }} {{ level }}</td>
+              <td class="rgb rgb-red">{{ red }}</td>
+              <td class="rgb rgb-green">{{ green }}</td>
+              <td class="rgb rgb-blue">{{ blue }}</td>
+              <td class="rgb rgb-lightness"></td>
+              <td class="hsl hsl-hue"></td>
+              <td class="hsl hsl-saturation"></td>
+              <td class="hsl hsl-value"></td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </section>
+    {% endfor %}
+  </section>
+</div>
+<script>
+function hsv(r, g, b){
+  r = r/255
+  g = g/255
+  b = b/255
+
+  var max = Math.max(r, g, b)
+  var min = Math.min(r, g, b)
+  var l = (r + g + b) / 3
+  var h, s, v = max
+  var d = max - min
+
+  if (max === 0) {
+    s = 0
+  } else {
+    s = d / max
+  }
+
+  if(max === min){
+    h = 0; // achromatic
+  }else{
+    switch(max){
+      case r: h = (g - b) / d + (g < b ? 6 : 0); break
+      case g: h = (b - r) / d + 2; break
+      case b: h = (r - g) / d + 4; break
+    }
+    h /= 6
+  }
+
+  return [Math.round(h * 360), Math.round(s * 100), Math.round(v * 100), Math.round(l * 100)]
+}
+
+var rows = $('.value-table tbody tr')
+
+rows.each(
+  function (index, element) {
+    var r = $(element).find('td.rgb-red').text().trim()
+    var g = $(element).find('td.rgb-green').text().trim()
+    var b = $(element).find('td.rgb-blue').text().trim()
+    var l = $(element).find('td.rgb-lightness').text().trim()
+
+    var hsl = hsv(r, g, b)
+    $(element).find('td.hsl-hue').text(hsl[0] + '°')
+    $(element).find('td.hsl-saturation').text(hsl[1] + '%')
+    $(element).find('td.hsl-value').text(hsl[2] + '%')
+    $(element).find('td.rgb-lightness').text(hsl[3] + '%')
+  }
+);
+</script>

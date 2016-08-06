@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class="row">
+  {% include shortcuts.html %}
+  <section class="color-wrapper">
+    {% for color in site.colors %}
+    <section class="color-group" id="{{ color }}">
+      <h3 class="color-title">
+        {{ site['colors'][forloop.index0] }}
+      </h3>
+      <div class="color-chips-wrapper">
+        <div class="color-chips">
+          {% assign idx = color | append: '-hexs' %}
+          {% for i in (0..9) %}
+          <div class="color-chip" id="{{ color }}-{{ i }}">
+            <div class="color-chip-bg bg-{{ color }}-{{ i }}">
+            </div>
+            <div class="color-name">{{ color }} {{ i }}</div>
+            <input class="color-var" type="text"  onclick="this.focus();this.select()"  readonly="" value="$oc-{{ color }}-{{ i }}">
+            <input class="color-hex" type="text"  onclick="this.focus();this.select()"  readonly="" value="{{ site[idx][i] }}">
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+    {% endfor %}
+  </section>
+</div>

@@ -1,0 +1,54 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+
+@import 'open-color';
+@import 'variables';
+@import 'grid';
+@import 'layout';
+@import 'navbar';
+@import 'shortcuts';
+@import 'swatches';
+@import 'ingredients';
+@import 'index';
+@import 'docs';
+@import 'moblie';
+
+html {
+  box-sizing: border-box;
+  font-size: $font-size-base;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: $text-color;
+  font-family: $font-family-headline;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  letter-spacing: 0;
+  -webkit-text-size-adjust: none;
+}
+
+::selection {
+  background: $selection-bg;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:focus,
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+abbr[title] {
+  border-bottom: none;
+}
