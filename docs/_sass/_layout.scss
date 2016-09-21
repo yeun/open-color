@@ -32,6 +32,7 @@ $left-gird-width: 180px;
 
     @media (min-width: 880px) {
       @include make-col(calc((100% - #{$left-gird-width}) * 0.75));
+      width: 560px;
     }
   }
 }
