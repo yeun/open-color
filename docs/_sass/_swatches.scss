@@ -79,22 +79,8 @@ $style-list: (
   @for $number from 0 through $oc-color-spectrum {
     @each $color-value in map-get($color, #{$number}) {
       @each $color-name in map-get($oc-color-list, $color) {
-        @each $style-name in map-keys($style-list) {
-          @each $style-value in map-get($style-list, $style-name) {
-            .#{$style-name}-#{$color-name}-#{$number} {
-              #{$style-value}: #{$color-value};
-              $no-color-light: map-get($color, "5");
-              $no-color-dark: map-get($color, "9");
-              color: $no-color-dark;
-
-              @if $number < 3 {
-                color: $no-color-light;
-              }
-              @if $number > 5 {
-                 color: $oc-white;
-              }
-            }
-          }
+        .bg-#{$color-name}-#{$number} {
+          background-color: #{$color-value};
         }
       }
     }
