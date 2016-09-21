@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8">
     <title>Open Color</title>
-    <link rel="shortcut icon" href="{{ base_path }}/asset/favicon/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ base_path }}/asset/favicon/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ base_path }}/asset/favicon/apple-touch-icon-152x152.png" />
-    <link rel="icon" type="image/png" href="{{ base_path }}/asset/favicon/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="{{ base_path }}/asset/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="shortcut icon" href="{{ site.baseurl }}/asset/favicon/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/asset/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ site.baseurl }}/asset/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/asset/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/asset/favicon/favicon-16x16.png" sizes="16x16" />
     <meta name="application-name" content="Open color"/>
     <meta name="msapplication-TileColor" content="#FFFFFF" />
-    <meta name="msapplication-TileImage" content="{{ base_path }}/assets/favicon/mstile-144x144.png" />
+    <meta name="msapplication-TileImage" content="{{ site.baseurl }}/assets/favicon/mstile-144x144.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
@@ -42,24 +42,24 @@
                           {% if page.url == '/swatches.html' %}
                           active
                           {% endif %}"
-                   href="/swatches.html">Swatches</a></li>
+                   href="{{ site.baseurl }}/swatches.html">Swatches</a></li>
             <li><a class="nav-menu
                           {% if page.url == '/ingredients.html' %}
                           active
                           {% endif %}"
-                   href="/ingredients.html">Ingredients</a></li>
+                   href="{{ site.baseurl }}/ingredients.html">Ingredients</a></li>
             <li><a class="nav-menu
                           {% if page.url == '/documents.html' %}
                           active
                           {% endif %}"
-                   href="/documents.html">Documents</a></li>
+                   href="{{ site.baseurl }}/documents.html">Documents</a></li>
           </ul>
           <ul class="nav-menus menus-download">
             <li class="list-title">Download</li>
             <li><a class="nav-menu" href="https://unpkg.com/open-color@1.1.0" download>Source code</a></li>
             <li><a class="nav-menu" href="http://adobe.ly/2cYxrjk" target="blank">Adobe library</a></li>
-            <li><a class="nav-menu" href="/asset/download/open_color-1.1.0.aco" download>Photoshop swatches</a></li>
-            <li><a class="nav-menu" href="/asset/download/open_color-1.1.0.ase" download>Illstrator swatches</a></li>
+            <li><a class="nav-menu" href="{{ site.baseurl }}/asset/download/open_color-1.1.0.aco" download>Photoshop swatches</a></li>
+            <li><a class="nav-menu" href="{{ site.baseurl }}/asset/download/open_color-1.1.0.ase" download>Illstrator swatches</a></li>
           </ul>
           <ul class="nav-menus menus-github">
             <li>

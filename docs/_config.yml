@@ -1,3 +1,4 @@
+baseurl: /open-color
 host: 0.0.0.0
 markdown: kramdown
 highlighter: rouge
