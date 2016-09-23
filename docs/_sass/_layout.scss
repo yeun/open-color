@@ -126,15 +126,19 @@ $left-gird-width: 180px;
       margin-left: 50%;
     }
     @media (min-width: 544px) {
-      @include make-col(calc(100%/3));
+      @include make-col(calc(200%/3));
+      margin-left: calc(100%/3);
+      margin-top: 16px;
 
       .index & {
         @include make-col(25%);
+        margin-left: 0;
       }
     }
 
     @media (min-width: 768px) {
       @include make-col(25%);
+      margin-left: 0;
     }
     @media (min-width: 880px) {
       @include make-col(40%);
