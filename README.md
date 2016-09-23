@@ -15,8 +15,8 @@ $ npm install open-color
 
 ## Variable convention
 
-SASS, SCSS: `$oc-(color)-(number)`
-LESS: `$oc-(color)-(number)`
+- SASS, SCSS: `$oc-(color)-(number)`
+- LESS: `@oc-(color)-(number)`
 
 - `oc`:  Abbreviation for Open color
 - `(color)`: Color name like gray, red, lime, ect.
