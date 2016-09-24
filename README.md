@@ -15,9 +15,6 @@ $ npm install open-color
 
 ## Variable convention
 
-
-## Variable convention
-
 ### SASS, SCSS
 
 ```
