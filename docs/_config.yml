@@ -3,6 +3,7 @@ host: 0.0.0.0
 markdown: kramdown
 highlighter: rouge
 
+oc-version: 1.2.1
 colors:         [ "gray",
                   "red",
                   "pink",
