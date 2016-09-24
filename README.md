@@ -1,7 +1,5 @@
 # Open color
 
-## introduction
-
 Open color is a color scheme for UI design. You can use it for font, background, border, etc. It contains a gray and twelve colors. 
 All the colors are perceptible by color blind (specifically deuteranopia and protanopia) people.
 
@@ -76,3 +74,36 @@ a {
   }
 }
 ```
+
+## Contribution
+
+Check out the list below.
+
+### Color value
+
+- `open-color.less`
+- `open-color.scss`
+- `docs/_config.yml`
+- `docs/_sass/_open-color.scss`
+- `docs/download/open-color_*.*.*.aco`
+- `docs/download/open-color_*.*.*.ase`
+- `docs/download/open-color_*.*.*.sketchpalette`
+
+### Version number
+
+- `package.json`
+- `open-color.less`
+- `open-color.scss`
+- `docs/_config.yml`
+- `docs/_sass/_open-color.scss`
+
+### Document
+
+- `README.md`
+- `docs/documents.html`
+
+### Introduction
+
+- `README.md`
+- `docs/_includes/introduction.html`
+- `docs/documents.html`
