@@ -97,12 +97,12 @@ a {
 
 a {
   color: var(--oc-teal-7);
+}
 
-  &:hover,
-  &:focus,
-  &:active {
-    color: var(--oc-indigo-7);
-  }
+a:hover,
+a:focus,
+a:active {
+  color: var(--oc-indigo-7);
 }
 ```
 
