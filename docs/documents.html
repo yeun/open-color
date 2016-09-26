@@ -77,6 +77,24 @@ a {
   }
 }
 {% endhighlight %}
+    <h4 class="docs-subtitle">Example for CSS</h4>
+    {% highlight css %}@import 'path/open-color.css';
+
+.body {
+  backgrond-color: var(--oc-gray-0);
+  color: var(--oc-gray-7);
+}
+
+a {
+  color: var(--oc-teal-7);
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--oc-indigo-7);
+  }
+}
+{% endhighlight %}
   </div>
 </section>
 <section class="docs-section">
@@ -87,6 +105,7 @@ a {
     <ul>
       <li><code>open-color.less</code></li>
       <li><code>open-color.scss</code></li>
+      <li><code>open-color.css</code></li>
       <li><code>docs/_config.yml</code></li>
       <li><code>docs/_sass/_open-color.scss</code></li>
       <li><code>docs/download/open-color_*.*.*.aco</code></li>
@@ -98,6 +117,7 @@ a {
       <li><code>package.json</code></li>
       <li><code>open-color.less</code></li>
       <li><code>open-color.scss</code></li>
+      <li><code>open-color.css</code></li>
       <li><code>docs/_config.yml</code></li>
       <li><code>docs/_sass/_open-color.scss</code></li>
     </ul>

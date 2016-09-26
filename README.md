@@ -1,6 +1,6 @@
 # Open color
 
-Open color is a color scheme for UI design. You can use it for font, background, border, etc. It contains a gray and twelve colors. 
+Open color is a color scheme for UI design. You can use it for font, background, border, etc. It contains a gray and twelve colors.
 All the colors are perceptible by color blind (specifically deuteranopia and protanopia) people.
 
 Note: The colors are subject to change in the future. Thus, using an Open color as a main identity color is not recommended.
@@ -23,6 +23,16 @@ $oc-(color)-(number)
 
 ```
 @oc-(color)-(number)
+```
+
+- `oc`:  Abbreviation for Open color
+- `(color)`: Color name like gray, red, lime, ect.
+- `(number)`: 0 to 9. Brightness spectrum.
+
+### CSS
+
+```
+--oc-(color)-(number)
 ```
 
 - `oc`:  Abbreviation for Open color
@@ -75,6 +85,27 @@ a {
 }
 ```
 
+**Example for CSS**
+
+```
+@import 'path/open-color.css';
+
+.body {
+  backgrond-color: var(--oc-gray-0);
+  color: var(--oc-gray-7);
+}
+
+a {
+  color: var(--oc-teal-7);
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--oc-indigo-7);
+  }
+}
+```
+
 ## Contribution
 
 Check out the list below.
@@ -83,6 +114,7 @@ Check out the list below.
 
 - `open-color.less`
 - `open-color.scss`
+- `open-color.css`
 - `docs/_config.yml`
 - `docs/_sass/_open-color.scss`
 - `docs/download/open-color_*.*.*.aco`
@@ -94,6 +126,7 @@ Check out the list below.
 - `package.json`
 - `open-color.less`
 - `open-color.scss`
+- `open-color.css`
 - `docs/_config.yml`
 - `docs/_sass/_open-color.scss`
 
