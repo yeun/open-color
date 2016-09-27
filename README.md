@@ -1,11 +1,11 @@
 # Open color
 
 Open color is a color scheme for UI design. You can use it for font, background, border, etc. It contains a gray and twelve colors.
-All the colors considered the color blind, specifically deuteranopia and protanopia.
+Open color is provided as CSS, SCSS, LESS, Adobe library, Photoshop/Illustrator swatches and Sketch palette.
 
 **Note**
 
-* Open color is not specially designed for the color blind.
+* All the color is tested on deuteranopia and protanopia mode. The process will soon be published in the article.
 * The colors are subject to change in the future. Thus, using an Open color as a main identity color is not recommended.
 
 ## Installation
