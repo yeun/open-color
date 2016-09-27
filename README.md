@@ -49,7 +49,7 @@ Import the file to your project and use the variables.
 @import 'path/open-color';
 
 .body {
-  backgrond-color: $oc-gray-0;
+  background-color: $oc-gray-0;
   color: $oc-gray-7;
 }
 
@@ -70,7 +70,7 @@ a {
 @import 'path/open-color';
 
 .body {
-  backgrond-color: @oc-gray-0;
+  background-color: @oc-gray-0;
   color: @oc-gray-7;
 }
 
@@ -91,7 +91,7 @@ a {
 @import 'path/open-color.css';
 
 .body {
-  backgrond-color: var(--oc-gray-0);
+  background-color: var(--oc-gray-0);
   color: var(--oc-gray-7);
 }
 
