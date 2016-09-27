@@ -1,11 +1,12 @@
 language: bash
 before_deploy:
-  - "./build_release"
+- ./build_release
 deploy:
   skip_cleanup: true
   provider: releases
-  api_key: "92ef96947b06b6bf67590313baaafea2b71f08ee"
+  api_key:
+    secure: RNpxzRSgCzyxofenxx8lalWgyAaKu8mh0DLugJdrk/nTH6ryNNnMKdQ7GAtR6IOWQKZkmEedH39qxDxRb84r4NzW/Ul5Yvug1UWc845PVb+K/m5yqE0E54oL43OcHHryD26iSU4tg8HjqVBWbC1W13FuMcOh/tvjwabogVVZAO99KGRTpe8KQYRiK4A1DsSjtF1gaToPW0BramsL8Qiy8cH85NvqQCm/d/8M9pfXGH1h7jqL2SyDJXYG25T4G+LZWC1wiqKnuVi+NMGnaLQPVUbxBcr7iTcdnLExIqbMel9YODeFqzjfF1LbJ6v+hz16fDTsZyEUeiXJR3sSo7UUYIqAE/OqBw8Pct21PyriBCIK87Jn/yqGThLBMyBbJBAjBLHDK7Xzlo7MhH9MBTMLq722YmeVkPVdRQ51/2uSuDVKiw6o4H+UllhWIoUteJt9QDg20JgADpjyoXldDbMynfyh/NmlOm+FlhoOl9yeQf50SpB7b9kWRi2X7QDeXYNkN7wu/jt0OOtjU1Z8LUp2luQZRBF/gg7DQhIfx0HNTALdYYCG/tq7HPXEAIRMvC1ls33DjfP+dVlwRbutogeuzd9qorsTha1Vg91uFwHgCUSUjOCachvxKvynG11DOas2RB1JYUBKeWNRpM3Mpr1A8Sq03qRBurS9XHQDOiosh4c=
   file:
-    - release/open-color.zip
+  - release/open-color.zip
   on:
     tags: true
