@@ -24,20 +24,18 @@ $oc-(color)-(number)
 ```
 @oc-(color)-(number)
 ```
-
-- `oc`:  Abbreviation for Open color
-- `(color)`: Color name like gray, red, lime, ect.
-- `(number)`: 0 to 9. Brightness spectrum.
-
 ### CSS
 
 ```
 --oc-(color)-(number)
 ```
 
+---
+
 - `oc`:  Abbreviation for Open color
 - `(color)`: Color name like gray, red, lime, ect.
 - `(number)`: 0 to 9. Brightness spectrum.
+
 
 ## How to use
 
