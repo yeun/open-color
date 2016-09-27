@@ -1,0 +1,10 @@
+language: bash
+before_deploy:
+  - "./build_release"
+deploy:
+  provider: releases
+  api_key: "92ef96947b06b6bf67590313baaafea2b71f08ee"
+  file:
+    - release/open-color.zip
+  on:
+    tags: true

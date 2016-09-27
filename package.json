@@ -14,7 +14,9 @@
     "color",
     "colorscheme",
     "color swatches",
-    "SCSS"
+    "SCSS",
+    "LESS",
+    "CSS"
   ],
   "author": "Jeong Heeyeun <hyd5012@gmail.com>",
   "license": "MIT",
