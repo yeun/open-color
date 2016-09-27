@@ -129,6 +129,9 @@ Check out the list below.
 - `open-color.css`
 - `docs/_config.yml`
 - `docs/_sass/_open-color.scss`
+- `docs/download/open-color_*.*.*.aco`
+- `docs/download/open-color_*.*.*.ase`
+- `docs/download/open-color_*.*.*.sketchpalette`
 
 ### Document
 
