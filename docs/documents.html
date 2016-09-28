@@ -80,6 +80,22 @@ a {
   }
 }
 {% endhighlight %}
+    <h4 class="docs-subtitle">Example for Stylus</h4>
+    {% highlight stylus %}@import 'path/open-color.styl';
+
+.body
+  background-color: oc-gray-0
+  color: oc-gray-7
+
+a
+  color: oc-teal-7;
+
+  &:hover
+  &:focus
+  &:active
+    color: oc-indigo-7
+
+{% endhighlight %}
     <h4 class="docs-subtitle">Example for CSS</h4>
     {% highlight css %}@import 'path/open-color.css';
 
@@ -108,6 +124,7 @@ a:active {
     <ul>
       <li><code>open-color.less</code></li>
       <li><code>open-color.scss</code></li>
+      <li><code>open-color.styl</code></li>
       <li><code>open-color.css</code></li>
       <li><code>docs/_config.yml</code></li>
       <li><code>docs/_sass/_open-color.scss</code></li>
@@ -120,6 +137,7 @@ a:active {
       <li><code>package.json</code></li>
       <li><code>open-color.less</code></li>
       <li><code>open-color.scss</code></li>
+      <li><code>open-color.styl</code></li>
       <li><code>open-color.css</code></li>
       <li><code>docs/_config.yml</code></li>
       <li><code>docs/_sass/_open-color.scss</code></li>
