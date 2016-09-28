@@ -121,6 +121,7 @@ Check out the list below.
 - `docs/download/open-color_*.*.*.aco`
 - `docs/download/open-color_*.*.*.ase`
 - `docs/download/open-color_*.*.*.sketchpalette`
+- Adobe library (admin rights)
 
 ### Version number
 
@@ -133,6 +134,7 @@ Check out the list below.
 - `docs/download/open-color_*.*.*.aco`
 - `docs/download/open-color_*.*.*.ase`
 - `docs/download/open-color_*.*.*.sketchpalette`
+- Adobe library (admin rights)
 
 ### Document
 
