@@ -88,10 +88,8 @@ $left-gird-width: 180px;
       @include make-col(20%);
     }
 
-    :not(.index &) {
-      @media (min-width: 1600px) {
-        @include make-col(10%);
-      }
+    @media (min-width: 1600px) {
+      @include make-col(10%);
     }
   }
 
@@ -112,10 +110,8 @@ $left-gird-width: 180px;
       @include make-col(40%);
     }
 
-    :not(.index &) {
-      @media (min-width: 1600px) {
-        @include make-col(20%);
-      }
+    @media (min-width: 1600px) {
+      @include make-col(20%);
     }
   }
 
@@ -144,12 +140,6 @@ $left-gird-width: 180px;
       @include make-col(40%);
 
       .index & {
-        @include make-col(20%);
-      }
-    }
-
-    :not(.index &) {
-      @media (min-width: 1600px) {
         @include make-col(20%);
       }
     }
