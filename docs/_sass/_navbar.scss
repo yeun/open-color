@@ -101,6 +101,7 @@ a.blog-logo {
   &.menus-github {
     @media (min-width: 768px) {
       text-align: right;
+      margin-top: 0;
     }
   }
 }
