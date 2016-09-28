@@ -18,18 +18,18 @@ $ npm install open-color
 
 ### SASS, SCSS
 
-```
+```sass
 $oc-(color)-(number)
 ```
 
 ### LESS
 
-```
+```less
 @oc-(color)-(number)
 ```
 ### CSS
 
-```
+```css
 --oc-(color)-(number)
 ```
 
@@ -46,7 +46,7 @@ Import the file to your project and use the variables.
 
 **Example for SASS, SCSS**
 
-```
+```sass
 @import 'path/open-color';
 
 .body {
@@ -67,7 +67,7 @@ a {
 
 **Example for LESS**
 
-```
+```less
 @import 'path/open-color';
 
 .body {
@@ -88,7 +88,7 @@ a {
 
 **Example for CSS**
 
-```
+```css
 @import 'path/open-color.css';
 
 .body {
