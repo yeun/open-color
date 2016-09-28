@@ -95,12 +95,11 @@ a {
 **Example for Stylus**
 
 ```
-@import 'path/open-color.styl';
+@import 'path/open-color.styl'
 
 .body
   background-color: oc-gray-0
   color: oc-gray-7
-
 
 a
   color: @oc-teal-7
@@ -142,6 +141,7 @@ Check out the list below.
 
 - `open-color.less`
 - `open-color.scss`
+- `open-color.styl`
 - `open-color.css`
 - `docs/_config.yml`
 - `docs/_sass/_open-color.scss`
@@ -154,6 +154,7 @@ Check out the list below.
 - `package.json`
 - `open-color.less`
 - `open-color.scss`
+- `open-color.styl`
 - `open-color.css`
 - `docs/_config.yml`
 - `docs/_sass/_open-color.scss`
