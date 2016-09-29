@@ -1,7 +1,7 @@
 # Open color
 
 Open color is a color scheme for UI design. You can use it for font, background, border, etc. It contains a gray and twelve colors.
-Open color is provided as CSS, SCSS, LESS, Adobe library, Photoshop/Illustrator swatches and Sketch palette.
+Open color is provided as CSS, SCSS, LESS, Stylus, Adobe library, Photoshop/Illustrator swatches and Sketch palette.
 
 **Note**
 
@@ -26,6 +26,12 @@ $oc-(color)-(number)
 
 ```less
 @oc-(color)-(number)
+```
+
+### Stylus
+
+```
+oc-(color)-(number)
 ```
 ### CSS
 
@@ -86,6 +92,26 @@ a {
 }
 ```
 
+**Example for Stylus**
+
+```
+@import 'path/open-color.styl'
+
+.body
+  background-color: oc-gray-0
+  color: oc-gray-7
+
+a
+  color: @oc-teal-7
+
+  &:hover
+  &:focus
+  &:active
+    color: @oc-indigo-7
+  
+
+```
+
 **Example for CSS**
 
 ```css
@@ -115,6 +141,7 @@ Check out the list below.
 
 - `open-color.less`
 - `open-color.scss`
+- `open-color.styl`
 - `open-color.css`
 - `docs/_config.yml`
 - `docs/_sass/_open-color.scss`
@@ -128,6 +155,7 @@ Check out the list below.
 - `package.json`
 - `open-color.less`
 - `open-color.scss`
+- `open-color.styl`
 - `open-color.css`
 - `docs/_config.yml`
 - `docs/_sass/_open-color.scss`
