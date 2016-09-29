@@ -36,7 +36,7 @@ $oc-(color)-(number)
 ---
 
 - `oc`:  Abbreviation for Open color
-- `(color)`: Color name like gray, red, lime, ect.
+- `(color)`: Color name such as gray, red, lime, etc.
 - `(number)`: 0 to 9. Brightness spectrum.
 
 
