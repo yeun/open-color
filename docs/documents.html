@@ -48,81 +48,76 @@ layout: default
     <h4 class="docs-subtitle">Example for SASS, SCSS</h4>
     
     {% highlight scss %}
-    @import 'path/open-color';
+@import 'path/open-color';
 
-    .body {
-      background-color: $oc-gray-0;
-      color: $oc-gray-7;
-    }
+.body {
+  background-color: $oc-gray-0;
+  color: $oc-gray-7;
+}
 
-    a {
-      color: $oc-teal-7;
+a {
+  color: $oc-teal-7;
 
-      &:hover,
-      &:focus,
-      &:active {
-        color: $oc-indigo-7;
-      }
-    }
-    {% endhighlight %}
+  &:hover,
+  &:focus,
+  &:active {
+    color: $oc-indigo-7;
+  }
+}{% endhighlight %}
 
     <h4 class="docs-subtitle">Example for LESS</h4>
     {% highlight scss %}
-    @import 'path/open-color';
+@import 'path/open-color';
 
-    .body {
-      background-color: @oc-gray-0;
-      color: @oc-gray-7;
-    }
+.body {
+  background-color: @oc-gray-0;
+  color: @oc-gray-7;
+}
 
-    a {
-      color: @oc-teal-7;
+a {
+  color: @oc-teal-7;
 
-      &:hover,
-      &:focus,
-      &:active {
-        color: @oc-indigo-7;
-      }
-    }
-    {% endhighlight %}
+  &:hover,
+  &:focus,
+  &:active {
+    color: @oc-indigo-7;
+  }
+}{% endhighlight %}
 
     <h4 class="docs-subtitle">Example for Stylus</h4>
     {% highlight stylus %}
-    @import 'path/open-color.styl'
+@import 'path/open-color.styl'
 
-    .body
-      background-color: oc-gray-0
-      color: oc-gray-7
+.body
+  background-color: oc-gray-0
+  color: oc-gray-7
 
-    a
-      color: oc-teal-7;
+a
+  color: oc-teal-7;
 
-      &:hover
-      &:focus
-      &:active
-        color: oc-indigo-7
-
-    {% endhighlight %}
+  &:hover
+  &:focus
+  &:active
+    color: oc-indigo-7{% endhighlight %}
 
     <h4 class="docs-subtitle">Example for CSS</h4>
     {% highlight css %}
-    @import 'path/open-color.css';
+@import 'path/open-color.css';
 
-    .body {
-      background-color: var(--oc-gray-0);
-      color: var(--oc-gray-7);
-    }
+.body {
+  background-color: var(--oc-gray-0);
+  color: var(--oc-gray-7);
+}
 
-    a {
-      color: var(--oc-teal-7);
-    }
+a {
+  color: var(--oc-teal-7);
+}
 
-    a:hover,
-    a:focus,
-    a:active {
-      color: var(--oc-indigo-7);
-    }
-    {% endhighlight %}
+a:hover,
+a:focus,
+a:active {
+  color: var(--oc-indigo-7);
+}{% endhighlight %}
 
   </div>
 </section>
