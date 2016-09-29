@@ -30,7 +30,7 @@ $oc-(color)-(number)
 
 ### Stylus
 
-```
+```styl
 oc-(color)-(number)
 ```
 ### CSS
@@ -94,7 +94,7 @@ a {
 
 **Example for Stylus**
 
-```
+```styl
 @import 'path/open-color.styl'
 
 .body
@@ -108,8 +108,6 @@ a
   &:focus
   &:active
     color: @oc-indigo-7
-  
-
 ```
 
 **Example for CSS**
