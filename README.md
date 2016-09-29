@@ -8,6 +8,22 @@ Open color is provided as CSS, SCSS, LESS, Stylus, Adobe library, Photoshop/Illu
 * All the color is tested on deuteranopia and protanopia mode. The process will soon be published in the article.
 * The colors are subject to change in the future. Thus, using an Open color as a main identity color is not recommended.
 
+## Available colors
+
+- Gray
+- Red
+- Pink
+- Grape
+- Violet
+- Indigo
+- Blue
+- Cyan
+- Teal
+- Green
+- Lime
+- Yellow
+- Orange
+
 ## Installation
 
 ```
