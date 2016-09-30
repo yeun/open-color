@@ -118,12 +118,12 @@ a {
   color: oc-gray-7
 
 a
-  color: @oc-teal-7
+  color: oc-teal-7
 
   &:hover
   &:focus
   &:active
-    color: @oc-indigo-7
+    color: oc-indigo-7
 ```
 
 **Example for CSS**
