@@ -5,7 +5,7 @@ layout: default
 <section class="docs-section">
   <h3 class="docs-title">Introduction</h3>
   <div class="docs-content">
-    <p>Open color is a color scheme for UI design. You can use it for font, background, border, etc. It contains a gray and twelve colors. Open color is provided as CSS, SCSS, LESS, Adobe library, Photoshop/Illustrator swatches and Sketch palette.</p>
+    <p>Open color is a color scheme for UI design. You can use it for font, background, border, etc. It contains a gray and twelve colors. Open color is provided as CSS, SCSS, LESS, Adobe library, Stylus, Photoshop/Illustrator swatches and Sketch palette.</p>
     <small>* All the color is tested on deuteranopia and protanopia mode. The process will soon be published in the article.</small><br>
     <small>* The colors are subject to change in the future. Thus, using an Open color as a main identity color is not recommended.</small>
   </div>
@@ -22,6 +22,7 @@ layout: default
     <ul>
       <li>SASS, SCSS: {% highlight scss %}$oc-(color)-(number){% endhighlight %}</li>
       <li>LESS: {% highlight less %}@oc-(color)-(number){% endhighlight %}</li>
+      <li>Stylus: {% highlight stylus %}oc-(color)-(number){% endhighlight %}</li>
       <li>CSS: {% highlight css %}--oc-(color)-(number){% endhighlight %}</li>
     </ul>
     <ul>
@@ -45,7 +46,9 @@ layout: default
   <div class="docs-content">
     Import the file to your project and use the variables.
     <h4 class="docs-subtitle">Example for SASS, SCSS</h4>
-    {% highlight scss %}@import 'path/open-color';
+    
+    {% highlight scss %}
+@import 'path/open-color';
 
 .body {
   background-color: $oc-gray-0;
@@ -60,10 +63,11 @@ a {
   &:active {
     color: $oc-indigo-7;
   }
-}
-{% endhighlight %}
+}{% endhighlight %}
+
     <h4 class="docs-subtitle">Example for LESS</h4>
-    {% highlight scss %}@import 'path/open-color';
+    {% highlight scss %}
+@import 'path/open-color';
 
 .body {
   background-color: @oc-gray-0;
@@ -78,10 +82,27 @@ a {
   &:active {
     color: @oc-indigo-7;
   }
-}
-{% endhighlight %}
+}{% endhighlight %}
+
+    <h4 class="docs-subtitle">Example for Stylus</h4>
+    {% highlight stylus %}
+@import 'path/open-color.styl'
+
+.body
+  background-color: oc-gray-0
+  color: oc-gray-7
+
+a
+  color: oc-teal-7;
+
+  &:hover
+  &:focus
+  &:active
+    color: oc-indigo-7{% endhighlight %}
+
     <h4 class="docs-subtitle">Example for CSS</h4>
-    {% highlight css %}@import 'path/open-color.css';
+    {% highlight css %}
+@import 'path/open-color.css';
 
 .body {
   background-color: var(--oc-gray-0);
@@ -96,8 +117,8 @@ a:hover,
 a:focus,
 a:active {
   color: var(--oc-indigo-7);
-}
-{% endhighlight %}
+}{% endhighlight %}
+
   </div>
 </section>
 <section class="docs-section">
@@ -108,26 +129,28 @@ a:active {
     <ul>
       <li><code>open-color.less</code></li>
       <li><code>open-color.scss</code></li>
+      <li><code>open-color.styl</code></li>
       <li><code>open-color.css</code></li>
       <li><code>docs/_config.yml</code></li>
       <li><code>docs/_sass/_open-color.scss</code></li>
       <li><code>docs/asset/download/open-color_*.*.*.aco</code></li>
       <li><code>docs/asset/download/open-color_*.*.*.ase</code></li>
       <li><code>docs/asset/download/open-color_*.*.*.sketchpalette</code></li>
-      <li><code>Adobe library (admin rights)</code></li>
+      <li>Adobe library (admin rights)</li>
     </ul>
     <h4 class="docs-subtitle">Version number</h4>
     <ul>
       <li><code>package.json</code></li>
       <li><code>open-color.less</code></li>
       <li><code>open-color.scss</code></li>
+      <li><code>open-color.styl</code></li>
       <li><code>open-color.css</code></li>
       <li><code>docs/_config.yml</code></li>
       <li><code>docs/_sass/_open-color.scss</code></li>
       <li><code>docs/asset/download/open-color_*.*.*.aco</code></li>
       <li><code>docs/asset/download/open-color_*.*.*.ase</code></li>
       <li><code>docs/asset/download/open-color_*.*.*.sketchpalette</code></li>
-      <li><code>Adobe library (admin rights)</code></li>
+      <li>Adobe library (admin rights)</li>
     </ul>
     <h4 class="docs-subtitle">Document</h4>
     <ul>

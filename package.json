@@ -1,6 +1,6 @@
 {
   "name": "open-color",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "Open color scheme for web UI",
   "main": "open-color.scss",
   "scripts": {
@@ -16,6 +16,7 @@
     "color swatches",
     "SCSS",
     "LESS",
+    "Stylus",
     "CSS"
   ],
   "author": "Jeong Heeyeun <hyd5012@gmail.com>",
