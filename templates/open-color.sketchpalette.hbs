@@ -1,0 +1,7 @@
+{"compatibleVersion":"1.4","pluginVersion":"1.5","colors":[{{#each colors as |color colorIndex|~}}
+    {{#each color.hex as |hex|~}}
+        {{#with (hex2rgb hex) as |rgb|~}}
+            {"red":{{div rgb.r 255}},"green":{{div rgb.g 255}},"blue":{{div rgb.b 255}},"alpha":1}{{#unless (and @last @../last)}},{{/unless}}
+        {{~/with}}
+    {{~/each}}
+{{~/each}}]}

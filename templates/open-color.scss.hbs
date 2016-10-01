@@ -1,0 +1,49 @@
+//
+//
+//  𝗖 𝗢 𝗟 𝗢 𝗥
+//  v {{version}}
+//
+//  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+//  General
+//  ───────────────────────────────────
+
+{{#each general as |color|}}
+$oc-{{color.name}}:         {{color.hex}};
+{{/each}}
+
+
+{{#each colors as |color|}}
+//  {{capitalize color.name}}
+//  ───────────────────────────────────
+
+$oc-{{color.name}}-list: (
+{{#each color.hex as |hex index|}}
+  "{{index}}": {{hex}}{{#unless @last}},{{/unless}}
+{{/each}}
+);
+
+$oc-{{color.name}}-0: map-get($oc-{{color.name}}-list, "0");
+$oc-{{color.name}}-1: map-get($oc-{{color.name}}-list, "1");
+$oc-{{color.name}}-2: map-get($oc-{{color.name}}-list, "2");
+$oc-{{color.name}}-3: map-get($oc-{{color.name}}-list, "3");
+$oc-{{color.name}}-4: map-get($oc-{{color.name}}-list, "4");
+$oc-{{color.name}}-5: map-get($oc-{{color.name}}-list, "5");
+$oc-{{color.name}}-6: map-get($oc-{{color.name}}-list, "6");
+$oc-{{color.name}}-7: map-get($oc-{{color.name}}-list, "7");
+$oc-{{color.name}}-8: map-get($oc-{{color.name}}-list, "8");
+$oc-{{color.name}}-9: map-get($oc-{{color.name}}-list, "9");
+
+
+{{/each}}
+//  Color list
+//  ───────────────────────────────────
+
+$oc-color-spectrum:   {{spectrum}};
+
+$oc-color-list: (
+{{#each colors as |color|}}
+  $oc-{{color.name}}-list:      "{{color.name}}"{{#unless @last}},{{/unless}}
+{{/each}}
+);

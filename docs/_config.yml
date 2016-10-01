@@ -4,7 +4,8 @@ markdown: kramdown
 highlighter: rouge
 
 oc-version: 1.3.2
-colors:         [ "gray",
+colors: [
+                  "gray",
                   "red",
                   "pink",
                   "grape",
@@ -16,9 +17,11 @@ colors:         [ "gray",
                   "green",
                   "lime",
                   "yellow",
-                  "orange" ]
+                  "orange"
+]
 
-gray-hexs:      [ "#f8f9fa",
+gray-hexs: [
+                  "#f8f9fa",
                   "#f1f3f5",
                   "#e9ecef",
                   "#dee2e6",
@@ -27,9 +30,11 @@ gray-hexs:      [ "#f8f9fa",
                   "#868e96",
                   "#495057",
                   "#343a40",
-                  "#212529" ]
+                  "#212529"
+]
 
-red-hexs:       [ "#fff5f5",
+red-hexs: [
+                  "#fff5f5",
                   "#ffe3e3",
                   "#ffc9c9",
                   "#ffa8a8",
@@ -38,9 +43,11 @@ red-hexs:       [ "#fff5f5",
                   "#fa5252",
                   "#f03e3e",
                   "#e03131",
-                  "#c92a2a" ]
+                  "#c92a2a"
+]
 
-pink-hexs:      [ "#fff0f6",
+pink-hexs: [
+                  "#fff0f6",
                   "#ffdeeb",
                   "#fcc2d7",
                   "#faa2c1",
@@ -49,9 +56,11 @@ pink-hexs:      [ "#fff0f6",
                   "#e64980",
                   "#d6336c",
                   "#c2255c",
-                  "#a61e4d" ]
+                  "#a61e4d"
+]
 
-grape-hexs:     [ "#f8f0fc",
+grape-hexs: [
+                  "#f8f0fc",
                   "#f3d9fa",
                   "#eebefa",
                   "#e599f7",
@@ -60,9 +69,11 @@ grape-hexs:     [ "#f8f0fc",
                   "#be4bdb",
                   "#ae3ec9",
                   "#9c36b5",
-                  "#862e9c" ]
+                  "#862e9c"
+]
 
-violet-hexs:    [ "#f3f0ff",
+violet-hexs: [
+                  "#f3f0ff",
                   "#e5dbff",
                   "#d0bfff",
                   "#b197fc",
@@ -71,9 +82,11 @@ violet-hexs:    [ "#f3f0ff",
                   "#7950f2",
                   "#7048e8",
                   "#6741d9",
-                  "#5f3dc4" ]
+                  "#5f3dc4"
+]
 
-indigo-hexs:    [ "#edf2ff",
+indigo-hexs: [
+                  "#edf2ff",
                   "#dbe4ff",
                   "#bac8ff",
                   "#91a7ff",
@@ -82,9 +95,11 @@ indigo-hexs:    [ "#edf2ff",
                   "#4c6ef5",
                   "#4263eb",
                   "#3b5bdb",
-                  "#364fc7" ]
+                  "#364fc7"
+]
 
-blue-hexs:      [ "#e8f7ff",
+blue-hexs: [
+                  "#e8f7ff",
                   "#ccedff",
                   "#a3daff",
                   "#72c3fc",
@@ -93,9 +108,11 @@ blue-hexs:      [ "#e8f7ff",
                   "#228ae6",
                   "#1c7cd6",
                   "#1b6ec2",
-                  "#1862ab" ]
+                  "#1862ab"
+]
 
-cyan-hexs:      [ "#e3fafc",
+cyan-hexs: [
+                  "#e3fafc",
                   "#c5f6fa",
                   "#99e9f2",
                   "#66d9e8",
@@ -104,9 +121,11 @@ cyan-hexs:      [ "#e3fafc",
                   "#15aabf",
                   "#1098ad",
                   "#0c8599",
-                  "#0b7285" ]
+                  "#0b7285"
+]
 
-teal-hexs:      [ "#e6fcf5",
+teal-hexs: [
+                  "#e6fcf5",
                   "#c3fae8",
                   "#96f2d7",
                   "#63e6be",
@@ -115,9 +134,11 @@ teal-hexs:      [ "#e6fcf5",
                   "#12b886",
                   "#0ca678",
                   "#099268",
-                  "#087f5b" ]
+                  "#087f5b"
+]
 
-green-hexs:     [ "#ebfbee",
+green-hexs: [
+                  "#ebfbee",
                   "#d3f9d8",
                   "#b2f2bb",
                   "#8ce99a",
@@ -126,9 +147,11 @@ green-hexs:     [ "#ebfbee",
                   "#40c057",
                   "#37b24d",
                   "#2f9e44",
-                  "#2b8a3e" ]
+                  "#2b8a3e"
+]
 
-lime-hexs:      [ "#f4fce3",
+lime-hexs: [
+                  "#f4fce3",
                   "#e9fac8",
                   "#d8f5a2",
                   "#c0eb75",
@@ -137,9 +160,11 @@ lime-hexs:      [ "#f4fce3",
                   "#82c91e",
                   "#74b816",
                   "#66a80f",
-                  "#5c940d" ]
+                  "#5c940d"
+]
 
-yellow-hexs:    [ "#fff9db",
+yellow-hexs: [
+                  "#fff9db",
                   "#fff3bf",
                   "#ffec99",
                   "#ffe066",
@@ -148,9 +173,11 @@ yellow-hexs:    [ "#fff9db",
                   "#fab005",
                   "#f59f00",
                   "#f08c00",
-                  "#e67700" ]
+                  "#e67700"
+]
 
-orange-hexs:    [ "#fff4e6",
+orange-hexs: [
+                  "#fff4e6",
                   "#ffe8cc",
                   "#ffd8a8",
                   "#ffc078",
@@ -159,4 +186,6 @@ orange-hexs:    [ "#fff4e6",
                   "#fd7e14",
                   "#f76707",
                   "#e8590c",
-                  "#d9480f" ]
+                  "#d9480f"
+]
+
