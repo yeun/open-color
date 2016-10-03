@@ -153,29 +153,15 @@ Check out the list below.
 
 ### Color value
 
-- `open-color.less`
-- `open-color.scss`
-- `open-color.styl`
-- `open-color.css`
-- `docs/_config.yml`
-- `docs/_sass/_open-color.scss`
+- `open-color.json` 
+   - Change and `$ npm run compile-templates`
 - `docs/asset/download/open-color_*.*.*.aco`
-- `docs/asset/download/open-color_*.*.*.ase`
-- `docs/asset/download/open-color_*.*.*.sketchpalette`
 - Adobe library (admin rights)
 
 ### Version number
 
 - `package.json`
-- `open-color.less`
-- `open-color.scss`
-- `open-color.styl`
-- `open-color.css`
-- `docs/_config.yml`
-- `docs/_sass/_open-color.scss`
 - `docs/asset/download/open-color_*.*.*.aco`
-- `docs/asset/download/open-color_*.*.*.ase`
-- `docs/asset/download/open-color_*.*.*.sketchpalette`
 - Adobe library (admin rights)
 
 ### Document
