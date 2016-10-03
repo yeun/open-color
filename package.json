@@ -4,7 +4,8 @@
   "description": "Open color scheme for web UI",
   "main": "open-color.scss",
   "scripts": {
-    "test": ""
+    "test": "",
+    "compile-templates": "node compile-templates.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/yeun/open-color/issues"
   },
-  "homepage": "https://github.com/yeun/open-color"
+  "homepage": "https://github.com/yeun/open-color",
+  "devDependencies": {
+    "ase-utils": "^0.1.1",
+    "handlebars": "^4.0.5"
+  }
 }

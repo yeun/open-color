@@ -1,0 +1,18 @@
+baseurl: /open-color
+host: 0.0.0.0
+markdown: kramdown
+highlighter: rouge
+
+oc-version: {{version}}
+colors: [
+{{#each colors as |color|}}
+                  "{{color.name}}"{{#unless @last}},{{/unless}}
+{{/each}}]
+
+{{#each colors as |color|}}
+{{color.name}}-hexs: [
+{{#each color.hex as |hex|}}
+                  "{{hex}}"{{#unless @last}},{{/unless}}
+{{/each}}]
+
+{{/each}}
