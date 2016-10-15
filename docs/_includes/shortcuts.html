@@ -2,7 +2,7 @@
   <ul class="shortcut-menus">
   {% for color in site.colors %}
     <li><a class="shortcut {{ color }}" href="#{{ color }}">
-      <span class="list-no list-no-{{ color }}"></span>{{ site['colors'][forloop.index0] }}
+      <span class="list-color list-color-{{ color }}"></span>{{ site['colors'][forloop.index0] }}
     </a></li>
   {% endfor %}
   </ul>

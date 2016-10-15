@@ -20,14 +20,6 @@
     letter-spacing: $letter-spacing-base;
     transition: all 0.2s ease-out;
 
-    .list-no {
-      // padding-right: 1em;
-      // color: $text-color;
-      // font-weight: 700;
-      // letter-spacing: $letter-spacing-sm;
-      // transition: all 0.2s ease-out;
-    }
-
     @each $color-list, $selector in $oc-color-list {
       $font-color: map-get($color-list , "7");
       &.#{$selector} {
@@ -41,7 +33,7 @@
           }
         }
       }
-      .list-no {
+      .list-color {
         display: inline-block;
         margin-top: -2px;
         margin-right: 10px;
@@ -51,7 +43,7 @@
         vertical-align: middle;
       }
 
-      .list-no-#{$selector} {
+      .list-color-#{$selector} {
         background: $font-color;
       }
     }
