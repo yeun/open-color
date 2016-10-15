@@ -21,6 +21,9 @@ templatedBuilder.build('open-color.less',
     [path.join(__dirname, 'open-color.less')]);
 templatedBuilder.build('open-color.styl',
     [path.join(__dirname, 'open-color.styl')]);
+templatedBuilder.build('open-color.svg',
+    [path.join(__dirname, 'docs', 'asset', 'images', 'open-color.svg')]);
+
 templatedBuilder.build('open-color.sketchpalette',
     [path.join(__dirname, 'docs', 'asset', 'download', `open-color_${pkg.version}.sketchpalette`)]);
 

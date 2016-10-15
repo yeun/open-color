@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="888" height="949">
+    <!-- Commented blocks are for "debugging" purposes -->
+    <!--<rect width="888" height="949" fill="red"></rect>-->
+
+    <g transform="translate(19 19)">
+        <!--<rect width="850" height="910" fill="green"></rect>-->
+
+        {{#block-params 85 30 2 2 70 12 as |width height padding borderRadius rowHeight fontSize|}}
+
+            {{#each colors as |color colorIndex|}}
+                <g transform="translate(0 {{mul colorIndex rowHeight}})">
+                    <!--<rect width="850" height="{{rowHeight}}" fill="hsl({{mul (div 360 ../colors.length) colorIndex}}, 30%, 50%)"></rect>-->
+
+                    {{#each color.hex as |hex index|}}
+                        <rect height="{{sub height (mul padding 2)}}"
+                              width="{{sub width (mul padding 2)}}"
+                              x="{{add (mul index width) padding}}"
+                              y="{{padding}}"
+                              fill="{{apply @root.filter hex}}"
+                              rx="{{borderRadius}}"
+                              ry="{{borderRadius}}"></rect>
+                        <text font-size="{{fontSize}}px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="{{add (mul index width) padding}}"
+                              y="{{add (mul padding 2) height 10}}"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            {{upper color.name}} {{index}}
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="{{add (mul index width) padding}}"
+                              y="{{add (mul padding 2) height 24}}"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            {{#with (hex2rgb (apply @root.filter hex)) as |rgb|}}{{rgb.r}},{{rgb.g}},{{rgb.b}}{{/with}}
+                        </text>
+                    {{/each}}
+                </g>
+            {{/each}}
+
+        {{/block-params}}
+    </g>
+</svg>
