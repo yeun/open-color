@@ -178,8 +178,9 @@ $left-gird-width: 180px;
   }
 }
 
-.color-wrapper,
-.ingredient-wrapper {
+.color-wrap,
+.ingredient-wrap,
+.instructions-wrap {
   @media (min-width: 880px) {
     @include make-col(calc(100% - #{$left-gird-width}));
   }

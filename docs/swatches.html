@@ -3,13 +3,13 @@ layout: default
 ---
 <div class="row">
   {% include shortcuts.html %}
-  <section class="color-wrapper">
+  <section class="color-wrap">
     {% for color in site.colors %}
     <section class="color-group" id="{{ color }}">
       <h3 class="color-title">
         {{ site['colors'][forloop.index0] }}
       </h3>
-      <div class="color-chips-wrapper">
+      <div class="color-chips-wrap">
         <div class="color-chips">
           {% assign idx = color | append: '-hexs' %}
           {% for i in (0..9) %}
