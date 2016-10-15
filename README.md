@@ -24,6 +24,8 @@ Open color is provided as CSS, SCSS, LESS, Stylus, Adobe library, Photoshop/Illu
 - Yellow
 - Orange
 
+![available colors](https://yeun.github.io/open-color/asset/images/open-color.svg)
+
 ## Installation
 
 ```

@@ -4,7 +4,7 @@ class BaseBuilder{
         this.version = version;
     }
 
-    build(type, outputPaths){
+    build(type, outputPaths, extraData = {}){
 
     }
 }

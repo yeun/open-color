@@ -1,0 +1,2924 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="888" height="949">
+    <!-- Commented blocks are for "debugging" purposes -->
+    <!--<rect width="888" height="949" fill="red"></rect>-->
+
+    <g transform="translate(19 19)">
+        <!--<rect width="850" height="910" fill="green"></rect>-->
+
+
+                <g transform="translate(0 0)">
+                    <!--<rect width="850" height="70" fill="hsl(0, 30%, 50%)"></rect>-->
+
+                        <rect height="26"
+                              width="81"
+                              x="2"
+                              y="2"
+                              fill="#f8f9fa"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="2"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GRAY 0
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="2"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            248,249,250
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="87"
+                              y="2"
+                              fill="#f1f3f5"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="87"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GRAY 1
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="87"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            241,243,245
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="172"
+                              y="2"
+                              fill="#e9ecef"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="172"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GRAY 2
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="172"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            233,236,239
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="257"
+                              y="2"
+                              fill="#dee2e6"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="257"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GRAY 3
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="257"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            222,226,230
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="342"
+                              y="2"
+                              fill="#ced4da"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="342"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GRAY 4
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="342"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            206,212,218
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="427"
+                              y="2"
+                              fill="#adb5bd"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="427"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GRAY 5
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="427"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            173,181,189
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="512"
+                              y="2"
+                              fill="#868e96"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="512"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GRAY 6
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="512"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            134,142,150
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="597"
+                              y="2"
+                              fill="#495057"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="597"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GRAY 7
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="597"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            73,80,87
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="682"
+                              y="2"
+                              fill="#343a40"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="682"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GRAY 8
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="682"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            52,58,64
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="767"
+                              y="2"
+                              fill="#212529"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="767"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GRAY 9
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="767"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            33,37,41
+                        </text>
+                </g>
+                <g transform="translate(0 70)">
+                    <!--<rect width="850" height="70" fill="hsl(27.692307692307693, 30%, 50%)"></rect>-->
+
+                        <rect height="26"
+                              width="81"
+                              x="2"
+                              y="2"
+                              fill="#fff5f5"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="2"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            RED 0
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="2"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            255,245,245
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="87"
+                              y="2"
+                              fill="#ffe3e3"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="87"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            RED 1
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="87"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            255,227,227
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="172"
+                              y="2"
+                              fill="#ffc9c9"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="172"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            RED 2
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="172"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            255,201,201
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="257"
+                              y="2"
+                              fill="#ffa8a8"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="257"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            RED 3
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="257"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            255,168,168
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="342"
+                              y="2"
+                              fill="#ff8787"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="342"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            RED 4
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="342"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            255,135,135
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="427"
+                              y="2"
+                              fill="#ff6b6b"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="427"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            RED 5
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="427"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            255,107,107
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="512"
+                              y="2"
+                              fill="#fa5252"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="512"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            RED 6
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="512"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            250,82,82
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="597"
+                              y="2"
+                              fill="#f03e3e"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="597"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            RED 7
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="597"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            240,62,62
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="682"
+                              y="2"
+                              fill="#e03131"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="682"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            RED 8
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="682"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            224,49,49
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="767"
+                              y="2"
+                              fill="#c92a2a"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="767"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            RED 9
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="767"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            201,42,42
+                        </text>
+                </g>
+                <g transform="translate(0 140)">
+                    <!--<rect width="850" height="70" fill="hsl(55.38461538461539, 30%, 50%)"></rect>-->
+
+                        <rect height="26"
+                              width="81"
+                              x="2"
+                              y="2"
+                              fill="#fff0f6"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="2"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            PINK 0
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="2"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            255,240,246
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="87"
+                              y="2"
+                              fill="#ffdeeb"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="87"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            PINK 1
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="87"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            255,222,235
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="172"
+                              y="2"
+                              fill="#fcc2d7"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="172"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            PINK 2
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="172"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            252,194,215
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="257"
+                              y="2"
+                              fill="#faa2c1"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="257"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            PINK 3
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="257"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            250,162,193
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="342"
+                              y="2"
+                              fill="#f783ac"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="342"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            PINK 4
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="342"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            247,131,172
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="427"
+                              y="2"
+                              fill="#f06595"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="427"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            PINK 5
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="427"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            240,101,149
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="512"
+                              y="2"
+                              fill="#e64980"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="512"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            PINK 6
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="512"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            230,73,128
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="597"
+                              y="2"
+                              fill="#d6336c"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="597"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            PINK 7
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="597"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            214,51,108
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="682"
+                              y="2"
+                              fill="#c2255c"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="682"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            PINK 8
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="682"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            194,37,92
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="767"
+                              y="2"
+                              fill="#a61e4d"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="767"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            PINK 9
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="767"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            166,30,77
+                        </text>
+                </g>
+                <g transform="translate(0 210)">
+                    <!--<rect width="850" height="70" fill="hsl(83.07692307692308, 30%, 50%)"></rect>-->
+
+                        <rect height="26"
+                              width="81"
+                              x="2"
+                              y="2"
+                              fill="#f8f0fc"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="2"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GRAPE 0
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="2"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            248,240,252
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="87"
+                              y="2"
+                              fill="#f3d9fa"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="87"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GRAPE 1
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="87"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            243,217,250
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="172"
+                              y="2"
+                              fill="#eebefa"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="172"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GRAPE 2
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="172"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            238,190,250
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="257"
+                              y="2"
+                              fill="#e599f7"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="257"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GRAPE 3
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="257"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            229,153,247
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="342"
+                              y="2"
+                              fill="#da77f2"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="342"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GRAPE 4
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="342"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            218,119,242
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="427"
+                              y="2"
+                              fill="#cc5de8"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="427"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GRAPE 5
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="427"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            204,93,232
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="512"
+                              y="2"
+                              fill="#be4bdb"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="512"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GRAPE 6
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="512"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            190,75,219
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="597"
+                              y="2"
+                              fill="#ae3ec9"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="597"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GRAPE 7
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="597"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            174,62,201
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="682"
+                              y="2"
+                              fill="#9c36b5"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="682"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GRAPE 8
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="682"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            156,54,181
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="767"
+                              y="2"
+                              fill="#862e9c"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="767"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GRAPE 9
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="767"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            134,46,156
+                        </text>
+                </g>
+                <g transform="translate(0 280)">
+                    <!--<rect width="850" height="70" fill="hsl(110.76923076923077, 30%, 50%)"></rect>-->
+
+                        <rect height="26"
+                              width="81"
+                              x="2"
+                              y="2"
+                              fill="#f3f0ff"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="2"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            VIOLET 0
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="2"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            243,240,255
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="87"
+                              y="2"
+                              fill="#e5dbff"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="87"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            VIOLET 1
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="87"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            229,219,255
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="172"
+                              y="2"
+                              fill="#d0bfff"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="172"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            VIOLET 2
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="172"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            208,191,255
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="257"
+                              y="2"
+                              fill="#b197fc"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="257"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            VIOLET 3
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="257"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            177,151,252
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="342"
+                              y="2"
+                              fill="#9775fa"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="342"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            VIOLET 4
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="342"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            151,117,250
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="427"
+                              y="2"
+                              fill="#845ef7"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="427"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            VIOLET 5
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="427"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            132,94,247
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="512"
+                              y="2"
+                              fill="#7950f2"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="512"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            VIOLET 6
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="512"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            121,80,242
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="597"
+                              y="2"
+                              fill="#7048e8"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="597"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            VIOLET 7
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="597"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            112,72,232
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="682"
+                              y="2"
+                              fill="#6741d9"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="682"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            VIOLET 8
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="682"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            103,65,217
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="767"
+                              y="2"
+                              fill="#5f3dc4"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="767"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            VIOLET 9
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="767"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            95,61,196
+                        </text>
+                </g>
+                <g transform="translate(0 350)">
+                    <!--<rect width="850" height="70" fill="hsl(138.46153846153845, 30%, 50%)"></rect>-->
+
+                        <rect height="26"
+                              width="81"
+                              x="2"
+                              y="2"
+                              fill="#edf2ff"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="2"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            INDIGO 0
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="2"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            237,242,255
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="87"
+                              y="2"
+                              fill="#dbe4ff"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="87"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            INDIGO 1
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="87"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            219,228,255
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="172"
+                              y="2"
+                              fill="#bac8ff"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="172"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            INDIGO 2
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="172"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            186,200,255
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="257"
+                              y="2"
+                              fill="#91a7ff"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="257"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            INDIGO 3
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="257"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            145,167,255
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="342"
+                              y="2"
+                              fill="#748ffc"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="342"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            INDIGO 4
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="342"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            116,143,252
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="427"
+                              y="2"
+                              fill="#5c7cfa"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="427"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            INDIGO 5
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="427"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            92,124,250
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="512"
+                              y="2"
+                              fill="#4c6ef5"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="512"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            INDIGO 6
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="512"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            76,110,245
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="597"
+                              y="2"
+                              fill="#4263eb"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="597"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            INDIGO 7
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="597"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            66,99,235
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="682"
+                              y="2"
+                              fill="#3b5bdb"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="682"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            INDIGO 8
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="682"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            59,91,219
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="767"
+                              y="2"
+                              fill="#364fc7"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="767"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            INDIGO 9
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="767"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            54,79,199
+                        </text>
+                </g>
+                <g transform="translate(0 420)">
+                    <!--<rect width="850" height="70" fill="hsl(166.15384615384616, 30%, 50%)"></rect>-->
+
+                        <rect height="26"
+                              width="81"
+                              x="2"
+                              y="2"
+                              fill="#e8f7ff"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="2"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            BLUE 0
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="2"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            232,247,255
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="87"
+                              y="2"
+                              fill="#ccedff"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="87"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            BLUE 1
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="87"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            204,237,255
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="172"
+                              y="2"
+                              fill="#a3daff"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="172"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            BLUE 2
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="172"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            163,218,255
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="257"
+                              y="2"
+                              fill="#72c3fc"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="257"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            BLUE 3
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="257"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            114,195,252
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="342"
+                              y="2"
+                              fill="#4dadf7"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="342"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            BLUE 4
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="342"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            77,173,247
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="427"
+                              y="2"
+                              fill="#329af0"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="427"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            BLUE 5
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="427"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            50,154,240
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="512"
+                              y="2"
+                              fill="#228ae6"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="512"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            BLUE 6
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="512"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            34,138,230
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="597"
+                              y="2"
+                              fill="#1c7cd6"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="597"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            BLUE 7
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="597"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            28,124,214
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="682"
+                              y="2"
+                              fill="#1b6ec2"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="682"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            BLUE 8
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="682"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            27,110,194
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="767"
+                              y="2"
+                              fill="#1862ab"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="767"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            BLUE 9
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="767"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            24,98,171
+                        </text>
+                </g>
+                <g transform="translate(0 490)">
+                    <!--<rect width="850" height="70" fill="hsl(193.84615384615387, 30%, 50%)"></rect>-->
+
+                        <rect height="26"
+                              width="81"
+                              x="2"
+                              y="2"
+                              fill="#e3fafc"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="2"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            CYAN 0
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="2"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            227,250,252
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="87"
+                              y="2"
+                              fill="#c5f6fa"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="87"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            CYAN 1
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="87"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            197,246,250
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="172"
+                              y="2"
+                              fill="#99e9f2"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="172"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            CYAN 2
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="172"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            153,233,242
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="257"
+                              y="2"
+                              fill="#66d9e8"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="257"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            CYAN 3
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="257"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            102,217,232
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="342"
+                              y="2"
+                              fill="#3bc9db"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="342"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            CYAN 4
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="342"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            59,201,219
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="427"
+                              y="2"
+                              fill="#22b8cf"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="427"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            CYAN 5
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="427"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            34,184,207
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="512"
+                              y="2"
+                              fill="#15aabf"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="512"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            CYAN 6
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="512"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            21,170,191
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="597"
+                              y="2"
+                              fill="#1098ad"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="597"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            CYAN 7
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="597"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            16,152,173
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="682"
+                              y="2"
+                              fill="#0c8599"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="682"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            CYAN 8
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="682"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            12,133,153
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="767"
+                              y="2"
+                              fill="#0b7285"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="767"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            CYAN 9
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="767"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            11,114,133
+                        </text>
+                </g>
+                <g transform="translate(0 560)">
+                    <!--<rect width="850" height="70" fill="hsl(221.53846153846155, 30%, 50%)"></rect>-->
+
+                        <rect height="26"
+                              width="81"
+                              x="2"
+                              y="2"
+                              fill="#e6fcf5"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="2"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            TEAL 0
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="2"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            230,252,245
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="87"
+                              y="2"
+                              fill="#c3fae8"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="87"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            TEAL 1
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="87"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            195,250,232
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="172"
+                              y="2"
+                              fill="#96f2d7"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="172"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            TEAL 2
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="172"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            150,242,215
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="257"
+                              y="2"
+                              fill="#63e6be"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="257"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            TEAL 3
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="257"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            99,230,190
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="342"
+                              y="2"
+                              fill="#38d9a9"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="342"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            TEAL 4
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="342"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            56,217,169
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="427"
+                              y="2"
+                              fill="#20c997"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="427"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            TEAL 5
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="427"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            32,201,151
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="512"
+                              y="2"
+                              fill="#12b886"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="512"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            TEAL 6
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="512"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            18,184,134
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="597"
+                              y="2"
+                              fill="#0ca678"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="597"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            TEAL 7
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="597"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            12,166,120
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="682"
+                              y="2"
+                              fill="#099268"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="682"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            TEAL 8
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="682"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            9,146,104
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="767"
+                              y="2"
+                              fill="#087f5b"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="767"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            TEAL 9
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="767"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            8,127,91
+                        </text>
+                </g>
+                <g transform="translate(0 630)">
+                    <!--<rect width="850" height="70" fill="hsl(249.23076923076923, 30%, 50%)"></rect>-->
+
+                        <rect height="26"
+                              width="81"
+                              x="2"
+                              y="2"
+                              fill="#ebfbee"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="2"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GREEN 0
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="2"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            235,251,238
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="87"
+                              y="2"
+                              fill="#d3f9d8"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="87"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GREEN 1
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="87"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            211,249,216
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="172"
+                              y="2"
+                              fill="#b2f2bb"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="172"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GREEN 2
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="172"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            178,242,187
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="257"
+                              y="2"
+                              fill="#8ce99a"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="257"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GREEN 3
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="257"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            140,233,154
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="342"
+                              y="2"
+                              fill="#69db7c"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="342"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GREEN 4
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="342"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            105,219,124
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="427"
+                              y="2"
+                              fill="#51cf66"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="427"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GREEN 5
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="427"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            81,207,102
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="512"
+                              y="2"
+                              fill="#40c057"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="512"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GREEN 6
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="512"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            64,192,87
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="597"
+                              y="2"
+                              fill="#37b24d"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="597"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GREEN 7
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="597"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            55,178,77
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="682"
+                              y="2"
+                              fill="#2f9e44"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="682"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GREEN 8
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="682"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            47,158,68
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="767"
+                              y="2"
+                              fill="#2b8a3e"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="767"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            GREEN 9
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="767"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            43,138,62
+                        </text>
+                </g>
+                <g transform="translate(0 700)">
+                    <!--<rect width="850" height="70" fill="hsl(276.9230769230769, 30%, 50%)"></rect>-->
+
+                        <rect height="26"
+                              width="81"
+                              x="2"
+                              y="2"
+                              fill="#f4fce3"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="2"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            LIME 0
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="2"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            244,252,227
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="87"
+                              y="2"
+                              fill="#e9fac8"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="87"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            LIME 1
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="87"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            233,250,200
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="172"
+                              y="2"
+                              fill="#d8f5a2"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="172"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            LIME 2
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="172"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            216,245,162
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="257"
+                              y="2"
+                              fill="#c0eb75"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="257"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            LIME 3
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="257"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            192,235,117
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="342"
+                              y="2"
+                              fill="#a9e34b"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="342"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            LIME 4
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="342"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            169,227,75
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="427"
+                              y="2"
+                              fill="#94d82d"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="427"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            LIME 5
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="427"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            148,216,45
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="512"
+                              y="2"
+                              fill="#82c91e"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="512"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            LIME 6
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="512"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            130,201,30
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="597"
+                              y="2"
+                              fill="#74b816"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="597"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            LIME 7
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="597"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            116,184,22
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="682"
+                              y="2"
+                              fill="#66a80f"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="682"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            LIME 8
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="682"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            102,168,15
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="767"
+                              y="2"
+                              fill="#5c940d"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="767"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            LIME 9
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="767"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            92,148,13
+                        </text>
+                </g>
+                <g transform="translate(0 770)">
+                    <!--<rect width="850" height="70" fill="hsl(304.61538461538464, 30%, 50%)"></rect>-->
+
+                        <rect height="26"
+                              width="81"
+                              x="2"
+                              y="2"
+                              fill="#fff9db"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="2"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            YELLOW 0
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="2"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            255,249,219
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="87"
+                              y="2"
+                              fill="#fff3bf"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="87"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            YELLOW 1
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="87"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            255,243,191
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="172"
+                              y="2"
+                              fill="#ffec99"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="172"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            YELLOW 2
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="172"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            255,236,153
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="257"
+                              y="2"
+                              fill="#ffe066"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="257"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            YELLOW 3
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="257"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            255,224,102
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="342"
+                              y="2"
+                              fill="#ffd43b"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="342"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            YELLOW 4
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="342"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            255,212,59
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="427"
+                              y="2"
+                              fill="#fcc419"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="427"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            YELLOW 5
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="427"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            252,196,25
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="512"
+                              y="2"
+                              fill="#fab005"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="512"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            YELLOW 6
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="512"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            250,176,5
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="597"
+                              y="2"
+                              fill="#f59f00"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="597"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            YELLOW 7
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="597"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            245,159,0
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="682"
+                              y="2"
+                              fill="#f08c00"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="682"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            YELLOW 8
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="682"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            240,140,0
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="767"
+                              y="2"
+                              fill="#e67700"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="767"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            YELLOW 9
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="767"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            230,119,0
+                        </text>
+                </g>
+                <g transform="translate(0 840)">
+                    <!--<rect width="850" height="70" fill="hsl(332.3076923076923, 30%, 50%)"></rect>-->
+
+                        <rect height="26"
+                              width="81"
+                              x="2"
+                              y="2"
+                              fill="#fff4e6"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="2"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            ORANGE 0
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="2"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            255,244,230
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="87"
+                              y="2"
+                              fill="#ffe8cc"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="87"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            ORANGE 1
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="87"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            255,232,204
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="172"
+                              y="2"
+                              fill="#ffd8a8"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="172"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            ORANGE 2
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="172"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            255,216,168
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="257"
+                              y="2"
+                              fill="#ffc078"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="257"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            ORANGE 3
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="257"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            255,192,120
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="342"
+                              y="2"
+                              fill="#ffa94d"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="342"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            ORANGE 4
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="342"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            255,169,77
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="427"
+                              y="2"
+                              fill="#ff922b"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="427"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            ORANGE 5
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="427"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            255,146,43
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="512"
+                              y="2"
+                              fill="#fd7e14"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="512"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            ORANGE 6
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="512"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            253,126,20
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="597"
+                              y="2"
+                              fill="#f76707"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="597"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            ORANGE 7
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="597"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            247,103,7
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="682"
+                              y="2"
+                              fill="#e8590c"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="682"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            ORANGE 8
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="682"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            232,89,12
+                        </text>
+                        <rect height="26"
+                              width="81"
+                              x="767"
+                              y="2"
+                              fill="#d9480f"
+                              rx="2"
+                              ry="2"></rect>
+                        <text font-size="12px"
+                              fill="#495057"
+                              letter-spacing="0.05"
+                              x="767"
+                              y="44"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            ORANGE 9
+                        </text>
+                        <text font-size="11px"
+                              fill="#868e96"
+                              x="767"
+                              y="58"
+                              style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
+                            217,72,15
+                        </text>
+                </g>
+
+    </g>
+</svg>
