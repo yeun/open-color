@@ -1,157 +1,166 @@
 ---
 layout: default
 ---
+<div class="docs-wrap">
 
-<section class="docs-section">
-  <h3 class="docs-title">Introduction</h3>
-  <div class="docs-content">
-    <p>Open color is a color scheme for UI design. You can use it for font, background, border, etc. It contains a gray and twelve colors. Open color is provided as CSS, SCSS, LESS, Stylus, Adobe library, Photoshop/Illustrator swatches and Sketch palette.</p>
-    <small>* All the color is tested on deuteranopia and protanopia mode. The process will soon be published in the article.</small><br>
-    <small>* The colors are subject to change in the future. Thus, using an Open color as a main identity color is not recommended.</small>
-  </div>
-</section>
-<section class="docs-section">
-  <h3 class="docs-title">Installation</h3>
-  <div class="docs-content">
-  {% highlight bash %}$ npm install open-color{% endhighlight %}
-  </div>
-</section>
-<section class="docs-section">
-  <h3 class="docs-title">Variable convention</h3>
-  <div class="docs-content">
-    <ul>
-        <li>Sass, SCSS: {% highlight scss %}$oc-(color)-(number){% endhighlight %}</li>
-      <li>LESS: {% highlight less %}@oc-(color)-(number){% endhighlight %}</li>
-      <li>Stylus: {% highlight stylus %}oc-(color)-(number){% endhighlight %}</li>
-      <li>CSS: {% highlight css %}--oc-(color)-(number){% endhighlight %}</li>
-    </ul>
-    <ul>
-      <li>
-        <span class="list-title">oc</span>
-        Abbreviation for Open color
-      </li>
-      <li>
-        <span class="list-title">(color)</span>
-        Color name like gray, red, lime ect.
-      </li>
-      <li>
-        <span class="list-title">(number)</span>
-        0 to 9. 0 to 9. Brightness spectrum.
-      </li>
-    </ul>
-  </div>
-</section>
-<section class="docs-section">
-  <h3 class="docs-title">How to use</h3>
-  <div class="docs-content">
-    Import the file to your project and use the variables.
-    
-    {% highlight scss %}
-@import 'path/open-color';
-
-.body {
-  background-color: $oc-gray-0;
-  color: $oc-gray-7;
-}
-
-a {
-  color: $oc-teal-7;
-
-  &:hover,
-  &:focus,
-  &:active {
-    color: $oc-indigo-7;
-      <h4 class="docs-subtitle">Example for Sass, SCSS</h4>
-  }
-}{% endhighlight %}
-
-    <h4 class="docs-subtitle">Example for LESS</h4>
-    {% highlight scss %}
-@import 'path/open-color';
-
-.body {
-  background-color: @oc-gray-0;
-  color: @oc-gray-7;
-}
-
-a {
-  color: @oc-teal-7;
-
-  &:hover,
-  &:focus,
-  &:active {
-    color: @oc-indigo-7;
-  }
-}{% endhighlight %}
-
-    <h4 class="docs-subtitle">Example for Stylus</h4>
-    {% highlight stylus %}
-@import 'path/open-color.styl'
-
-.body
-  background-color: oc-gray-0
-  color: oc-gray-7
-
-a
-  color: oc-teal-7;
-
-  &:hover
-  &:focus
-  &:active
-    color: oc-indigo-7{% endhighlight %}
-
-    <h4 class="docs-subtitle">Example for CSS</h4>
-    {% highlight css %}
-@import 'path/open-color.css';
-
-.body {
-  background-color: var(--oc-gray-0);
-  color: var(--oc-gray-7);
-}
-
-a {
-  color: var(--oc-teal-7);
-}
-
-a:hover,
-a:focus,
-a:active {
-  color: var(--oc-indigo-7);
-}{% endhighlight %}
-
-  </div>
-</section>
-<section class="docs-section">
-  <h3 class="docs-title">Contribution</h3>
-  <div class="docs-content">
-    <p>Check out the list below.</p>
-    <h4 class="docs-subtitle">Color value</h4>
-    <ul>
-      <li><code>open-color.json</code>
+  <section class="docs-section">
+    <h3 class="docs-title">Getting started</h3>
+    <div class="docs-content">
+      <p>
+        Open color is a <a href="https://en.wikipedia.org/wiki/Open-source_software">open-source</a> color scheme for UI design. You can use it for font, background, border, etc. It contains a gray and twelve colors. Open color is provided as CSS, SCSS, LESS, Stylus, Adobe library, Photoshop/Illustrator swatches and Sketch palette. The best value for " Open Color " is to provide color scheme optimized for UI.
         <ul>
-          <li>Change and <code>$ npm run compile-templates</code></li>
+          <li>All colors shall have adequate use.</li>
+          <li>Provide sufficient color for general UI design.</li>
+          <li>All colors will be beautiful in itself and harmonious.</li>
+          <li>At the same level, the perceived brightness will be constant.</li>
+          <li>All colors will not look exactly the same in deuteranopia and protanopia mode</li>
         </ul>
-      </li>
-      <li><code>docs/asset/download/open-color_*.*.*.aco</code></li>
-      <li>Adobe library (admin rights)</li>
-    </ul>
-    <h4 class="docs-subtitle">Version number</h4>
-    <ul>
-      <li><code>package.json</code></li>
-      <li><code>docs/asset/download/open-color_*.*.*.aco</code></li>
-      <li>Adobe library (admin rights)</li>
-    </ul>
-    <h4 class="docs-subtitle">Document</h4>
-    <ul>
-      <li><code>README.md</code></li>
-      <li><code>docs/documents.html</code></li>
-    </ul>
+      </p>
+    </div>
+  </section>
+  <section class="docs-section">
+    <h3 class="docs-title">Installation</h3>
+    <div class="docs-content">
+    {% highlight bash %}$ npm install open-color{% endhighlight %}
+    </div>
+  </section>
+  <section class="docs-section">
+    <h3 class="docs-title">Variable convention</h3>
+    <div class="docs-content">
+      <ul>
+        <li>Sass, SCSS: {% highlight scss %}$oc-(color)-(number){% endhighlight %}</li>
+        <li>LESS: {% highlight less %}@oc-(color)-(number){% endhighlight %}</li>
+        <li>Stylus: {% highlight stylus %}oc-(color)-(number){% endhighlight %}</li>
+        <li>CSS: {% highlight css %}--oc-(color)-(number){% endhighlight %}</li>
+      </ul>
+      <ul>
+        <li>
+          <span class="list-title">oc</span>
+          Abbreviation for Open color
+        </li>
+        <li>
+          <span class="list-title">(color)</span>
+          Color name like gray, red, lime ect.
+        </li>
+        <li>
+          <span class="list-title">(number)</span>
+          0 to 9. 0 to 9. Brightness spectrum.
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="docs-section">
+    <h3 class="docs-title">How to use</h3>
+    <div class="docs-content">
+      Import the file to your project and use the variables.
+      <h4 class="docs-subtitle">Example for Sass, SCSS</h4>
+      
+      {% highlight scss %}
+  @import 'path/open-color';
 
-    <h4 class="docs-subtitle">Introduction</h4>
-    <ul>
-      <li><code>README.md</code></li>
-      <li><code>docs/_includes/introduction.html</code></li>
-      <li><code>docs/documents.html</code></li>
-    </ul>
-  </div>
-</section>
+  .body {
+    background-color: $oc-gray-0;
+    color: $oc-gray-7;
+  }
+
+  a {
+    color: $oc-teal-7;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $oc-indigo-7;
+    }
+  }{% endhighlight %}
+
+      <h4 class="docs-subtitle">Example for LESS</h4>
+      {% highlight scss %}
+  @import 'path/open-color';
+
+  .body {
+    background-color: @oc-gray-0;
+    color: @oc-gray-7;
+  }
+
+  a {
+    color: @oc-teal-7;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: @oc-indigo-7;
+    }
+  }{% endhighlight %}
+
+      <h4 class="docs-subtitle">Example for Stylus</h4>
+      {% highlight stylus %}
+  @import 'path/open-color.styl'
+
+  .body
+    background-color: oc-gray-0
+    color: oc-gray-7
+
+  a
+    color: oc-teal-7;
+
+    &:hover
+    &:focus
+    &:active
+      color: oc-indigo-7{% endhighlight %}
+
+      <h4 class="docs-subtitle">Example for CSS</h4>
+      {% highlight css %}
+  @import 'path/open-color.css';
+
+  .body {
+    background-color: var(--oc-gray-0);
+    color: var(--oc-gray-7);
+  }
+
+  a {
+    color: var(--oc-teal-7);
+  }
+
+  a:hover,
+  a:focus,
+  a:active {
+    color: var(--oc-indigo-7);
+  }{% endhighlight %}
+
+    </div>
+  </section>
+  <section class="docs-section">
+    <h3 class="docs-title">Contribution</h3>
+    <div class="docs-content">
+      <p>Check out the list below.</p>
+      <h4 class="docs-subtitle">Color value</h4>
+      <ul>
+        <li><code>open-color.json</code>
+          <ul>
+            <li>Change and <code>$ npm run compile-templates</code></li>
+          </ul>
+        </li>
+        <li><code>docs/asset/download/open-color_*.*.*.aco</code></li>
+        <li>Adobe library (admin rights)</li>
+      </ul>
+      <h4 class="docs-subtitle">Version number</h4>
+      <ul>
+        <li><code>package.json</code></li>
+        <li><code>docs/asset/download/open-color_*.*.*.aco</code></li>
+        <li>Adobe library (admin rights)</li>
+      </ul>
+      <h4 class="docs-subtitle">Document</h4>
+      <ul>
+        <li><code>README.md</code></li>
+        <li><code>docs/documents.html</code></li>
+      </ul>
+
+      <h4 class="docs-subtitle">Introduction</h4>
+      <ul>
+        <li><code>README.md</code></li>
+        <li><code>docs/_includes/introduction.html</code></li>
+        <li><code>docs/documents.html</code></li>
+      </ul>
+    </div>
+  </section>
+</div>
