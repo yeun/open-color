@@ -1,7 +1,15 @@
 # Open color
 
-Open color is a color scheme for UI design. You can use it for font, background, border, etc. It contains a gray and twelve colors.
-Open color is provided as CSS, SCSS, LESS, Stylus, Adobe library, Photoshop/Illustrator swatches and Sketch palette.
+Open color is a [open-source](https://en.wikipedia.org/wiki/Open-source_software) color scheme for UI design. You can use it for font, background, border, etc. It contains a gray and twelve colors.
+Open Color aims at providing color scheme optimized for UI.
+
+## Goals
+
+- All colors shall have adequate use
+- Provide general color for UI design
+- All colors will be beautiful in itself and harmonious
+- At the same brightness level, the perceived brightness will be constant
+- All colors will not look exactly the same in deuteranopia and protanopia mode
 
 **Note**
 
@@ -9,20 +17,6 @@ Open color is provided as CSS, SCSS, LESS, Stylus, Adobe library, Photoshop/Illu
 * The colors are subject to change in the future. Thus, using an Open color as a main identity color is not recommended.
 
 ## Available colors
-
-- Gray
-- Red
-- Pink
-- Grape
-- Violet
-- Indigo
-- Blue
-- Cyan
-- Teal
-- Green
-- Lime
-- Yellow
-- Orange
 
 ![available colors](https://yeun.github.io/open-color/asset/images/open-color.svg)
 
