@@ -34,7 +34,7 @@ $ npm install open-color
 
 ## Variable convention
 
-### SASS, SCSS
+### Sass, SCSS
 
 ```sass
 $oc-(color)-(number)
@@ -68,7 +68,7 @@ oc-(color)-(number)
 
 Import the file to your project and use the variables.
 
-**Example for SASS, SCSS**
+**Example for Sass, SCSS**
 
 ```sass
 @import 'path/open-color';
