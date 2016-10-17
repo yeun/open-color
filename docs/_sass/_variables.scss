@@ -5,17 +5,8 @@
 $container-padding-base:     4%;
 $container-padding-lg:       ($container-padding-base * 1.2);
 $grid-gutter-width:          4px;
-$container-max-width: 1000px;
-$container-max-width-lg: 1600px;
-
-$grid-breakpoints: (
-  xs: 0,
-  sm: 375px,
-  md: 544px,
-  lg: 768px,
-  xl: 992pxpx
-);
-
+$container-max-width:        1000px;
+$container-max-width-lg:     1600px;
 
 //  Typography
 //  ───────────────────────────────────
@@ -35,13 +26,13 @@ $letter-spacing-sm: 0.05em;
 $text-color:            $oc-gray-7;
 $text-color-gray:       $oc-gray-6;
 
+$link-color:            $oc-blue-5;
+$link-hover-color:      $oc-blue-7;
 
 
 //  ───────────────────────────────────
 
 $color-chip-gutter: 4px;
-$link-color: $oc-orange-4;
-$link-hover-color: $oc-orange-4;
 $topnav-collapse-width: 768px;
 
 $chip-border-radius: 2px;
