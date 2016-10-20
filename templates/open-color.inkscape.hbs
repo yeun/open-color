@@ -1,0 +1,13 @@
+GIMP Palette
+Name: Open Color Palette {{version}}
+Columns: 0
+#
+
+{{#each colors as |color|}}
+    {{#each color.hex as |hex|~}}
+        {{#with (hex2rgb hex) as |rgb|~}}
+            {{rgb.r}} {{rgb.g}} {{rgb.b}}
+        {{~/with}}
+        {{color.name}}{{@index}}
+    {{/each}}
+{{/each}}

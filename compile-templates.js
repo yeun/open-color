@@ -27,5 +27,8 @@ templatedBuilder.build('open-color.svg',
 templatedBuilder.build('open-color.sketchpalette',
     [path.join(__dirname, 'docs', 'asset', 'download', `open-color_${pkg.version}.sketchpalette`)]);
 
+templatedBuilder.build('open-color.inkscape',
+    [path.join(__dirname, 'docs', 'asset', 'download', `open-color_${pkg.version}.gpl`)]);
+
 aseBuilder.build('ase',
     [path.join(__dirname, 'docs', 'asset', 'download', `open-color_${pkg.version}.ase`)]);
