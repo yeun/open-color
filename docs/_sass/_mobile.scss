@@ -25,7 +25,7 @@
   }
 
   .index .introduction {
-    margin-top: 10vh;
+    margin-top: 8vh;
     display: inline-block;
 
     p {
@@ -34,7 +34,7 @@
     }
 
     .introduction-color {
-      margin-top: -2px;
+      margin-top: 4px;
       width: 20px;
       height: 20px;
     }
@@ -50,7 +50,7 @@
   }
 
   .nav-menus-wrap {
-    margin-top: 10px;
+    margin-top: 40px;
     border-top: $border-base;
     border-color: $oc-gray-4;
   }
@@ -64,6 +64,9 @@
 
     li.list-title {
       padding-top: 4vw;
+    }
+    &.menus-download {
+      margin-top: 40px;
     }
   }
 

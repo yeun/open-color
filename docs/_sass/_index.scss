@@ -2,7 +2,7 @@
   color: $index-color;
 
   .container {
-    max-width: $container-max-width;
+    max-width: 768px;
   }
 
   .logo,
@@ -39,7 +39,8 @@
   }
 
   .introduction {
-    margin-top: 64px;
+    @include clearfix();
+    margin-top: 30px;
     color: $text-color;
     display: block;
 
@@ -53,7 +54,7 @@
 
     .introduction-color {
       display: inline-block;
-      margin-top: -3px;
+      margin-top: 9px;
       margin-right: 2px;
       width: 24px;
       height: 24px;

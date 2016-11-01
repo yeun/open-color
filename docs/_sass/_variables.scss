@@ -7,21 +7,22 @@ $container-padding-lg:       ($container-padding-base * 1.2);
 $grid-gutter-width:          4px;
 $container-max-width:        1000px;
 $container-max-width-lg:     1600px;
+$left-gird-width:            180px;
+
 
 //  Typography
 //  ───────────────────────────────────
 
-$font-family-base:  -apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif;
-$font-family-headline: $font-family-base;
-$font-family-mono: 'Roboto Mono', monospace;
+$font-family-base:      -apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif;
+$font-family-headline:  $font-family-base;
+$font-family-mono:      'Roboto Mono', monospace;
 
-$font-size-base: 14px;
-$line-height-base: 1.5;
-$font-weight-b:       700;
-$font-weight-m:       700;
-$letter-spacing-base: 0.1em;
-$letter-spacing-lg: 0.3em;
-$letter-spacing-sm: 0.05em;
+$font-size-base:        14px;
+$line-height-base:      1.5;
+$font-weight-b:         700;
+$letter-spacing-base:   0.1em;
+$letter-spacing-lg:     0.3em;
+$letter-spacing-sm:     0.05em;
 
 $text-color:            $oc-gray-7;
 $text-color-gray:       $oc-gray-6;
@@ -29,20 +30,15 @@ $text-color-gray:       $oc-gray-6;
 $link-color:            $oc-blue-5;
 $link-hover-color:      $oc-blue-7;
 
+$nav-color:             $oc-gray-6;
+$nav-color-highlight:   $oc-gray-7;
+
+$index-color:           $oc-gray-6;
+$index-color-highlight: $oc-gray-7;
+
 
 //  ───────────────────────────────────
 
-$color-chip-gutter: 4px;
-$topnav-collapse-width: 768px;
-
-$chip-border-radius: 2px;
-$selection-bg: $oc-gray-2;
-
-$border-base: 0.5px solid $oc-gray-3;
-$nav-bg: $oc-gray-9;
-$nav-color: $oc-gray-6;
-$nav-color-highlight: $oc-gray-7;
-
-$index-color: $oc-gray-6;
-$index-color-highlight: $oc-gray-7;
+$selection-bg:          $oc-gray-2;
+$border-base:           0.5px solid $oc-gray-3;
 

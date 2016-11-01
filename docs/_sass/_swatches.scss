@@ -12,7 +12,7 @@
   font-size: 16px;
   letter-spacing: $letter-spacing-base;
   text-transform: uppercase;
-  font-weight: $font-weight-m;
+  font-weight: $font-weight-b;
   line-height: 1.5;
 
   span {
@@ -62,7 +62,7 @@ $style-list: (
 
 .color-chip-bg {
   height: 80px;
-  border-radius: $chip-border-radius;
+  border-radius: 2px;
   position: relative;
 
   span {

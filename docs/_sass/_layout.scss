@@ -1,21 +1,60 @@
-$left-gird-width: 180px;
-
-.title {
+.col-half {
   @include make-col();
-
-  @media (min-width: 544px) {
-    @include make-col(25%);
-  }
-
+  
   @media (min-width: 768px) {
-    @include make-col(20%);
-  }
-
-  @media (min-width: 880px) {
-    @include make-col($left-gird-width);
+    @include make-col(50%);
   }
 }
 
+.title {
+  @include make-col(50%);
+  .blog-logo {
+    @include make-col();
+  }
+
+  @media (min-width: 544px) {
+    @include make-col(60%);
+
+    .blog-logo {
+      @include make-col(125%/3);
+    }
+
+    .index & {
+      @include make-col(calc(((100% - #{$left-gird-width}) / 2) + #{$left-gird-width}));
+
+      .blog-logo {
+        @include make-col($left-gird-width);
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    @include make-col(60%);
+
+    .blog-logo {
+      @include make-col(calc(100%/3));
+    }
+  }
+
+  @media (min-width: 880px) {
+    &,
+    .index & {
+      @include make-col($left-gird-width);
+
+      .blog-logo {
+        @include make-col();
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+.link-github {
+  margin-top: 60px;
+
+  @media (min-width: 544px) {
+    margin-top: 0;
+  }
+}
 .introduction {
   @include make-row;
 
@@ -23,124 +62,101 @@ $left-gird-width: 180px;
     @include make-col();
 
     @media (min-width: 544px) {
-      @include make-col(75%);
-    }
-
-    @media (min-width: 768px) {
-      @include make-col(60%);
+      @include make-col(80%);
     }
 
     @media (min-width: 880px) {
-      @include make-col(calc((100% - #{$left-gird-width}) * 0.75));
-      width: 560px;
+      @include make-col(calc(100% - #{$left-gird-width} - #{$grid-gutter-width}));
+      margin-left: 0;
     }
   }
 }
 
 .nav-menus-wrap {
-  @include make-col();
-
-  @media (min-width: 544px) {
-    @include make-col(75%);
-    .index & {
-      @include make-col(100%);
-    }
-  }
-
-  @media (min-width: 768px) {
-    @include make-col(80%);
-
-    .index & {
-      margin-left: 20%;
-      @include make-col(80%);
-    }
-  }
+  @include make-row;
+  margin-top: 60px;
 
   @media (min-width: 880px) {
     @include make-col(calc(100% - #{$left-gird-width}));
 
     .index & {
-      margin-left: $left-gird-width;
-      @include make-col(calc(100% - #{$left-gird-width}));
+      @include make-col();
     }
   }
 }
 
 .nav-menus {
-  @include make-col(50%);
   padding-left: 0;
   padding-right: 0;
 
   &.menus-pages {
+    @include make-col(50%);
+
     @media (min-width: 544px) {
-      @include make-col(calc(100%/3));
-
-      .index & {
-        @include make-col(25%);
-      }
-    }
-
-    @media (min-width: 768px) {
       @include make-col(25%);
     }
 
-    @media (min-width: 880px) {
+    @media (min-width: 768px) {
       @include make-col(20%);
+
+      .index & {
+        @include make-col($left-gird-width);
+      }
     }
 
     @media (min-width: 1600px) {
       @include make-col(10%);
+
+      .index & {
+        @include make-col($left-gird-width);
+      }
     }
   }
 
-  &.menus-download {
-    @media (min-width: 544px) {
-      @include make-col(calc(200%/3));
+  &.menus-instructions {
+    @include make-col(50%);
 
-      .index & {
-        @include make-col(50%);
-      }
+    @media (min-width: 544px) {
+      @include make-col(35%);
     }
 
     @media (min-width: 768px) {
-      @include make-col(50%);
-    }
-
-    @media (min-width: 880px) {
       @include make-col(40%);
+
+      .index & {
+        @include make-col(calc((100% - #{$left-gird-width}) / 2));
+      }
     }
 
     @media (min-width: 1600px) {
       @include make-col(20%);
+      
+      .index & {
+        @include make-col(calc((100% - #{$left-gird-width}) / 2));
+      }
     }
   }
 
-  &.menus-github {
+  &.menus-download {
+    @include make-col();
 
-    @media (max-width: 543px) {
-      margin-top: 16px;
-      margin-left: 50%;
-    }
     @media (min-width: 544px) {
-      @include make-col(calc(200%/3));
-      margin-left: calc(100%/3);
-      margin-top: 16px;
-
-      .index & {
-        @include make-col(25%);
-        margin-left: 0;
-      }
+      @include make-col(40%);
     }
 
     @media (min-width: 768px) {
-      @include make-col(25%);
-      margin-left: 0;
-    }
-    @media (min-width: 880px) {
       @include make-col(40%);
 
       .index & {
-        @include make-col(20%);
+        @include make-col(calc((100% - #{$left-gird-width}) / 2));
+      }
+    }
+
+    @media (min-width: 1600px) {
+      @include make-col(20%);
+
+      .index & {
+        @include make-col(calc((100% - #{$left-gird-width}) / 2));
       }
     }
   }
@@ -206,48 +222,44 @@ $left-gird-width: 180px;
   }
 }
 
-.docs-section {
+.docs-wrap,
+.instructions-wrap {
   @include make-row;
-}
-
-.docs-title {
-  @include make-col();
-  padding-left: 0;
-  padding-right: 0;
 
   @media (min-width: 544px) {
-    @include make-col(75%);
     margin-left: 25%;
   }
 
   @media (min-width: 768px) {
-    @include make-col(80%);
     margin-left: 20%;
   }
 
   @media (min-width: 880px) {
-    @include make-col(calc((100% - #{$left-gird-width}) * 0.8));
     margin-left: $left-gird-width;
   }
 }
 
-.docs-content {
+.docs-title,
+.introduction-title {
   @include make-col();
   padding-left: 0;
   padding-right: 0;
+}
 
+.docs-content,
+.introduction-content {
+  @include make-col();
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.docs-section,
+.introduction-section {
   @media (min-width: 544px) {
     @include make-col(75%);
-    margin-left: 25%;
   }
 
   @media (min-width: 768px) {
     @include make-col(80%);
-    margin-left: 20%;
-  }
-
-  @media (min-width: 880px) {
-    @include make-col(calc((100% - #{$left-gird-width}) * 0.8));
-    margin-left: $left-gird-width;
   }
 }

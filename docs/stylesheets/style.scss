@@ -11,6 +11,7 @@
 @import 'shortcuts';
 @import 'swatches';
 @import 'ingredients';
+@import 'instructions';
 @import 'index';
 @import 'docs';
 @import 'mobile';
@@ -51,4 +52,21 @@ a {
 
 abbr[title] {
   border-bottom: none;
+}
+
+hr {
+  margin: 40px auto;
+  width: 50%;
+  height: 1px;
+  border: none;
+  background: $oc-gray-3;
+}
+
+ul > li + li {
+  margin-top: 0.25em;
+}
+
+.no-wrap {
+  display: inline-block;
+  white-space: nowrap;
 }

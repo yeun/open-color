@@ -41,7 +41,7 @@
       <div class="navigation">
         <div class="title">
           <a class="blog-logo" href="{{ site.baseurl }}/"></a>
-          <div class="infomation">
+          <div class="metadata">
             <div class="version">
               Version {{ site.oc-version }}
             </div>
@@ -50,6 +50,7 @@
             </div>
           </div>
         </div>
+        <a class="link-github" href="https://github.com/yeun/open-color">View on Github</a>
         {% if page.url == '/' %}
           {% include introduction.html %}
         {% endif %}
@@ -72,6 +73,27 @@
                           {% endif %}"
                    href="{{ site.baseurl }}/documents.html">Documents</a></li>
           </ul>
+          <ul class="nav-menus menus-instructions">
+            <li class="list-title">Instructions</li>
+            <li><a class="nav-menu
+                          {% if page.url == '/gray-color.html' %}
+                          active
+                          {% endif %}"
+                   href="{{ site.baseurl }}/gray-color.html">Gray Color</a>
+            </li>
+            <li><a class="nav-menu
+                          {% if page.url == '/chromatic-colors.html' %}
+                          active
+                          {% endif %}"
+                   href="{{ site.baseurl }}/chromatic-colors.html">Chromatic Color</a>
+            </li>
+            <li><a class="nav-menu
+                          {% if page.url == '/color-blindness.html' %}
+                          active
+                          {% endif %}"
+                   href="{{ site.baseurl }}/color-blindness.html">Color Blindness</a>
+            </li>
+          </ul>
           <ul class="nav-menus menus-download">
             <li class="list-title">Download</li>
             <li><a class="nav-menu" href="https://github.com/yeun/open-color/releases/download/v{{ site.oc-version }}/open-color.zip" download>Source code</a></li>
@@ -80,11 +102,6 @@
             <li><a class="nav-menu" href="{{ site.baseurl }}/asset/download/open-color_{{ site.oc-version }}.ase" download>Illustrator swatches</a></li>
             <li><a class="nav-menu" href="{{ site.baseurl }}/asset/download/open-color_{{ site.oc-version }}.sketchpalette" download>Sketch palette</a></li>
             <li><a class="nav-menu" href="{{ site.baseurl }}/asset/download/open-color_{{ site.oc-version }}.gpl" download>Inkscape swatches</a></li>
-          </ul>
-          <ul class="nav-menus menus-github">
-            <li>
-              <a class="nav-menu link-github" href="https://github.com/yeun/open-color">View on Github</a>
-            </li>
           </ul>
         </div>
       </div>

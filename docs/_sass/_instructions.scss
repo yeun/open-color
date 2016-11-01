@@ -1,0 +1,108 @@
+
+.instructions-wrap {
+  width: 80%;
+}
+
+.introduction-section {
+  padding: 40px 0;
+}
+
+.introduction-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 24px;
+  letter-spacing: $letter-spacing-sm;
+  text-transform: uppercase;
+  font-weight: $font-weight-b;
+  line-height: 1.5;
+}
+
+.introduction-content {
+  font-size: 20px;
+  line-height: 1.6;
+
+  h5 {
+    font-size: 16px;
+    margin-top: 0;
+  }
+  p {
+    margin-top: 0;
+  }
+
+  ul {
+    padding-left: 1.5em;
+  }
+
+  li .list-title {
+    font-weight: $font-weight-b;
+    width: 100px;
+    display: inline-block;
+  }
+
+  .row {
+    margin-left: -15px;
+    margin-right: -15px;
+
+    .col-half {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+  .example {
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+    @for $number from 0 through $oc-color-spectrum {
+      @each $color in map-get($oc-gray-list, "#{$number}") {
+        .color-gray-#{$number} {
+          color: $color;
+        }
+        .bg-gray-#{$number} {
+          background-color: $color;
+        }
+        .box.border-gray-#{$number} {
+          border: 1px solid $color;
+        }
+      }
+    }
+
+
+    .box {
+      padding: 2em 0;
+      text-align: center;
+      border-radius: 4px;
+      margin-bottom: 10px;
+      display: block;
+      width: 100%;
+      border: 1px solid transparent;
+      transition: background-color 0.2s ease;
+
+      > .box {
+        margin: 2em 2em 0;
+        width: auto;
+      }
+
+      &.button {
+        background: $oc-white;
+        border: 1px solid $oc-gray-4;
+
+        &:hover,
+        &:focus,
+        &:active {
+          background-color: $oc-gray-1;
+        }
+
+        &.bg-gray-0 {
+          background-color: $oc-gray-0;
+          &:hover,
+          &:focus,
+          &:active {
+            background-color: $oc-gray-2;
+          }
+        }
+      }
+    }
+  }
+}
+
