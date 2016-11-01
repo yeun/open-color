@@ -1,7 +1,6 @@
 # Open color
 
-Open color is a [open-source](https://en.wikipedia.org/wiki/Open-source_software) color scheme for UI design. You can use it for font, background, border, etc. It contains a gray and twelve colors.
-Open Color aims at providing color scheme optimized for UI.
+Open color is an [open-source](https://en.wikipedia.org/wiki/Open-source_software) color scheme optimized for UI. You can use it for font, background, border, etc. It contains a gray and twelve colors.
 
 ## Goals
 
