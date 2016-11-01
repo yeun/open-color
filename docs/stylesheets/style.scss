@@ -70,3 +70,9 @@ ul > li + li {
   display: inline-block;
   white-space: nowrap;
 }
+
+.in-writing {
+  margin-top: 40px;
+  font-size: 22px;
+  color: $oc-gray-6;
+}
