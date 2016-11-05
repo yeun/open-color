@@ -6,153 +6,15 @@
   }
 }
 
-.title {
-  @include make-col(50%);
-  .blog-logo {
-    @include make-col();
-  }
+.blog-logo {
+  @include make-col(25%);
 
-  @media (min-width: 544px) {
-    @include make-col(60%);
-
-    .blog-logo {
-      @include make-col(125%/3);
-    }
-
-    .index & {
-      @include make-col(calc(((100% - #{$left-gird-width}) / 2) + #{$left-gird-width}));
-
-      .blog-logo {
-        @include make-col($left-gird-width);
-      }
-    }
-  }
   @media (min-width: 768px) {
-    @include make-col(60%);
-
-    .blog-logo {
-      @include make-col(100%/3);
-    }
+    @include make-col(20%);
   }
+
   @media (min-width: 880px) {
-    @include make-col(calc(#{$left-gird-width} + (100% - #{$left-gird-width}) * 0.4));
-
-    .blog-logo {
-      @include make-col($left-gird-width);
-    }
-  }
-  @media (min-width: 1600px) {
-    @include make-col(calc(#{$left-gird-width} + (100% - #{$left-gird-width}) * 0.2));
-  }
-}
-.link-github {
-  margin-top: 60px;
-
-  @media (min-width: 544px) {
-    margin-top: 0;
-  }
-}
-.introduction {
-  @include make-row;
-
-  > div {
-    @include make-col();
-
-    @media (min-width: 544px) {
-      @include make-col(80%);
-    }
-
-    @media (min-width: 880px) {
-      @include make-col(calc(100% - #{$left-gird-width} - #{$grid-gutter-width}));
-      margin-left: 0;
-    }
-  }
-}
-
-.nav-menus-wrap {
-  @include make-row;
-  margin-top: 60px;
-}
-
-.nav-menus {
-  padding-left: 0;
-  padding-right: 0;
-
-  &.menus-pages {
-    @include make-col(50%);
-
-    @media (min-width: 544px) {
-      @include make-col(25%);
-    }
-
-    @media (min-width: 768px) {
-      @include make-col(20%);
-
-      .index & {
-        @include make-col($left-gird-width);
-      }
-    }
-
-    @media (min-width: 1600px) {
-      @include make-col($left-gird-width);
-
-      .index & {
-        @include make-col($left-gird-width);
-      }
-    }
-  }
-
-  &.menus-instructions {
-    @include make-col(50%);
-
-    @media (min-width: 544px) {
-      @include make-col(35%);
-    }
-
-    @media (min-width: 768px) {
-      @include make-col(40%);
-
-      .index & {
-        @include make-col(calc((100% - #{$left-gird-width}) * 0.4));
-      }
-    }
-    @media (min-width: 880px) {
-      @include make-col(calc((100% - #{$left-gird-width}) * 0.4));
-    }
-    @media (min-width: 1600px) {
-      @include make-col(calc((100% - #{$left-gird-width}) * 0.2));
-      
-      .index & {
-        @include make-col(calc((100% - #{$left-gird-width}) / 2));
-      }
-    }
-  }
-
-  &.menus-download {
-    @include make-col();
-
-    @media (min-width: 544px) {
-      @include make-col(40%);
-    }
-
-    @media (min-width: 768px) {
-      @include make-col(40%);
-
-      .index & {
-        @include make-col(calc((100% - #{$left-gird-width}) / 2));
-      }
-    }
-
-    @media (min-width: 880px) {
-      @include make-col(calc((100% - #{$left-gird-width}) * 0.4));
-    }
-    @media (min-width: 1600px) {
-      @include make-col(20%);
-
-      .index & {
-        @include make-col(calc((100% - #{$left-gird-width}) / 2));
-      }
-    }
+    @include make-col($left-gird-width);
   }
 }
 

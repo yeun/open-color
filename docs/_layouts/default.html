@@ -36,75 +36,73 @@
 
     </script>
   </head>
-  <body class="{% if page.url == '/' %}index{% endif %}">
+  <body>
     <div class="container">
       <div class="navigation">
-        <div class="title">
-          <a class="blog-logo" href="{{ site.baseurl }}/"></a>
-          <div class="metadata">
-            <div class="version">
-              Version {{ site.oc-version }}
-            </div>
-            <div class="license">
-              MIT license
-            </div>
-          </div>
-        </div>
-        <a class="link-github" href="https://github.com/yeun/open-color">View on Github</a>
-        {% if page.url == '/' %}
-          {% include introduction.html %}
-        {% endif %}
-        <div class="nav-menus-wrap">
-          <ul class="nav-menus menus-pages">
-            <li class="list-title">Menus</li>
-            <li><a class="nav-menu
-                          {% if page.url == '/swatches.html' %}
-                          active
-                          {% endif %}"
-                   href="{{ site.baseurl }}/swatches.html">Swatches</a></li>
-            <li><a class="nav-menu
-                          {% if page.url == '/ingredients.html' %}
-                          active
-                          {% endif %}"
-                   href="{{ site.baseurl }}/ingredients.html">Ingredients</a></li>
-            <li><a class="nav-menu
-                          {% if page.url == '/documents.html' %}
-                          active
-                          {% endif %}"
-                   href="{{ site.baseurl }}/documents.html">Documents</a></li>
-          </ul>
-          <ul class="nav-menus menus-instructions">
-            <li class="list-title">Instructions</li>
-            <li><a class="nav-menu
-                          {% if page.url == '/gray-color.html' %}
-                          active
-                          {% endif %}"
-                   href="{{ site.baseurl }}/gray-color.html">Gray Color</a>
+        <a class="blog-logo" href="{{ site.baseurl }}/"></a>
+        <div class="navbar">
+          <input type="checkbox" id="navbar-toggle">
+          <label for="navbar-toggle" onclick class="navbar-toggle"></label>
+          <ul class="nav-menus-wrap">
+            <li class="nav-menus-group">
+              <a class="menus-title
+                        {% if page.url == '/ingredients.html' or 
+                              page.url == '/documents.html' %}
+                        active
+                        {% endif %}" 
+                 href="{{ site.baseurl }}/swatches.html">Menus</a>
+              <ul class="nav-menus">
+                <li><a class="nav-menu" href="{{ site.baseurl }}/ingredients.html">Ingredients</a></li>
+                <li><a class="nav-menu" href="{{ site.baseurl }}/documents.html">Documents</a></li>
+              </ul>
             </li>
-            <li><a class="nav-menu
-                          {% if page.url == '/chromatic-colors.html' %}
-                          active
-                          {% endif %}"
-                   href="{{ site.baseurl }}/chromatic-colors.html">Chromatic Color</a>
+            <li class="nav-menus-group">
+              <a class="menus-title
+                        {% if page.url == '/gray-color.html' or
+                              page.url == '/chromatic-colors.html' or 
+                              page.url == '/color-blindness.html' %}
+                        active
+                        {% endif %}">Instructions</a>
+              <ul class="nav-menus">
+                <li><a class="nav-menu" href="{{ site.baseurl }}/gray-color.html">Gray Color</a></li>
+                <li><a class="nav-menu" href="{{ site.baseurl }}/chromatic-colors.html">Chromatic Color</a></li>
+                <li><a class="nav-menu" href="{{ site.baseurl }}/color-blindness.html">Color Blindness</a></li>
+              </ul>
             </li>
-            <li><a class="nav-menu
-                          {% if page.url == '/color-blindness.html' %}
-                          active
-                          {% endif %}"
-                   href="{{ site.baseurl }}/color-blindness.html">Color Blindness</a>
+            <li class="nav-menus-group">
+              <button class="menus-title" type="button">Downloads</button>
+              <ul class="nav-menus">
+                <li><a class="nav-menu" href="https://github.com/yeun/open-color/releases/download/v{{ site.oc-version }}/open-color.zip" download>Source code</a></li>
+                <li><a class="nav-menu" href="http://adobe.ly/2cYxrjk" target="blank">Adobe library</a></li>
+                <li><a class="nav-menu" href="{{ site.baseurl }}/asset/download/open-color_{{ site.oc-version }}.aco" download>Photoshop swatches</a></li>
+                <li><a class="nav-menu" href="{{ site.baseurl }}/asset/download/open-color_{{ site.oc-version }}.ase" download>Illustrator swatches</a></li>
+                <li><a class="nav-menu" href="{{ site.baseurl }}/asset/download/open-color_{{ site.oc-version }}.sketchpalette" download>Sketch palette</a></li>
+                <li><a class="nav-menu" href="{{ site.baseurl }}/asset/download/open-color_{{ site.oc-version }}.gpl" download>Inkscape swatches</a></li>
+              </ul>
             </li>
-          </ul>
-          <ul class="nav-menus menus-download">
-            <li class="list-title">Download</li>
-            <li><a class="nav-menu" href="https://github.com/yeun/open-color/releases/download/v{{ site.oc-version }}/open-color.zip" download>Source code</a></li>
-            <li><a class="nav-menu" href="http://adobe.ly/2cYxrjk" target="blank">Adobe library</a></li>
-            <li><a class="nav-menu" href="{{ site.baseurl }}/asset/download/open-color_{{ site.oc-version }}.aco" download>Photoshop swatches</a></li>
-            <li><a class="nav-menu" href="{{ site.baseurl }}/asset/download/open-color_{{ site.oc-version }}.ase" download>Illustrator swatches</a></li>
-            <li><a class="nav-menu" href="{{ site.baseurl }}/asset/download/open-color_{{ site.oc-version }}.sketchpalette" download>Sketch palette</a></li>
-            <li><a class="nav-menu" href="{{ site.baseurl }}/asset/download/open-color_{{ site.oc-version }}.gpl" download>Inkscape swatches</a></li>
+            <li class="nav-menus-group"><a class="menus-title menus-github" href="https://github.com/yeun/open-color">View on Github</a></li>
           </ul>
         </div>
       </div>
+    </div>
+
+    <div class="container">
+      <section class="cover">
+        <h1>
+          Open color is an <br>
+          open-source <span class="no-wrap">color scheme</span><br>
+          optimized for UI<br>
+          like font, background, border, etc.
+        </h1>
+        <div class="metadata">
+          <div class="version">
+            Version {{ site.oc-version }}
+          </div>
+          <div class="license">
+            MIT license
+          </div>
+        </div>
+      </section>
     </div>
     <div class="container">
       {{ content }}

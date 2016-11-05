@@ -2,72 +2,8 @@
   // nav
   // --------------------------
 
-  .navigation {
-    padding-top: 1vw;
-    padding-bottom: 4vw;
-    margin-bottom: 0;
-    border-color: $oc-gray-4;
-  }
-
-  .title {
-    margin-bottom: 0;
-  }
-
   a.blog-logo {
     background-size: 50px 30px;
-    height: 60px;
-    margin-bottom: 0;
-  }
-
-  .infomation {
-    margin-top: 14px;
-    letter-spacing: 0;
-  }
-
-  .index .introduction {
-    margin-top: 8vh;
-    display: inline-block;
-
-    p {
-      font-size: 19px;
-      letter-spacing: -0.02em;
-    }
-
-    .introduction-color {
-      margin-top: 4px;
-      width: 20px;
-      height: 20px;
-    }
-
-    .note {
-      font-size: 12px;
-      line-height: 1.5;
-    }
-  }
-  .index .nav-menus-wrap {
-    margin-top: 30px;
-    padding-top: 20px;
-  }
-
-  .nav-menus-wrap {
-    margin-top: 40px;
-    border-top: $border-base;
-    border-color: $oc-gray-4;
-  }
-
-  .nav-menus {
-    > li > .nav-menu,
-    > li > ul > li > .nav-menu {
-      padding-top: 2vw;
-      padding-bottom: 2vw;
-    }
-
-    li.list-title {
-      padding-top: 4vw;
-    }
-    &.menus-download {
-      margin-top: 40px;
-    }
   }
 
   // shortcut

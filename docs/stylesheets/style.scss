@@ -12,7 +12,6 @@
 @import 'swatches';
 @import 'ingredients';
 @import 'posts';
-@import 'index';
 @import 'mobile';
 
 html {
@@ -74,4 +73,19 @@ ul > li + li {
   margin-top: 40px;
   font-size: 22px;
   color: $oc-gray-6;
+}
+
+.cover {
+  padding: 60px 0 70px;
+  border-bottom: $border-base;
+
+  h1 {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: $text-color;
+    font-size: 22px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
 }

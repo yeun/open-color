@@ -1,16 +1,6 @@
-.navigation {
-  padding: 20px 0 60px;
-  list-style: none;
-  color: $nav-color;
-  border-bottom: $border-base;
-  text-transform: uppercase;
-  @include make-row;
-}
-
 a.blog-logo {
   display: inline-block;
-  width: 100%;
-  height: 40px;
+  height: 70px;
   background: url('../asset/images/logo.svg') no-repeat;
   background-size: 40px 40px;
   background-position: center left;
@@ -19,115 +9,214 @@ a.blog-logo {
 
 .metadata {
   padding: 0;
-  color: $oc-gray-7;
+  color: $oc-gray-6;
   font-size: 11px;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 18px;
   letter-spacing: $letter-spacing-sm;
 }
 
-.link-github {
+.nav-menus-wrap {
   display: inline-block;
-  font-family: $font-family-headline;
-  font-size: 12px;
-  color: $nav-color;
-  transition: all 0.2s ease-out;
-  line-height: 20px;
-  margin-bottom: 20px;
+  margin: 0 0 0 -30px;
+  padding: 0;
+}
 
-  @media (min-width: 880px) {
-    line-height: 40px;
-    margin-bottom: 0;
+.nav-menus-group {
+  position: relative;
+  margin: 0;
+  list-style: none;
+  float: left;
+
+  &:hover,
+  &:focus,
+  &:active {
+    .nav-menus {
+      display: block;
+    }
   }
+}
+
+.menus-title {
+  display: inline-block;
+  padding: 25px 30px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: $letter-spacing-sm;
+  color: $nav-color;
+  background-color: transparent;
+  border: none;
+  transition: font-weight 0.2s ease,
+              color 0.2s ease;
 
   &:hover {
     color: $nav-color-highlight;
   }
+  &:focus,
   &:active,
-  &.active,
-  &:focus {
+  &.active {
     color: $nav-color-highlight;
     font-weight: $font-weight-b;
-    text-decoration: none;
-    outline: none;
   }
-}
-
-.introduction {
-  display: none;
-}
-
-.nav-menus-wrap {
-  margin-top: 30px
 }
 
 .nav-menus {
-  margin: 0;
+  position: absolute;
+  top: 86%;
+  left: 10px;
+  z-index: 1000;
+  display: none; // none by default, but block on "open" of the menu
+  float: left;
+  min-width: 160px;
+  margin: 0; // override default ul
+  padding: 8px 0;
+  list-style: none;
+  font-size: 12px;
+  background-color: $oc-white;
+  border: 1px solid $oc-gray-4;
+  border-radius: 4px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  background-clip: padding-box;
+  line-height: 24px;
+
+  // Links within the dropdown menu
+  > li > a {
+    display: block;
+    min-width: 160px;
+    padding: 1px 40px 1px 20px;
+    clear: both;
+    font-size: 13px;
+    font-weight: normal;
+    color: $nav-color;
+    line-height: 2.5;
+    text-transform: uppercase;
+    letter-spacing: $letter-spacing-base;
+    white-space: nowrap;
+    transition: background 0.2s ease,
+                color 0.2s ease;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: $oc-gray-0;
+      color: $nav-color-highlight;
+    }
+  }
+}
+
+
+//  Responsive menu
+//  ───────────────────────────────────
+
+#navbar-toggle,
+.navbar-toggle {
+  display: none;
+}
+
+.navbar-toggle {
+  z-index: 2;
+  margin-bottom: 0; //Remove default `ul` style
   padding: 0;
-  display: inline-block;
-  vertical-align: top;
+  width: auto;
+  font-weight: 400;
+  float: right;
 
-  li {
-    list-style: none;
-    
-    &.list-title {
-      padding: 6px 0 12px;
-      font-size: 13px;
+  &:hover:after {
+    color: $nav-color-highlight;
+    font-weight: 700;
+  }
+
+  &:after {
+    content: 'MENU';
+    display: inline-block;
+    padding: 20px 30px;
+    background: transparent;
+    text-align: center;
+    font-size: 13px;
+    color: $nav-color-highlight;
+    line-height: 2.5;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+#navbar-toggle:checked + .navbar-toggle:after {
+  color: $nav-color-highlight;
+  font-weight: 700; 
+}
+
+@media only screen and (max-width: $topnav-collapse-width) {
+  .navbar-toggle {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  #navbar-toggle:checked ~ .nav-menus-wrap {
+    display: block;
+    opacity: 1;
+  }
+
+  .nav-menus-wrap {
+    @include clearfix;
+    display: none;
+    opacity: 0;
+    margin-left: 0;
+    padding: 20px 0;
+    z-index: 1;
+    background: $oc-white;
+    text-align: center;
+    padding-top: 70px;
+  }
+
+  .nav-menus-group,
+  .menus-title,
+  .nav-menus {
+    width: 100%;
+  }
+
+  .nav-menus-group {
+    margin-bottom: 30px;
+  }
+
+  .menus-title:not(.menus-github){
+    &,
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+      margin-bottom: 10px;
+      padding: 3px 0;
+      color: $nav-color-highlight;
       font-weight: $font-weight-b;
-      letter-spacing: $letter-spacing-sm;
-      color: $oc-gray-7;
-    }
-    .nav-menu {
-      display: block;
-      padding: 6px 0;
-      width: 100%;
-      color: $nav-color;
-      font-family: $font-family-headline;
-      font-size: 12px;
-      line-height: $line-height-base;
-      letter-spacing: $letter-spacing-base;
-      text-transform: uppercase;
-      transition: all 0.2s ease-out;
-
-      @media (max-width: 543px) {
-        letter-spacing: $letter-spacing-sm;
-      }
-    }
-
-    a.nav-menu,
-    a.nav-menu > span {
-      &:hover {
-        color: $nav-color-highlight;
-      }
-
-      &:active,
-      &.active,
-      &:focus {
-        color: $nav-color-highlight;
-        font-weight: $font-weight-b;
-        text-decoration: none;
-        outline: none;
-      }
-    }
-
-    > ul {
-      padding-left: 0;
-
-      a.nav-menu {
-        padding-left: 0;
-
-        &:before {
-          content: "-";
-          padding-right: 2px;
-        }
-      }
     }
   }
 
-  &.menus-github {
-    @media (min-width: 768px) {
-      text-align: right;
-      margin-top: 0;
+  .menus-github {
+    padding: 20px 0;
+    border: 1px solid $oc-gray-4;
+    border-radius: 3px;
+  }
+
+  .nav-menus {
+    display: block;
+    position: relative;
+    left: 0;
+    text-align: center;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+
+    .nav-menu {
+      padding: 6px 0;
     }
   }
 }
