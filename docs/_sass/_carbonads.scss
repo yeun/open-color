@@ -1,0 +1,73 @@
+#carbonads {
+  display: block;
+  float: right;
+  overflow: hidden;
+  text-transform: none;
+  font-size: 12px;
+  line-height: 1.5;
+
+  @media (max-width: 543px) {
+    margin-top: 30px;
+  }
+}
+
+.carbon-text {
+  color: $oc-gray-6;
+  transition: all .2s ease-out;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $text-color;
+  }
+}
+
+#carbonads span {
+  display: block;
+  overflow: hidden;
+}
+
+.carbon-img {
+  display: block;
+  margin-bottom: 10px;
+
+  img {
+    border-radius: 2px;
+  }
+
+  @media (max-width: 543px) {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+}
+
+.carbon-text {
+  display: block;
+  text-align: left;
+
+  @media (max-width: 543px) {
+    display: inline-block;
+    width: calc(100% - 130px);
+    padding-left: 20px;
+    vertical-align: top;
+  }
+}
+
+a.carbon-poweredby {
+  display: block;
+  margin-top: 10px;
+  font-size: 11px;
+  color: $oc-gray-6;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $text-color;
+  }
+
+  @media (max-width: 543px) {
+    margin-top: -22px;
+    line-height: 2;
+    margin-left: 150px;
+  }
+}

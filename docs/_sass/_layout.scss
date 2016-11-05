@@ -18,6 +18,44 @@
   }
 }
 
+.cover {
+  @include make-row;
+}
+
+.cover-content {
+  @include make-col();
+
+  @media (min-width: 544px) {
+    @include make-col(75%);
+  }
+  @media (min-width: 768px) {
+    @include make-col(80%);
+  }
+  @media (min-width: 880px) {
+    @include make-col(calc((100% - #{$left-gird-width}) * 0.8 + #{$left-gird-width}));
+  }
+  @media (min-width: 1600px) {
+    @include make-col(calc((100% - #{$left-gird-width})*0.9 + #{$left-gird-width}));
+  }
+}
+
+#carbonads {
+  @include make-col();
+
+  @media (min-width: 544px) {
+    @include make-col(25%);
+  }
+  @media (min-width: 768px) {
+    @include make-col(20%);
+  }
+  @media (min-width: 880px) {
+    @include make-col(calc((100% - #{$left-gird-width})*0.2));
+  }
+  @media (min-width: 1600px) {
+    @include make-col(calc((100% - #{$left-gird-width})*0.1));
+  }
+}
+
 .shortcut-wrap {
   @include make-col(100%);
 
