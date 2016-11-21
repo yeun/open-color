@@ -24,6 +24,9 @@ Open color is an [open-source](https://en.wikipedia.org/wiki/Open-source_softwar
 ```
 $ npm install open-color
 ```
+```
+$ bower install open-color
+```
 
 ## Variable convention
 
