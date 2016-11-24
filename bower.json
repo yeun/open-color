@@ -1,5 +1,6 @@
 {
   "name": "open-color",
+  "version": "1.4.1",
   "description": "Open color scheme for web UI",
    "main": [
     "open-color.scss",
