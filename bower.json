@@ -1,0 +1,32 @@
+{
+  "name": "open-color",
+  "description": "Open color scheme for web UI",
+   "main": [
+    "open-color.scss",
+    "open-color.styl",
+    "open-color.less",
+    "open-color.css"
+  ],
+  "authors": [
+    "Jeong Heeyeun <hyd5012@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "color",
+    "colorscheme",
+    "color",
+    "swatches",
+    "SCSS",
+    "LESS",
+    "Stylus",
+    "CSS"
+  ],
+  "homepage": "https://github.com/yeun/open-color",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
