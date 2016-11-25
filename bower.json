@@ -1,7 +1,7 @@
 {
   "name": "open-color",
   "description": "Open color scheme for web UI",
-   "main": [
+  "main": [
     "open-color.scss",
     "open-color.styl",
     "open-color.less",
@@ -14,7 +14,6 @@
   "keywords": [
     "color",
     "colorscheme",
-    "color",
     "swatches",
     "SCSS",
     "LESS",
@@ -23,10 +22,16 @@
   ],
   "homepage": "https://github.com/yeun/open-color",
   "ignore": [
-    "**/.*",
+    "docs",
+    "builder",
+    "templates",
+    "builder",
     "node_modules",
     "bower_components",
-    "test",
-    "tests"
+    "package.json",
+    "CONTRIBUTING.md",
+    "build_release",
+    "**/.*",
+    "*.js"
   ]
 }
