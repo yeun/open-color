@@ -154,6 +154,7 @@ Check out the list below.
 - `open-color.json` 
    - Change and `$ npm run compile-templates`
 - `docs/asset/download/open-color_*.*.*.aco`
+- `docs/asset/download/open-color_*.*.*.clr`
 - Adobe library (admin rights)
 
 ### Version number
