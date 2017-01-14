@@ -8,7 +8,6 @@ Open color is an [open-source](https://en.wikipedia.org/wiki/Open-source_softwar
 - Provide general color for UI design
 - All colors will be beautiful in itself and harmonious
 - At the same brightness level, the perceived brightness will be constant
-- All colors will not look exactly the same in deuteranopia and protanopia mode
 
 **Note**
 
