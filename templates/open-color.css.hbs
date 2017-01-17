@@ -12,6 +12,9 @@
 
 {{#each general as |color|}}
   --oc-{{color.name}}: {{color.hex}};
+{{#with (hex2rgb color.hex) as |rgb|}}
+  --oc-{{color.name}}-rgb: {{rgb.r}}, {{rgb.g}}, {{rgb.b}};
+{{/with}}
 {{/each}}
 {{#each colors as |color|}}
 
@@ -21,6 +24,9 @@
 
 {{#each color.hex as |hex index|}}
   --oc-{{color.name}}-{{index}}: {{hex}};
+{{#with (hex2rgb hex) as |rgb|}}
+  --oc-{{color.name}}-{{index}}-rgb: {{rgb.r}}, {{rgb.g}}, {{rgb.b}};
+{{/with}}
 {{/each}}
 {{/each}}
 
