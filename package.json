@@ -3,6 +3,12 @@
   "version": "1.4.2",
   "description": "Open color scheme for web UI",
   "main": "open-color.scss",
+  "files": [
+    "open-color.css",
+    "open-color.json",
+    "open-color.less",
+    "open-color.styl"
+  ],
   "scripts": {
     "test": "",
     "compile-templates": "node compile-templates.js"
