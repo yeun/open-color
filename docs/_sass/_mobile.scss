@@ -1,10 +1,20 @@
 @media (max-width: 543px) {
-  // nav
-  // --------------------------
+  // cover
+  // -------------------------
 
-  a.blog-logo {
-    background-size: 50px 30px;
+  .cover {
+    padding: 40px 0;
+
+    h1 {
+      font-size: 28px;
+
+      .sub {
+        padding-top: 10px;
+        font-size: 14px;
+      }
+    }
   }
+
 
   // shortcut
   // -------------------------
