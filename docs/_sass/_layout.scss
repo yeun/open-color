@@ -13,8 +13,8 @@
     @include make-col(20%);
   }
 
-  @media (min-width: 880px) {
-    @include make-col($left-gird-width);
+  @media (min-width: 1600px) {
+    @include make-col(10%);
   }
 }
 
@@ -31,12 +31,6 @@
   @media (min-width: 768px) {
     @include make-col(80%);
   }
-  @media (min-width: 880px) {
-    @include make-col(calc((100% - #{$left-gird-width}) * 0.8 + #{$left-gird-width}));
-  }
-  @media (min-width: 1600px) {
-    @include make-col(calc((100% - #{$left-gird-width})*0.9 + #{$left-gird-width}));
-  }
 }
 
 #carbonads {
@@ -48,51 +42,36 @@
   @media (min-width: 768px) {
     @include make-col(20%);
   }
-  @media (min-width: 880px) {
-    @include make-col(calc((100% - #{$left-gird-width})*0.2));
-  }
-  @media (min-width: 1600px) {
-    @include make-col(calc((100% - #{$left-gird-width})*0.1));
-  }
 }
 
 .shortcut-wrap {
-  @include make-col(100%);
-
-  @media (min-width: 880px) {
-    @include make-col($left-gird-width);
-  }
-
   .shortcut-menus {
-    @include make-row;
+    -webkit-column-gap: 4px;
+       -moz-column-gap: 4px;
+            column-gap: 4px;
+    -moz-column-fill:   auto;
+         column-fill:   auto;
 
-    li {
-      @include make-col(50%);
-
-      @media (min-width: 375px) {
-        @include make-col(calc(100%/3));
-      }
-
-      @media (min-width: 544px) {
-        @include make-col(25%);
-      }
-
-      @media (min-width: 768px) {
-        @include make-col(20%);
-      }
-
-      @media (min-width: 880px) {
-        @include make-col(100%);
-      }
+    @media (min-width: 544px) {
+      height: 150px;
+      -webkit-column-count: 4;
+         -moz-column-count: 4;
+              column-count: 4;
     }
-  }
-}
 
-.color-wrap,
-.ingredient-wrap,
-.instructions-wrap {
-  @media (min-width: 880px) {
-    @include make-col(calc(100% - #{$left-gird-width}));
+    @media (min-width: 768px) {
+      height: 110px;
+      -webkit-column-count: 5;
+         -moz-column-count: 5;
+              column-count: 5;
+    }
+
+    @media (min-width: 1600px) {
+      height: 80px;
+      -webkit-column-count: 10;
+         -moz-column-count: 10;
+              column-count: 10;
+    }
   }
 }
 
@@ -114,37 +93,6 @@
   @media (min-width: 1600px) {
     @include make-col(10%);
   }
-}
-
-.docs-wrap,
-.instructions-wrap {
-  @include make-row;
-
-  @media (min-width: 544px) {
-    margin-left: 25%;
-  }
-
-  @media (min-width: 768px) {
-    margin-left: 20%;
-  }
-
-  @media (min-width: 880px) {
-    margin-left: $left-gird-width;
-  }
-}
-
-.docs-title,
-.introduction-title {
-  @include make-col();
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.docs-content,
-.introduction-content {
-  @include make-col();
-  padding-left: 0;
-  padding-right: 0;
 }
 
 .docs-section,
