@@ -1,6 +1,6 @@
 a.blog-logo {
   display: inline-block;
-  height: 70px;
+  height: 63px;
   background: url('../asset/images/logo.svg') no-repeat;
   background-size: 40px 40px;
   background-position: center left;
@@ -9,17 +9,17 @@ a.blog-logo {
 
 .metadata {
   padding: 0;
-  color: $oc-gray-6;
-  font-size: 11px;
-  font-weight: 500;
+  color: $text-color-gray;
+  font-size: 12px;
+  font-weight: 400;
   line-height: 18px;
-  letter-spacing: $letter-spacing-sm;
 }
 
 .nav-menus-wrap {
   display: inline-block;
-  margin: 0 0 0 -30px;
+  margin: 0;
   padding: 0;
+  float: right;
 }
 
 .nav-menus-group {
@@ -39,31 +39,34 @@ a.blog-logo {
 
 .menus-title {
   display: inline-block;
-  padding: 25px 30px;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: $letter-spacing-sm;
+  margin: 10px 5px;
+  padding: 10px 25px 13px;
+  font-size: 14px;
   color: $nav-color;
   background-color: transparent;
   border: none;
+  border-radius: 22px;
   transition: font-weight 0.2s ease,
+              background-color 0.2s ease,
               color 0.2s ease;
 
   &:hover {
     color: $nav-color-highlight;
+    background-color: $oc-gray-0;
   }
   &:focus,
   &:active,
   &.active {
     color: $nav-color-highlight;
     font-weight: $font-weight-b;
+    background-color: $oc-gray-0;
   }
 }
 
 .nav-menus {
   position: absolute;
-  top: 86%;
-  left: 10px;
+  top: 100%;
+  left: 6px;
   z-index: 1000;
   display: none; // none by default, but block on "open" of the menu
   float: left;
@@ -85,12 +88,10 @@ a.blog-logo {
     min-width: 160px;
     padding: 1px 40px 1px 20px;
     clear: both;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: normal;
     color: $nav-color;
     line-height: 2.5;
-    text-transform: uppercase;
-    letter-spacing: $letter-spacing-base;
     white-space: nowrap;
     transition: background 0.2s ease,
                 color 0.2s ease;
@@ -129,7 +130,8 @@ a.blog-logo {
   &:after {
     content: 'MENU';
     display: inline-block;
-    padding: 20px 30px;
+    margin-right: -4.8vw;
+    padding: 15px 30px;
     background: transparent;
     text-align: center;
     font-size: 13px;
@@ -184,7 +186,7 @@ a.blog-logo {
   }
 
   .nav-menus-group {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   .menus-title:not(.menus-github){
@@ -193,14 +195,15 @@ a.blog-logo {
     &:focus,
     &:active,
     &.active {
-      margin-bottom: 10px;
-      padding: 3px 0;
+      margin: 0 0 10px;
+      padding: 10px 0;
       color: $nav-color-highlight;
       font-weight: $font-weight-b;
     }
   }
 
   .menus-github {
+    margin: 0;
     padding: 20px 0;
     border: 1px solid $oc-gray-4;
     border-radius: 3px;
