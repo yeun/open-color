@@ -11,7 +11,6 @@ Open color is an [open-source](https://en.wikipedia.org/wiki/Open-source_softwar
 
 **Note**
 
-* All the color is tested on deuteranopia and protanopia mode. The process will soon be published in the article.
 * The colors are subject to change in the future. Thus, using an Open color as a main identity color is not recommended.
 
 ## Available colors
