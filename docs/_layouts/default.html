@@ -38,8 +38,8 @@
     </script>
   </head>
   <body>
-    <div class="container">
-      <div class="navigation">
+    <div class="navigation">
+      <div class="container">
         <a class="blog-logo" href="{{ site.baseurl }}/"></a>
         <div class="navbar">
           <input type="checkbox" id="navbar-toggle">
@@ -47,24 +47,27 @@
           <ul class="nav-menus-wrap">
             <li class="nav-menus-group">
               <a class="menus-title
-                        {% if page.url == '/ingredients.html' or 
-                              page.url == '/documents.html' %}
+                        {% if page.url == '/' %}
                         active
                         {% endif %}" 
-                 href="{{ site.baseurl }}/ingredients.html">Menus</a>
-              <ul class="nav-menus">
-                <li><a class="nav-menu" href="{{ site.baseurl }}/ingredients.html">Ingredients</a></li>
-                <li><a class="nav-menu" href="{{ site.baseurl }}/documents.html">Documents</a></li>
-              </ul>
+                 href="{{ site.baseurl }}/">Swatches</a>
             </li>
             <li class="nav-menus-group">
               <a class="menus-title
-                        {% if page.url == '/gray-color.html' or
-                              page.url == '/chromatic-colors.html' or 
-                              page.url == '/color-blindness.html' %}
+                        {% if page.url == '/ingredients.html' %}
+                        active
+                        {% endif %}" 
+                 href="{{ site.baseurl }}/ingredients.html">Ingredients</a>
+            </li>
+            <li class="nav-menus-group">
+              <a class="menus-title
+                        {% if page.url == '/documents.html' or
+                              page.url == '/gray-color.html' or
+                              page.url == '/chromatic-colors.html' %}
                         active
                         {% endif %}">Instructions</a>
               <ul class="nav-menus">
+                <li><a class="nav-menu" href="{{ site.baseurl }}/documents.html">Documents</a></li>
                 <li><a class="nav-menu" href="{{ site.baseurl }}/gray-color.html">Gray Color</a></li>
                 <li><a class="nav-menu" href="{{ site.baseurl }}/chromatic-colors.html">Chromatic Color</a></li>
               </ul>
@@ -81,7 +84,7 @@
                 <li><a class="nav-menu" href="{{ site.baseurl }}/asset/download/open-color_{{ site.oc-version }}.clr" download>Mac OS palette</a></li>
               </ul>
             </li>
-            <li class="nav-menus-group"><a class="menus-title menus-github" href="https://github.com/yeun/open-color">View on Github</a></li>
+            <li class="nav-menus-group"><a class="menus-title menus-github" href="https://github.com/yeun/open-color">Github</a></li>
           </ul>
         </div>
       </div>
@@ -92,9 +95,9 @@
         <div class="cover-content">
           <h1>
             Open color is an <br>
-            open-source <span class="no-wrap">color scheme</span><br>
-            optimized for UI<br>
-            like font, background, border, etc.
+            <span class="no-wrap">open-source</span>
+            <span class="no-wrap">color scheme</span>
+            <div class="sub">Optimized for UI like font, background, border, etc.</div>
           </h1>
           <div class="metadata">
             <div class="version">
