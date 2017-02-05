@@ -1,0 +1,23 @@
+.cover {
+  padding: 100px 0;
+  border-bottom: $border-base;
+
+  h1 {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-weight: 600;
+    color: $text-color;
+    font-size: 36px;
+    line-height: 1.2;
+    // letter-spacing: 0.1em;
+    // text-transform: uppercase;
+
+    .sub {
+      padding-top: 20px;
+      font-size: 18px;
+      font-weight: 400;
+      color: $text-color-gray;
+      line-height: 1.5;
+    }
+  }
+}
