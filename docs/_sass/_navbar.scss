@@ -52,14 +52,14 @@ a.blog-logo {
 
   &:hover {
     color: $nav-color-highlight;
-    background-color: $oc-gray-0;
+    background-color: $oc-gray-1;
   }
   &:focus,
   &:active,
   &.active {
     color: $nav-color-highlight;
     font-weight: $font-weight-b;
-    background-color: $oc-gray-0;
+    background-color: $oc-gray-1;
   }
 }
 
