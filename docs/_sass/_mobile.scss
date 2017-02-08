@@ -19,63 +19,53 @@
   // swatichs
   // -------------------------
 
-  $color-chip-margin: 3vw;
-  $color-chip-height: 60px;
-  $color-chip-width: calc((100%/3) - #{$color-chip-margin});
-  $color-info-width: calc(200%/3);
+  $color-chip-height: 50px;
 
   .color-group {
     padding-top: 5vw;
+    padding-bottom: 5vw;
   }
+
   .color-title {
-    padding-bottom: 2vw;
     margin-bottom: 5vw;
-    
-    span {
-      margin-right: 0.2em;
-    }
+    padding: 2vw 0;
+  }
+
+  .color-chips {
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+    -webkit-column-gap: 4px;
+       -moz-column-gap: 4px;
+            column-gap: 4px;
+    -moz-column-fill:   auto;
+         column-fill:   auto;
   }
 
   .color-chip {
-    padding-bottom: 1.2vw;
-    margin-bottom: 1.2vw;
-    border-bottom: $border-base;
+    margin-bottom: 4vw;
   }
   
   .color-chip-bg {
-    width: $color-chip-width;
+    width: $color-chip-height;
     height: $color-chip-height;
-    margin-right: $color-chip-margin;
     float: left;
+    border-radius: 6px;
+  }
 
-    @media (max-width: 374px) {
-      width: $color-chip-width;
-    }
-  }
   .color-name,
-  .color-var,
   .color-hex {
-    display: inline-block;
-    width: $color-info-width;
+    width: calc(100% - #{$color-chip-height});
+    float: left;
   }
+
   .color-name {
-    padding: 10px 0 0;
+    padding: 8px 0 0 12px;
     font-weight: $font-weight-b;
   }
-  .color-var,
+
   .color-hex {
-    float: left;
-    padding: 2px 10px 2px 0;
-    width: calc(100%/3);
-  }
-  @media (max-width: 374px) {
-    .color-var {
-      width: 110px;
-    }
-    .color-hex {
-      width: 80px;
-      float: right;
-    }
+    padding: 2px 0 2px 12px;
   }
 
   // color tables
