@@ -9,9 +9,8 @@
 
 .color-title {
   margin: 0 0 30px;
-  font-size: 16px;
-  letter-spacing: $letter-spacing-base;
-  text-transform: uppercase;
+  font-size: 24px;
+  text-transform: capitalize;
   font-weight: $font-weight-b;
   line-height: 1.5;
 
@@ -40,7 +39,7 @@
   text-transform: uppercase;
   text-align: left;
   font-size: 14px;
-  letter-spacing: $letter-spacing-sm;
+  font-weight: 500;
 }
 
 .color-hex {

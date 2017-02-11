@@ -3,15 +3,23 @@
   // -------------------------
 
   .cover {
-    padding: 40px 0;
+    padding: 20px 0;
 
     h1 {
-      font-size: 28px;
+      margin-bottom: 30px;
+      font-size: 26px;
 
       .sub {
         padding-top: 10px;
-        font-size: 14px;
+        font-size: 15px;
       }
+    }
+
+    .version,
+    .license {
+      display: inline-block;
+      float: left;
+      margin-right: 20px;
     }
   }
   
@@ -27,14 +35,18 @@
 
   $color-chip-height: 50px;
 
-  .color-group {
-    padding-top: 5vw;
+  .color-group,
+  .color-tables {
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+    padding-top: 2vw;
     padding-bottom: 5vw;
   }
 
   .color-title {
     margin-bottom: 5vw;
     padding: 2vw 0;
+    font-size: 20px;
   }
 
   .color-chips {
@@ -67,7 +79,6 @@
 
   .color-name {
     padding: 8px 0 0 12px;
-    font-weight: $font-weight-b;
   }
 
   .color-hex {
