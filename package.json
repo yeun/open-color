@@ -2,11 +2,11 @@
   "name": "open-color",
   "version": "1.4.2",
   "description": "Open color scheme for web UI",
-  "main": "open-color.scss",
+  "main": "open-color.json",
   "files": [
+    "open-color.json",
     "open-color.css",
     "open-color.scss",
-    "open-color.json",
     "open-color.less",
     "open-color.styl"
   ],
