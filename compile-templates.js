@@ -3,6 +3,7 @@ const pkg = require('./package.json');
 
 const TemplatedBuilder = require('./builder/templated');
 const AseBuilder = require('./builder/ase');
+const CraftLibraryBuilder = require('./builder/craft-library');
 
 const COLORS_FILE = path.join(__dirname, 'open-color.json');
 
@@ -10,6 +11,7 @@ const colors = require(COLORS_FILE);
 
 const templatedBuilder = new TemplatedBuilder(colors, pkg.version);
 const aseBuilder = new AseBuilder(colors, pkg.version);
+const craftLibraryBuilder = new CraftLibraryBuilder(colors, pkg.version);
 
 templatedBuilder.build('_config.yml',
     [path.join(__dirname, 'docs', '_config.yml')]);
@@ -32,3 +34,6 @@ templatedBuilder.build('open-color.inkscape',
 
 aseBuilder.build('ase',
     [path.join(__dirname, 'docs', 'asset', 'download', `open-color_${pkg.version}.ase`)]);
+
+craftLibraryBuilder.build(
+    [path.join(__dirname, 'docs', 'asset', 'download', `open-color_${pkg.version}.library`)]);
