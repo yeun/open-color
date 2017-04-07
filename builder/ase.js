@@ -2,10 +2,8 @@ const BaseBuilder = require('./base');
 const ase = require('ase-utils');
 const fs = require('fs');
 const path = require('path');
+const {capitalize} = require('./util/string');
 
-function capitalize(text) {
-    return text.charAt(0).toUpperCase() + text.slice(1);
-}
 function hex2rgb(hex) {
     var bigint = parseInt(hex.substring(1), 16);
     return [(bigint >> 16) & 255, (bigint >> 8) & 255, (bigint >> 0) & 255];

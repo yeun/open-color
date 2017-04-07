@@ -2,10 +2,12 @@ const Handlebars = require('handlebars');
 const BaseBuilder = require('./base');
 const fs = require('fs');
 const path = require('path');
+const {hex2rgb} = require('./util/color');
+const {capitalize} = require('./util/string');
 
 let hbsArgs = (fn) => (...values) => fn(...values.slice(0, -1));
 
-Handlebars.registerHelper('capitalize', text => text.charAt(0).toUpperCase() + text.slice(1));
+Handlebars.registerHelper('capitalize', capitalize);
 Handlebars.registerHelper('eq', (a, b) => a === b);
 Handlebars.registerHelper('and', (a, b) => a && b);
 Handlebars.registerHelper('join', (a, b) => a.join(b));
@@ -15,10 +17,7 @@ Handlebars.registerHelper('div', (a, b) => a / b);
 Handlebars.registerHelper('mul', (a, b) => a * b);
 Handlebars.registerHelper('upper', (a) => a.toUpperCase());
 Handlebars.registerHelper('apply', hbsArgs((fn, ...args) => fn.apply(undefined, args)));
-Handlebars.registerHelper('hex2rgb', (hex) => {
-    var bigint = parseInt(hex.substring(1), 16);
-    return {r: (bigint >> 16) & 255, g: (bigint >> 8) & 255, b: bigint & 255};
-});
+Handlebars.registerHelper('hex2rgb', hex2rgb);
 Handlebars.registerHelper('block-params', function() {
     var args = [],
         options = arguments[arguments.length - 1];
