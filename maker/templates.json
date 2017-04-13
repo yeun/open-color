@@ -1,0 +1,51 @@
+
+[
+	{
+		"fileExtension": "css",
+		"commentBegin": "/*",
+		"commentEnd": "*/",
+		"container": ":root {${colors}}",
+		"colors": [
+			{
+				"type": "hex",
+				"line": "--oc-${optionalName || (groupName + '-' + index)}: ${value};"
+			}
+		]
+	},
+	{
+		"fileExtension": "scss",
+		"commentBegin": "//",
+		"commentEnd": "",
+		"container": "${colors}",
+		"colors": [
+			{
+				"type": "hex",
+				"line": "$oc-${optionalName || (groupName + '-' + index)}: ${value};"
+			}
+		]
+	},
+	{
+		"fileExtension": "less",
+		"commentBegin": "//",
+		"commentEnd": "",
+		"container": "${colors}",
+		"colors": [
+			{
+				"type": "hex",
+				"line": "@oc-${optionalName || (groupName + '-' + index)}: ${value};"
+			}
+		]
+	},
+	{
+		"fileExtension": "styl",
+		"commentBegin": "//",
+		"commentEnd": "",
+		"container": "${colors}",
+		"colors": [
+			{
+				"type": "hex",
+				"line": "oc-${optionalName || (groupName + '-' + index)} = ${value}"
+			}
+		]
+	}
+]
