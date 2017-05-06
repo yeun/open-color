@@ -77,3 +77,76 @@ ul > li + li {
   font-size: 22px;
   color: $oc-gray-6;
 }
+
+
+// sample
+
+.btn {
+  position: relative;
+  display: inline-block;
+  margin: 10px 10px; // add a 1px space between vertical buttons
+  padding: 16px 24px;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 20px;
+  color: $text-color;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: $oc-white;
+  background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+  border: 1px solid transparent;
+  border-radius: 3px;
+  -webkit-appearance: none; // Corrects inability to style clickable `input` types in iOS.
+  transition: background 0.2s ease,
+              color      0.1s ease;
+
+  &:hover,
+  &:focus,
+  &.focus {
+    outline: 0;
+    text-decoration: none;
+  }
+
+  &:active,
+  &.active {
+    outline: 0;
+    background-image: none;
+  }
+
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    cursor: not-allowed;
+    pointer-events: none; // Future-proof disabling of clicks
+  }
+}
+
+@each $color in map-keys($oc-color-list) {
+  @each $color-name in map-get($oc-color-list, $color) {
+    .btn-light.btn-#{$color-name} {
+      color: $text-color;//map-get($color, "7");
+      background-color: map-get($color, "1");
+      // border-color: map-get($color, "5");
+
+      &:hover {
+        background-color: map-get($color, "0");
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
