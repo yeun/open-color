@@ -37,3 +37,6 @@ aseBuilder.build('ase',
 
 craftLibraryBuilder.build(
     [path.join(__dirname, 'docs', 'asset', 'download', `open-color_${pkg.version}.library`)]);
+
+templatedBuilder.build('open-color.oco',
+    [path.join(__dirname, 'open-color.oco')]);
