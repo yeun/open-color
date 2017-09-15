@@ -11,7 +11,8 @@
     "open-color.styl"
   ],
   "scripts": {
-    "test": "",
+    "test": "npm run test-typescript",
+    "test-typescript": "tsc open-color.d.ts tests/typescript.ts --noEmit",
     "compile-templates": "node compile-templates.js"
   },
   "repository": {
@@ -34,9 +35,11 @@
   },
   "homepage": "https://github.com/yeun/open-color",
   "devDependencies": {
+    "archiver": "^1.3.0",
     "ase-utils": "^0.1.1",
     "handlebars": "^4.0.5",
-    "uuid": "^3.0.1",
-    "archiver": "^1.3.0"
-  }
+    "typescript": "^2.5.2",
+    "uuid": "^3.0.1"
+  },
+  "types": "./open-color.d.ts"
 }

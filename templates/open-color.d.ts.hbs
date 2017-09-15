@@ -1,0 +1,22 @@
+//
+//
+//  𝗖 𝗢 𝗟 𝗢 𝗥
+//  v {{version}}
+//
+//  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+declare module 'open-color' {
+    type Color = string;
+
+    interface OpenColor {
+    {{#each general as |color|}}
+        {{color.name}}: Color
+    {{/each}}
+
+    {{#each colors as |color|}}
+        {{color.name}}: Color[]
+    {{/each}}
+    }
+
+    const OpenColor: OpenColor;
+    export default OpenColor;
+}
