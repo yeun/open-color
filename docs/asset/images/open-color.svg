@@ -1358,7 +1358,7 @@
                               width="81"
                               x="2"
                               y="2"
-                              fill="#e8f7ff"
+                              fill="#e7f5ff"
                               rx="2"
                               ry="2"></rect>
                         <text font-size="12px"
@@ -1374,13 +1374,13 @@
                               x="2"
                               y="58"
                               style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
-                            232,247,255
+                            231,245,255
                         </text>
                         <rect height="26"
                               width="81"
                               x="87"
                               y="2"
-                              fill="#ccedff"
+                              fill="#d0ebff"
                               rx="2"
                               ry="2"></rect>
                         <text font-size="12px"
@@ -1396,13 +1396,13 @@
                               x="87"
                               y="58"
                               style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
-                            204,237,255
+                            208,235,255
                         </text>
                         <rect height="26"
                               width="81"
                               x="172"
                               y="2"
-                              fill="#a3daff"
+                              fill="#a5d8ff"
                               rx="2"
                               ry="2"></rect>
                         <text font-size="12px"
@@ -1418,13 +1418,13 @@
                               x="172"
                               y="58"
                               style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
-                            163,218,255
+                            165,216,255
                         </text>
                         <rect height="26"
                               width="81"
                               x="257"
                               y="2"
-                              fill="#72c3fc"
+                              fill="#74c0fc"
                               rx="2"
                               ry="2"></rect>
                         <text font-size="12px"
@@ -1440,13 +1440,13 @@
                               x="257"
                               y="58"
                               style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
-                            114,195,252
+                            116,192,252
                         </text>
                         <rect height="26"
                               width="81"
                               x="342"
                               y="2"
-                              fill="#4dadf7"
+                              fill="#4dabf7"
                               rx="2"
                               ry="2"></rect>
                         <text font-size="12px"
@@ -1462,13 +1462,13 @@
                               x="342"
                               y="58"
                               style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
-                            77,173,247
+                            77,171,247
                         </text>
                         <rect height="26"
                               width="81"
                               x="427"
                               y="2"
-                              fill="#329af0"
+                              fill="#339af0"
                               rx="2"
                               ry="2"></rect>
                         <text font-size="12px"
@@ -1484,13 +1484,13 @@
                               x="427"
                               y="58"
                               style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
-                            50,154,240
+                            51,154,240
                         </text>
                         <rect height="26"
                               width="81"
                               x="512"
                               y="2"
-                              fill="#228ae6"
+                              fill="#228be6"
                               rx="2"
                               ry="2"></rect>
                         <text font-size="12px"
@@ -1506,13 +1506,13 @@
                               x="512"
                               y="58"
                               style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
-                            34,138,230
+                            34,139,230
                         </text>
                         <rect height="26"
                               width="81"
                               x="597"
                               y="2"
-                              fill="#1c7cd6"
+                              fill="#1c7ed6"
                               rx="2"
                               ry="2"></rect>
                         <text font-size="12px"
@@ -1528,13 +1528,13 @@
                               x="597"
                               y="58"
                               style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
-                            28,124,214
+                            28,126,214
                         </text>
                         <rect height="26"
                               width="81"
                               x="682"
                               y="2"
-                              fill="#1b6ec2"
+                              fill="#1971c2"
                               rx="2"
                               ry="2"></rect>
                         <text font-size="12px"
@@ -1550,13 +1550,13 @@
                               x="682"
                               y="58"
                               style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
-                            27,110,194
+                            25,113,194
                         </text>
                         <rect height="26"
                               width="81"
                               x="767"
                               y="2"
-                              fill="#1862ab"
+                              fill="#1864ab"
                               rx="2"
                               ry="2"></rect>
                         <text font-size="12px"
@@ -1572,7 +1572,7 @@
                               x="767"
                               y="58"
                               style="font-family:-apple-system, BlinkMacSystemFont, Lato, Verdana, Arial, sans-serif">
-                            24,98,171
+                            24,100,171
                         </text>
                 </g>
                 <g transform="translate(0 490)">

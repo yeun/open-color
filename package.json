@@ -1,6 +1,6 @@
 {
   "name": "open-color",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "description": "Open color scheme for web UI",
   "main": "open-color.json",
   "files": [
@@ -27,7 +27,7 @@
     "Stylus",
     "CSS"
   ],
-  "author": "Jeong Heeyeun <hyd5012@gmail.com>",
+  "author": "Jeong Heeyeun <heeyeun.design@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yeun/open-color/issues"
