@@ -1,5 +1,5 @@
 GIMP Palette
-Name: Open Color Palette 1.5.1
+Name: Open Color Palette 1.6.0
 Columns: 0
 #
 248 249 250        gray0
@@ -62,16 +62,16 @@ Columns: 0
 66 99 235        indigo7
 59 91 219        indigo8
 54 79 199        indigo9
-232 247 255        blue0
-204 237 255        blue1
-163 218 255        blue2
-114 195 252        blue3
-77 173 247        blue4
-50 154 240        blue5
-34 138 230        blue6
-28 124 214        blue7
-27 110 194        blue8
-24 98 171        blue9
+231 245 255        blue0
+208 235 255        blue1
+165 216 255        blue2
+116 192 252        blue3
+77 171 247        blue4
+51 154 240        blue5
+34 139 230        blue6
+28 126 214        blue7
+25 113 194        blue8
+24 100 171        blue9
 227 250 252        cyan0
 197 246 250        cyan1
 153 233 242        cyan2
