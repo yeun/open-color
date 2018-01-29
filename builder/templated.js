@@ -3,14 +3,17 @@ const BaseBuilder = require('./base');
 const fs = require('fs');
 const path = require('path');
 const {hex2rgb} = require('./util/color');
-const {capitalize} = require('./util/string');
+const {capitalize, ljust, rjust} = require('./util/string');
 
 let hbsArgs = (fn) => (...values) => fn(...values.slice(0, -1));
 
 Handlebars.registerHelper('capitalize', capitalize);
+Handlebars.registerHelper('ljust', ljust);
+Handlebars.registerHelper('rjust', rjust);
 Handlebars.registerHelper('eq', (a, b) => a === b);
 Handlebars.registerHelper('and', (a, b) => a && b);
 Handlebars.registerHelper('join', (a, b) => a.join(b));
+Handlebars.registerHelper('concat', hbsArgs((...values) => values.reduce((a, b) => a + b, '')));
 Handlebars.registerHelper('add', hbsArgs((...values) => values.reduce((a, b) => a + b, 0)));
 Handlebars.registerHelper('sub', (a, b) => a - b);
 Handlebars.registerHelper('div', (a, b) => a / b);

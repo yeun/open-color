@@ -41,5 +41,8 @@ craftLibraryBuilder.build(
 templatedBuilder.build('open-color.oco',
     [path.join(__dirname, 'open-color.oco')]);
 
+templatedBuilder.build('open-color.rcpx',
+    [path.join(__dirname, 'open-color.rcpx')]);
+
 templatedBuilder.build('open-color.d.ts',
     [path.join(__dirname, 'open-color.d.ts')]);
