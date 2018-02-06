@@ -10,7 +10,7 @@
 {{#each colors as |color|}}
 {{#each color.hex as |hex index|}}
 {{#with (hex2rgb hex) as |rgb|}}
-		<rgb r={{{rjust (concat '"' rgb.r '"') 5}}} g={{{rjust (concat '"' rgb.g '"') 5}}} b={{{rjust (concat '"' rgb.b '"') 5}}} name={{{ljust (concat '"' (capitalize color.name) ' ' index '"') 10}}}/>
+		<rgb r="{{rgb.r}}" g="{{rgb.g}}" b="{{rgb.b}}" name="{{capitalize color.name}} {{index}}"/>
 {{/with}}
 {{/each}}
 {{/each}}
