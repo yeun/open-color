@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE palette PUBLIC "-//Kreative//DTD ResplendentColor 1.0//EN" "http://www.kreativekorp.com/dtd/rcpx.dtd">
+<!-- Open Color v {{version}} - https://yeun.github.io/open-color/ -->
+<palette name="Open Color"
+         orientation="square"
+         hwidth="241" hheight= "85"
+         swidth="121" sheight="157"
+         vwidth= "85" vheight="241">
+	<colors ordered="ordered">
+{{#each colors as |color|}}
+{{#each color.hex as |hex index|}}
+{{#with (hex2rgb hex) as |rgb|}}
+		<rgb r="{{rgb.r}}" g="{{rgb.g}}" b="{{rgb.b}}" name="{{capitalize color.name}} {{index}}"/>
+{{/with}}
+{{/each}}
+{{/each}}
+	</colors>
+	<layout>
+		<oriented>
+			<horizontal>
+				<column>
+					<row><range start=  "0" end= "10"/></row>
+					<row><range start= "10" end= "20"/><range start= "70" end= "80"/></row>
+					<row><range start= "20" end= "30"/><range start= "80" end= "90"/></row>
+					<row><range start= "30" end= "40"/><range start= "90" end="100"/></row>
+					<row><range start= "40" end= "50"/><range start="100" end="110"/></row>
+					<row><range start= "50" end= "60"/><range start="110" end="120"/></row>
+					<row><range start= "60" end= "70"/><range start="120" end="130"/></row>
+				</column>
+			</horizontal>
+			<square>
+				<column>
+					<row><range start=  "0" end= "10"/></row>
+					<row><range start= "10" end= "20"/></row>
+					<row><range start= "20" end= "30"/></row>
+					<row><range start= "30" end= "40"/></row>
+					<row><range start= "40" end= "50"/></row>
+					<row><range start= "50" end= "60"/></row>
+					<row><range start= "60" end= "70"/></row>
+					<row><range start= "70" end= "80"/></row>
+					<row><range start= "80" end= "90"/></row>
+					<row><range start= "90" end="100"/></row>
+					<row><range start="100" end="110"/></row>
+					<row><range start="110" end="120"/></row>
+					<row><range start="120" end="130"/></row>
+				</column>
+			</square>
+			<vertical>
+				<row>
+					<column><range start=  "0" end= "10"/></column>
+					<column><range start= "10" end= "20"/><range start= "70" end= "80"/></column>
+					<column><range start= "20" end= "30"/><range start= "80" end= "90"/></column>
+					<column><range start= "30" end= "40"/><range start= "90" end="100"/></column>
+					<column><range start= "40" end= "50"/><range start="100" end="110"/></column>
+					<column><range start= "50" end= "60"/><range start="110" end="120"/></column>
+					<column><range start= "60" end= "70"/><range start="120" end="130"/></column>
+				</row>
+			</vertical>
+		</oriented>
+	</layout>
+</palette>
