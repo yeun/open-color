@@ -1,0 +1,27 @@
+ %
+ %
+ %  𝗖 𝗢 𝗟 𝗢 𝗥
+ %  v {{version}}
+ %
+ %  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ %
+
+ %  General
+ %  ─────────────────────────────────── %
+
+{{#each general as |color|}}  
+{{#with (hex2rgb color.hex) as |rgb|}}
+  \definecolor{{{color.name}}}{RGB}{{{rgb.r}}, {{rgb.g}}, {{rgb.b}}}
+{{/with}}
+{{/each}}
+{{#each colors as |color|}}
+
+
+ %  {{capitalize color.name}}
+ %  ─────────────────────────────────── %
+
+{{#each color.hex as |hex index|}}  
+{{#with (hex2rgb hex) as |rgb|}}
+  \definecolor{{{color.name}}-{{index}}}{RGB}{{{rgb.r}}, {{rgb.g}}, {{rgb.b}}}
+{{/with}}
+{{/each}}
+{{/each}}
