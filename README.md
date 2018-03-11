@@ -13,7 +13,7 @@ Open color is an [open-source](https://en.wikipedia.org/wiki/Open-source_softwar
 
 * The colors are subject to change in the future. Thus, using an Open color as a main identity color is not recommended.
 
-## Available colors
+## Available Colors
 
 ![available colors](https://yeun.github.io/open-color/asset/images/open-color.svg)
 
@@ -26,7 +26,11 @@ $ npm install open-color
 $ bower install open-color
 ```
 
-## Variable convention
+## Currently Supported Formats
+
+css, sass, less, styl, json, svg, tex, oco(Open Color Tools), rcpx(PowerPaint), sketchpalette(Sketch), inkscape, aco, clr
+
+## Variable Convention
 
 ### Sass, SCSS
 
@@ -57,8 +61,7 @@ oc-(color)-(number)
 - `(color)`: Color name such as gray, red, lime, etc.
 - `(number)`: 0 to 9. Brightness spectrum.
 
-
-## How to use
+## How to Use
 
 Import the file to your project and use the variables.
 
@@ -147,7 +150,7 @@ a:active {
 
 Check out the list below.
 
-### Color value
+### Color Value
 
 - `open-color.json` 
    - Change and `$ npm run compile-templates`
@@ -155,7 +158,7 @@ Check out the list below.
 - `docs/asset/download/open-color_*.*.*.clr`
 - Adobe library (admin rights)
 
-### Version number
+### Version Number
 
 - `package.json`
 - `docs/asset/download/open-color_*.*.*.aco`
