@@ -38,7 +38,7 @@ css, sass, less, styl, json, svg, tex, oco(Open Color Tools), rcpx(PowerPaint), 
 $oc-(color)-(number)
 ```
 
-### LESS
+### Less
 
 ```less
 @oc-(color)-(number)
@@ -86,7 +86,7 @@ a {
 }
 ```
 
-**Example for LESS**
+**Example for Less**
 
 ```less
 @import 'path/open-color';
@@ -152,7 +152,7 @@ Check out the list below.
 
 ### Color Value
 
-- `open-color.json` 
+- `open-color.json`
    - Change and `$ npm run compile-templates`
 - `docs/asset/download/open-color_*.*.*.aco`
 - `docs/asset/download/open-color_*.*.*.clr`
