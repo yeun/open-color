@@ -8,7 +8,8 @@
     "open-color.css",
     "open-color.scss",
     "open-color.less",
-    "open-color.styl"
+    "open-color.styl",
+    "open-color.d.ts"
   ],
   "scripts": {
     "test": "npm run test-typescript",
