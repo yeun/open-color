@@ -16,7 +16,6 @@
     letter-spacing: 0.04em;
     line-height: 1;
     color: $text-color;
-    background-color: $oc-gray-0;
   }
 
   tbody > tr > td {
@@ -34,20 +33,31 @@
     color: $text-color-gray;
     transition: all 0.2s ease-out;
 
-
     &.level {
-      min-width: 110px;
       text-align: left;
-      text-transform: uppercase;
-      letter-spacing: $letter-spacing-sm;
-      color: $text-color;
-      font-weight: 500;
     }
-
 
     &:first-child {
       padding-left: 0;
     }
+
+    & > .color-preview {
+      display: inline-block;
+      margin-right: 4px;
+      width: 16px;
+      height: 16px;
+      border-radius: 3px;
+      vertical-align: text-top;
+    }
+  }
+
+
+  tr > td.level {
+    min-width: 110px;
+    text-transform: uppercase;
+    letter-spacing: $letter-spacing-sm;
+    color: $text-color;
+    font-weight: 500;
   }
 
    > tbody > tr {
@@ -74,6 +84,7 @@
       }
     }
   }
+
   @media (max-width: 879px) {
     margin-left: -$container-padding-base;
     margin-right: -$container-padding-base;

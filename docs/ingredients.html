@@ -13,7 +13,7 @@ layout: default
       <table class="value-table" id="table-{{ color }}">
         <thead>
           <tr>
-            <th class="level"></th>
+            <th class="level">Name</th>
             <th class="rgb rgb-red">R</th>
             <th class="rgb rgb-green">G</th>
             <th class="rgb rgb-blue">B</th>
@@ -49,7 +49,10 @@ layout: default
             {% assign green = rgb[2] | times: 16 | plus: rgb[3] %}
             {% assign blue = rgb[4] | times: 16 | plus: rgb[5] %}
             <tr>
-              <td class="level">{{ color }} {{ level }}</td>
+              <td class="level">
+                <div class="color-preview bg-{{ color }}-{{ level }}"></div>
+                {{ color }} {{ level }}
+              </td>
               <td class="rgb rgb-red">{{ red }}</td>
               <td class="rgb rgb-green">{{ green }}</td>
               <td class="rgb rgb-blue">{{ blue }}</td>
