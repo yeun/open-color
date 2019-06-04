@@ -43,9 +43,5 @@
     "typescript": "^2.9.2",
     "uuid": "^3.3.2"
   },
-  "types": "./open-color.d.ts",
-  "dependencies": {
-    "lodash": "^4.17.11",
-    "npm": "^6.9.0"
-  }
+  "types": "./open-color.d.ts"
 }
