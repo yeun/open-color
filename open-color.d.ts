@@ -27,5 +27,5 @@ declare module 'open-color' {
     }
 
     const OpenColor: OpenColor;
-    export default OpenColor;
+    export = OpenColor;
 }
