@@ -15,7 +15,8 @@
     "test": "npm run test-typescript",
     "test-typescript": "tsc open-color.d.ts tests/typescript.ts --noEmit",
     "compile-templates": "node compile-templates.js",
-    "prepublish": "npm run compile-templates"
+    "prepare": "npm run compile-templates",
+    "prepublishOnly": "npm run compile-templates"
   },
   "repository": {
     "type": "git",
