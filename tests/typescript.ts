@@ -1,4 +1,4 @@
-import OpenColor from "open-color";
+import OpenColor = require("open-color");
 
 // black is regular string field
 OpenColor.black.substring(1);
