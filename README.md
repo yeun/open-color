@@ -146,6 +146,10 @@ a:active {
 }
 ```
 
+## Other Language Bindings
+
+- Julia : [OpenColor.jl](https://github.com/appleparan/OpenColor.jl)
+
 ## Contribution
 
 Check out the list below.
