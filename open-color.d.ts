@@ -1,7 +1,7 @@
 //
 //
 //  𝗖 𝗢 𝗟 𝗢 𝗥
-//  v 1.6.3
+//  v 1.7.0
 //
 //  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 declare module 'open-color' {
@@ -27,5 +27,5 @@ declare module 'open-color' {
     }
 
     const OpenColor: OpenColor;
-    export = OpenColor;
+    export default OpenColor;
 }
