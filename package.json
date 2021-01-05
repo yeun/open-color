@@ -1,6 +1,6 @@
 {
   "name": "open-color",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "Open color scheme for web UI",
   "main": "open-color.json",
   "files": [
