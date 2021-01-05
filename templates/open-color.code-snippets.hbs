@@ -1,0 +1,28 @@
+//
+//
+//  𝗖 𝗢 𝗟 𝗢 𝗥
+//  v {{version}}
+//
+//  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+{
+    // General
+
+{{#each general as |color|}}
+    "{{capitalize color.name}}": {
+        "prefix": ["oc-{{color.name}}"],
+        "body": ["{{color.hex}}"]
+    },
+{{/each}}
+{{#each colors as |color|}}
+
+    // {{capitalize color.name}}
+
+{{#each color.hex as |hex index|}}
+    "{{capitalize color.name}} {{index}}": {
+        "prefix": ["oc-{{color.name}}-{{index}}"],
+        "body": ["{{hex}}"]
+    },
+{{/each}}
+{{/each}}
+}

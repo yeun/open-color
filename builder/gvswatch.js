@@ -39,7 +39,7 @@ class GVSwatchBuilder extends BaseBuilder {
     }
 
     build(outputPaths) {
-        const gzipped = zlib.gzipSync(new Buffer(this.gvswatch, 'utf8'));
+        const gzipped = zlib.gzipSync(Buffer.from(this.gvswatch, 'utf8'));
 
         outputPaths.forEach(outputPath =>
             fs.writeFileSync(path.join(outputPath), gzipped));
