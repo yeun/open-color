@@ -1,0 +1,33 @@
+/*
+*
+* 𝗖 𝗢 𝗟 𝗢 𝗥
+* v {{version}}
+*
+* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+
+import 'dart:ui';
+
+class OpenColor {
+
+  /* General
+   * ─────────────────────────────────── */
+
+{{#each general as |color|}}
+{{#with (hex2rgb color.hex) as |rgb|}}
+  static const {{color.name}} = Color.fromARGB(255, {{rgb.r}}, {{rgb.g}}, {{rgb.b}});
+{{/with}}
+{{/each}}
+{{#each colors as |color|}}
+
+
+  /* {{capitalize color.name}}
+   * ─────────────────────────────────── */
+
+{{#each color.hex as |hex index|}}
+{{#with (hex2rgb hex) as |rgb|}}
+  static const {{color.name}}{{index}} = Color.fromARGB(255, {{rgb.r}}, {{rgb.g}}, {{rgb.b}});
+{{/with}}
+{{/each}}
+{{/each}}
+
+}
