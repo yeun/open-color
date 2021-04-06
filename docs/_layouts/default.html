@@ -35,6 +35,15 @@
       ga('create', 'UA-52837717-3', 'auto');
       ga('send', 'pageview');
 
+      function copyToClipboard(hex) {
+        var input = document.createElement('input');
+        input.setAttribute('value', hex);
+        document.body.appendChild(input);
+        input.select();
+        var result = document.execCommand('copy');
+        document.body.removeChild(input);
+        return result;
+      };
     </script>
   </head>
   <body>
