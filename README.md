@@ -86,6 +86,25 @@ a {
 }
 ```
 
+**Example for Tailwind CSS**
+
+```js
+module.exports = {
+  presets: [require("./open-color.js")],
+  purge: [],
+  mode: "jit",
+  darkMode: false,
+  theme: {
+    extend: {},
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+};
+
+```
+
 **Example for Less**
 
 ```less
