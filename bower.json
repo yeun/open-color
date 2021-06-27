@@ -5,7 +5,8 @@
     "open-color.scss",
     "open-color.styl",
     "open-color.less",
-    "open-color.css"
+    "open-color.css",
+    "open-color.js"
   ],
   "authors": [
     "Jeong Heeyeun <heeyeun.design@gmail.com>"
@@ -18,6 +19,7 @@
     "SCSS",
     "Less",
     "Stylus",
+    "Tailwind",
     "CSS"
   ],
   "homepage": "https://github.com/yeun/open-color",

@@ -6,7 +6,7 @@ project_root="$(pwd)";
 release_base_dir="$project_root/release";
 
 mkdir -p "$release_base_dir";
-zip release/open-color.zip open-color.css open-color.less open-color.scss open-color.styl
+zip release/open-color.zip open-color.css open-color.js open-color.less open-color.scss open-color.styl
 
 echo "Release $release_tag";
 echo "${TRAVIS_REPO_SLUG:-"origin"}/${TRAVIS_BRANCH:-"master"}";
