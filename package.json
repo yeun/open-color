@@ -3,6 +3,7 @@
   "version": "1.8.0",
   "description": "Open color scheme for web UI",
   "main": "open-color.json",
+  "style": "open-color.css",
   "files": [
     "open-color.json",
     "open-color.css",
