@@ -1,184 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE palette PUBLIC "-//Kreative//DTD ResplendentColor 1.0//EN" "http://www.kreativekorp.com/dtd/rcpx.dtd">
-<!-- Open Color v 1.7.0 - https://yeun.github.io/open-color/ -->
+<!-- Open Color v 1.9.0 - https://yeun.github.io/open-color/ -->
 <palette name="Open Color"
          orientation="square"
          hwidth="241" hheight= "85"
          swidth="121" sheight="157"
          vwidth= "85" vheight="241">
-	<colors ordered="ordered">
-		<rgb r="248" g="249" b="250" name="Gray 0"/>
-		<rgb r="241" g="243" b="245" name="Gray 1"/>
-		<rgb r="233" g="236" b="239" name="Gray 2"/>
-		<rgb r="222" g="226" b="230" name="Gray 3"/>
-		<rgb r="206" g="212" b="218" name="Gray 4"/>
-		<rgb r="173" g="181" b="189" name="Gray 5"/>
-		<rgb r="134" g="142" b="150" name="Gray 6"/>
-		<rgb r="73" g="80" b="87" name="Gray 7"/>
-		<rgb r="52" g="58" b="64" name="Gray 8"/>
-		<rgb r="33" g="37" b="41" name="Gray 9"/>
-		<rgb r="255" g="245" b="245" name="Red 0"/>
-		<rgb r="255" g="227" b="227" name="Red 1"/>
-		<rgb r="255" g="201" b="201" name="Red 2"/>
-		<rgb r="255" g="168" b="168" name="Red 3"/>
-		<rgb r="255" g="135" b="135" name="Red 4"/>
-		<rgb r="255" g="107" b="107" name="Red 5"/>
-		<rgb r="250" g="82" b="82" name="Red 6"/>
-		<rgb r="240" g="62" b="62" name="Red 7"/>
-		<rgb r="224" g="49" b="49" name="Red 8"/>
-		<rgb r="201" g="42" b="42" name="Red 9"/>
-		<rgb r="255" g="240" b="246" name="Pink 0"/>
-		<rgb r="255" g="222" b="235" name="Pink 1"/>
-		<rgb r="252" g="194" b="215" name="Pink 2"/>
-		<rgb r="250" g="162" b="193" name="Pink 3"/>
-		<rgb r="247" g="131" b="172" name="Pink 4"/>
-		<rgb r="240" g="101" b="149" name="Pink 5"/>
-		<rgb r="230" g="73" b="128" name="Pink 6"/>
-		<rgb r="214" g="51" b="108" name="Pink 7"/>
-		<rgb r="194" g="37" b="92" name="Pink 8"/>
-		<rgb r="166" g="30" b="77" name="Pink 9"/>
-		<rgb r="248" g="240" b="252" name="Grape 0"/>
-		<rgb r="243" g="217" b="250" name="Grape 1"/>
-		<rgb r="238" g="190" b="250" name="Grape 2"/>
-		<rgb r="229" g="153" b="247" name="Grape 3"/>
-		<rgb r="218" g="119" b="242" name="Grape 4"/>
-		<rgb r="204" g="93" b="232" name="Grape 5"/>
-		<rgb r="190" g="75" b="219" name="Grape 6"/>
-		<rgb r="174" g="62" b="201" name="Grape 7"/>
-		<rgb r="156" g="54" b="181" name="Grape 8"/>
-		<rgb r="134" g="46" b="156" name="Grape 9"/>
-		<rgb r="243" g="240" b="255" name="Violet 0"/>
-		<rgb r="229" g="219" b="255" name="Violet 1"/>
-		<rgb r="208" g="191" b="255" name="Violet 2"/>
-		<rgb r="177" g="151" b="252" name="Violet 3"/>
-		<rgb r="151" g="117" b="250" name="Violet 4"/>
-		<rgb r="132" g="94" b="247" name="Violet 5"/>
-		<rgb r="121" g="80" b="242" name="Violet 6"/>
-		<rgb r="112" g="72" b="232" name="Violet 7"/>
-		<rgb r="103" g="65" b="217" name="Violet 8"/>
-		<rgb r="95" g="61" b="196" name="Violet 9"/>
-		<rgb r="237" g="242" b="255" name="Indigo 0"/>
-		<rgb r="219" g="228" b="255" name="Indigo 1"/>
-		<rgb r="186" g="200" b="255" name="Indigo 2"/>
-		<rgb r="145" g="167" b="255" name="Indigo 3"/>
-		<rgb r="116" g="143" b="252" name="Indigo 4"/>
-		<rgb r="92" g="124" b="250" name="Indigo 5"/>
-		<rgb r="76" g="110" b="245" name="Indigo 6"/>
-		<rgb r="66" g="99" b="235" name="Indigo 7"/>
-		<rgb r="59" g="91" b="219" name="Indigo 8"/>
-		<rgb r="54" g="79" b="199" name="Indigo 9"/>
-		<rgb r="231" g="245" b="255" name="Blue 0"/>
-		<rgb r="208" g="235" b="255" name="Blue 1"/>
-		<rgb r="165" g="216" b="255" name="Blue 2"/>
-		<rgb r="116" g="192" b="252" name="Blue 3"/>
-		<rgb r="77" g="171" b="247" name="Blue 4"/>
-		<rgb r="51" g="154" b="240" name="Blue 5"/>
-		<rgb r="34" g="139" b="230" name="Blue 6"/>
-		<rgb r="28" g="126" b="214" name="Blue 7"/>
-		<rgb r="25" g="113" b="194" name="Blue 8"/>
-		<rgb r="24" g="100" b="171" name="Blue 9"/>
-		<rgb r="227" g="250" b="252" name="Cyan 0"/>
-		<rgb r="197" g="246" b="250" name="Cyan 1"/>
-		<rgb r="153" g="233" b="242" name="Cyan 2"/>
-		<rgb r="102" g="217" b="232" name="Cyan 3"/>
-		<rgb r="59" g="201" b="219" name="Cyan 4"/>
-		<rgb r="34" g="184" b="207" name="Cyan 5"/>
-		<rgb r="21" g="170" b="191" name="Cyan 6"/>
-		<rgb r="16" g="152" b="173" name="Cyan 7"/>
-		<rgb r="12" g="133" b="153" name="Cyan 8"/>
-		<rgb r="11" g="114" b="133" name="Cyan 9"/>
-		<rgb r="230" g="252" b="245" name="Teal 0"/>
-		<rgb r="195" g="250" b="232" name="Teal 1"/>
-		<rgb r="150" g="242" b="215" name="Teal 2"/>
-		<rgb r="99" g="230" b="190" name="Teal 3"/>
-		<rgb r="56" g="217" b="169" name="Teal 4"/>
-		<rgb r="32" g="201" b="151" name="Teal 5"/>
-		<rgb r="18" g="184" b="134" name="Teal 6"/>
-		<rgb r="12" g="166" b="120" name="Teal 7"/>
-		<rgb r="9" g="146" b="104" name="Teal 8"/>
-		<rgb r="8" g="127" b="91" name="Teal 9"/>
-		<rgb r="235" g="251" b="238" name="Green 0"/>
-		<rgb r="211" g="249" b="216" name="Green 1"/>
-		<rgb r="178" g="242" b="187" name="Green 2"/>
-		<rgb r="140" g="233" b="154" name="Green 3"/>
-		<rgb r="105" g="219" b="124" name="Green 4"/>
-		<rgb r="81" g="207" b="102" name="Green 5"/>
-		<rgb r="64" g="192" b="87" name="Green 6"/>
-		<rgb r="55" g="178" b="77" name="Green 7"/>
-		<rgb r="47" g="158" b="68" name="Green 8"/>
-		<rgb r="43" g="138" b="62" name="Green 9"/>
-		<rgb r="244" g="252" b="227" name="Lime 0"/>
-		<rgb r="233" g="250" b="200" name="Lime 1"/>
-		<rgb r="216" g="245" b="162" name="Lime 2"/>
-		<rgb r="192" g="235" b="117" name="Lime 3"/>
-		<rgb r="169" g="227" b="75" name="Lime 4"/>
-		<rgb r="148" g="216" b="45" name="Lime 5"/>
-		<rgb r="130" g="201" b="30" name="Lime 6"/>
-		<rgb r="116" g="184" b="22" name="Lime 7"/>
-		<rgb r="102" g="168" b="15" name="Lime 8"/>
-		<rgb r="92" g="148" b="13" name="Lime 9"/>
-		<rgb r="255" g="249" b="219" name="Yellow 0"/>
-		<rgb r="255" g="243" b="191" name="Yellow 1"/>
-		<rgb r="255" g="236" b="153" name="Yellow 2"/>
-		<rgb r="255" g="224" b="102" name="Yellow 3"/>
-		<rgb r="255" g="212" b="59" name="Yellow 4"/>
-		<rgb r="252" g="196" b="25" name="Yellow 5"/>
-		<rgb r="250" g="176" b="5" name="Yellow 6"/>
-		<rgb r="245" g="159" b="0" name="Yellow 7"/>
-		<rgb r="240" g="140" b="0" name="Yellow 8"/>
-		<rgb r="230" g="119" b="0" name="Yellow 9"/>
-		<rgb r="255" g="244" b="230" name="Orange 0"/>
-		<rgb r="255" g="232" b="204" name="Orange 1"/>
-		<rgb r="255" g="216" b="168" name="Orange 2"/>
-		<rgb r="255" g="192" b="120" name="Orange 3"/>
-		<rgb r="255" g="169" b="77" name="Orange 4"/>
-		<rgb r="255" g="146" b="43" name="Orange 5"/>
-		<rgb r="253" g="126" b="20" name="Orange 6"/>
-		<rgb r="247" g="103" b="7" name="Orange 7"/>
-		<rgb r="232" g="89" b="12" name="Orange 8"/>
-		<rgb r="217" g="72" b="15" name="Orange 9"/>
-	</colors>
-	<layout>
-		<oriented>
-			<horizontal>
-				<column>
-					<row><range start=  "0" end= "10"/></row>
-					<row><range start= "10" end= "20"/><range start= "70" end= "80"/></row>
-					<row><range start= "20" end= "30"/><range start= "80" end= "90"/></row>
-					<row><range start= "30" end= "40"/><range start= "90" end="100"/></row>
-					<row><range start= "40" end= "50"/><range start="100" end="110"/></row>
-					<row><range start= "50" end= "60"/><range start="110" end="120"/></row>
-					<row><range start= "60" end= "70"/><range start="120" end="130"/></row>
-				</column>
-			</horizontal>
-			<square>
-				<column>
-					<row><range start=  "0" end= "10"/></row>
-					<row><range start= "10" end= "20"/></row>
-					<row><range start= "20" end= "30"/></row>
-					<row><range start= "30" end= "40"/></row>
-					<row><range start= "40" end= "50"/></row>
-					<row><range start= "50" end= "60"/></row>
-					<row><range start= "60" end= "70"/></row>
-					<row><range start= "70" end= "80"/></row>
-					<row><range start= "80" end= "90"/></row>
-					<row><range start= "90" end="100"/></row>
-					<row><range start="100" end="110"/></row>
-					<row><range start="110" end="120"/></row>
-					<row><range start="120" end="130"/></row>
-				</column>
-			</square>
-			<vertical>
-				<row>
-					<column><range start=  "0" end= "10"/></column>
-					<column><range start= "10" end= "20"/><range start= "70" end= "80"/></column>
-					<column><range start= "20" end= "30"/><range start= "80" end= "90"/></column>
-					<column><range start= "30" end= "40"/><range start= "90" end="100"/></column>
-					<column><range start= "40" end= "50"/><range start="100" end="110"/></column>
-					<column><range start= "50" end= "60"/><range start="110" end="120"/></column>
-					<column><range start= "60" end= "70"/><range start="120" end="130"/></column>
-				</row>
-			</vertical>
-		</oriented>
-	</layout>
+  <colors ordered="ordered">
+    <rgb r="248" g="249" b="250" name="Gray 0"/>
+    <rgb r="241" g="243" b="245" name="Gray 1"/>
+    <rgb r="233" g="236" b="239" name="Gray 2"/>
+    <rgb r="222" g="226" b="230" name="Gray 3"/>
+    <rgb r="206" g="212" b="218" name="Gray 4"/>
+    <rgb r="173" g="181" b="189" name="Gray 5"/>
+    <rgb r="134" g="142" b="150" name="Gray 6"/>
+    <rgb r="73" g="80" b="87" name="Gray 7"/>
+    <rgb r="52" g="58" b="64" name="Gray 8"/>
+    <rgb r="33" g="37" b="41" name="Gray 9"/>
+    <rgb r="255" g="245" b="245" name="Red 0"/>
+    <rgb r="255" g="227" b="227" name="Red 1"/>
+    <rgb r="255" g="201" b="201" name="Red 2"/>
+    <rgb r="255" g="168" b="168" name="Red 3"/>
+    <rgb r="255" g="135" b="135" name="Red 4"/>
+    <rgb r="255" g="107" b="107" name="Red 5"/>
+    <rgb r="250" g="82" b="82" name="Red 6"/>
+    <rgb r="240" g="62" b="62" name="Red 7"/>
+    <rgb r="224" g="49" b="49" name="Red 8"/>
+    <rgb r="201" g="42" b="42" name="Red 9"/>
+    <rgb r="255" g="240" b="246" name="Pink 0"/>
+    <rgb r="255" g="222" b="235" name="Pink 1"/>
+    <rgb r="252" g="194" b="215" name="Pink 2"/>
+    <rgb r="250" g="162" b="193" name="Pink 3"/>
+    <rgb r="247" g="131" b="172" name="Pink 4"/>
+    <rgb r="240" g="101" b="149" name="Pink 5"/>
+    <rgb r="230" g="73" b="128" name="Pink 6"/>
+    <rgb r="214" g="51" b="108" name="Pink 7"/>
+    <rgb r="194" g="37" b="92" name="Pink 8"/>
+    <rgb r="166" g="30" b="77" name="Pink 9"/>
+    <rgb r="248" g="240" b="252" name="Grape 0"/>
+    <rgb r="243" g="217" b="250" name="Grape 1"/>
+    <rgb r="238" g="190" b="250" name="Grape 2"/>
+    <rgb r="229" g="153" b="247" name="Grape 3"/>
+    <rgb r="218" g="119" b="242" name="Grape 4"/>
+    <rgb r="204" g="93" b="232" name="Grape 5"/>
+    <rgb r="190" g="75" b="219" name="Grape 6"/>
+    <rgb r="174" g="62" b="201" name="Grape 7"/>
+    <rgb r="156" g="54" b="181" name="Grape 8"/>
+    <rgb r="134" g="46" b="156" name="Grape 9"/>
+    <rgb r="243" g="240" b="255" name="Violet 0"/>
+    <rgb r="229" g="219" b="255" name="Violet 1"/>
+    <rgb r="208" g="191" b="255" name="Violet 2"/>
+    <rgb r="177" g="151" b="252" name="Violet 3"/>
+    <rgb r="151" g="117" b="250" name="Violet 4"/>
+    <rgb r="132" g="94" b="247" name="Violet 5"/>
+    <rgb r="121" g="80" b="242" name="Violet 6"/>
+    <rgb r="112" g="72" b="232" name="Violet 7"/>
+    <rgb r="103" g="65" b="217" name="Violet 8"/>
+    <rgb r="95" g="61" b="196" name="Violet 9"/>
+    <rgb r="237" g="242" b="255" name="Indigo 0"/>
+    <rgb r="219" g="228" b="255" name="Indigo 1"/>
+    <rgb r="186" g="200" b="255" name="Indigo 2"/>
+    <rgb r="145" g="167" b="255" name="Indigo 3"/>
+    <rgb r="116" g="143" b="252" name="Indigo 4"/>
+    <rgb r="92" g="124" b="250" name="Indigo 5"/>
+    <rgb r="76" g="110" b="245" name="Indigo 6"/>
+    <rgb r="66" g="99" b="235" name="Indigo 7"/>
+    <rgb r="59" g="91" b="219" name="Indigo 8"/>
+    <rgb r="54" g="79" b="199" name="Indigo 9"/>
+    <rgb r="231" g="245" b="255" name="Blue 0"/>
+    <rgb r="208" g="235" b="255" name="Blue 1"/>
+    <rgb r="165" g="216" b="255" name="Blue 2"/>
+    <rgb r="116" g="192" b="252" name="Blue 3"/>
+    <rgb r="77" g="171" b="247" name="Blue 4"/>
+    <rgb r="51" g="154" b="240" name="Blue 5"/>
+    <rgb r="34" g="139" b="230" name="Blue 6"/>
+    <rgb r="28" g="126" b="214" name="Blue 7"/>
+    <rgb r="25" g="113" b="194" name="Blue 8"/>
+    <rgb r="24" g="100" b="171" name="Blue 9"/>
+    <rgb r="227" g="250" b="252" name="Cyan 0"/>
+    <rgb r="197" g="246" b="250" name="Cyan 1"/>
+    <rgb r="153" g="233" b="242" name="Cyan 2"/>
+    <rgb r="102" g="217" b="232" name="Cyan 3"/>
+    <rgb r="59" g="201" b="219" name="Cyan 4"/>
+    <rgb r="34" g="184" b="207" name="Cyan 5"/>
+    <rgb r="21" g="170" b="191" name="Cyan 6"/>
+    <rgb r="16" g="152" b="173" name="Cyan 7"/>
+    <rgb r="12" g="133" b="153" name="Cyan 8"/>
+    <rgb r="11" g="114" b="133" name="Cyan 9"/>
+    <rgb r="230" g="252" b="245" name="Teal 0"/>
+    <rgb r="195" g="250" b="232" name="Teal 1"/>
+    <rgb r="150" g="242" b="215" name="Teal 2"/>
+    <rgb r="99" g="230" b="190" name="Teal 3"/>
+    <rgb r="56" g="217" b="169" name="Teal 4"/>
+    <rgb r="32" g="201" b="151" name="Teal 5"/>
+    <rgb r="18" g="184" b="134" name="Teal 6"/>
+    <rgb r="12" g="166" b="120" name="Teal 7"/>
+    <rgb r="9" g="146" b="104" name="Teal 8"/>
+    <rgb r="8" g="127" b="91" name="Teal 9"/>
+    <rgb r="235" g="251" b="238" name="Green 0"/>
+    <rgb r="211" g="249" b="216" name="Green 1"/>
+    <rgb r="178" g="242" b="187" name="Green 2"/>
+    <rgb r="140" g="233" b="154" name="Green 3"/>
+    <rgb r="105" g="219" b="124" name="Green 4"/>
+    <rgb r="81" g="207" b="102" name="Green 5"/>
+    <rgb r="64" g="192" b="87" name="Green 6"/>
+    <rgb r="55" g="178" b="77" name="Green 7"/>
+    <rgb r="47" g="158" b="68" name="Green 8"/>
+    <rgb r="43" g="138" b="62" name="Green 9"/>
+    <rgb r="244" g="252" b="227" name="Lime 0"/>
+    <rgb r="233" g="250" b="200" name="Lime 1"/>
+    <rgb r="216" g="245" b="162" name="Lime 2"/>
+    <rgb r="192" g="235" b="117" name="Lime 3"/>
+    <rgb r="169" g="227" b="75" name="Lime 4"/>
+    <rgb r="148" g="216" b="45" name="Lime 5"/>
+    <rgb r="130" g="201" b="30" name="Lime 6"/>
+    <rgb r="116" g="184" b="22" name="Lime 7"/>
+    <rgb r="102" g="168" b="15" name="Lime 8"/>
+    <rgb r="92" g="148" b="13" name="Lime 9"/>
+    <rgb r="255" g="249" b="219" name="Yellow 0"/>
+    <rgb r="255" g="243" b="191" name="Yellow 1"/>
+    <rgb r="255" g="236" b="153" name="Yellow 2"/>
+    <rgb r="255" g="224" b="102" name="Yellow 3"/>
+    <rgb r="255" g="212" b="59" name="Yellow 4"/>
+    <rgb r="252" g="196" b="25" name="Yellow 5"/>
+    <rgb r="250" g="176" b="5" name="Yellow 6"/>
+    <rgb r="245" g="159" b="0" name="Yellow 7"/>
+    <rgb r="240" g="140" b="0" name="Yellow 8"/>
+    <rgb r="230" g="119" b="0" name="Yellow 9"/>
+    <rgb r="255" g="244" b="230" name="Orange 0"/>
+    <rgb r="255" g="232" b="204" name="Orange 1"/>
+    <rgb r="255" g="216" b="168" name="Orange 2"/>
+    <rgb r="255" g="192" b="120" name="Orange 3"/>
+    <rgb r="255" g="169" b="77" name="Orange 4"/>
+    <rgb r="255" g="146" b="43" name="Orange 5"/>
+    <rgb r="253" g="126" b="20" name="Orange 6"/>
+    <rgb r="247" g="103" b="7" name="Orange 7"/>
+    <rgb r="232" g="89" b="12" name="Orange 8"/>
+    <rgb r="217" g="72" b="15" name="Orange 9"/>
+  </colors>
+  <layout>
+    <oriented>
+      <horizontal>
+        <column>
+          <row><range start=  "0" end= "10"/></row>
+          <row><range start= "10" end= "20"/><range start= "70" end= "80"/></row>
+          <row><range start= "20" end= "30"/><range start= "80" end= "90"/></row>
+          <row><range start= "30" end= "40"/><range start= "90" end="100"/></row>
+          <row><range start= "40" end= "50"/><range start="100" end="110"/></row>
+          <row><range start= "50" end= "60"/><range start="110" end="120"/></row>
+          <row><range start= "60" end= "70"/><range start="120" end="130"/></row>
+        </column>
+      </horizontal>
+      <square>
+        <column>
+          <row><range start=  "0" end= "10"/></row>
+          <row><range start= "10" end= "20"/></row>
+          <row><range start= "20" end= "30"/></row>
+          <row><range start= "30" end= "40"/></row>
+          <row><range start= "40" end= "50"/></row>
+          <row><range start= "50" end= "60"/></row>
+          <row><range start= "60" end= "70"/></row>
+          <row><range start= "70" end= "80"/></row>
+          <row><range start= "80" end= "90"/></row>
+          <row><range start= "90" end="100"/></row>
+          <row><range start="100" end="110"/></row>
+          <row><range start="110" end="120"/></row>
+          <row><range start="120" end="130"/></row>
+        </column>
+      </square>
+      <vertical>
+        <row>
+          <column><range start=  "0" end= "10"/></column>
+          <column><range start= "10" end= "20"/><range start= "70" end= "80"/></column>
+          <column><range start= "20" end= "30"/><range start= "80" end= "90"/></column>
+          <column><range start= "30" end= "40"/><range start= "90" end="100"/></column>
+          <column><range start= "40" end= "50"/><range start="100" end="110"/></column>
+          <column><range start= "50" end= "60"/><range start="110" end="120"/></column>
+          <column><range start= "60" end= "70"/><range start="120" end="130"/></column>
+        </row>
+      </vertical>
+    </oriented>
+  </layout>
 </palette>
