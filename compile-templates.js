@@ -1,4 +1,3 @@
-
 const path = require('path');
 const pkg = require('./package.json');
 
@@ -59,3 +58,6 @@ templatedBuilder.build('open-color.rcpx',
 
 templatedBuilder.build('open-color.d.ts',
     [path.join(__dirname, 'open-color.d.ts')]);
+
+templatedBuilder.build('open-color.js',
+    [path.join(__dirname, 'open-color.js')]);
