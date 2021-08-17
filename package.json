@@ -5,6 +5,7 @@
   "main": "open-color.json",
   "style": "open-color.css",
   "files": [
+    "open-color.js",
     "open-color.json",
     "open-color.css",
     "open-color.scss",
