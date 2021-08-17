@@ -14,7 +14,7 @@ layout: default
           {% assign idx = color | append: '-hexs' %}
           {% for i in (0..9) %}
           <div class="color-chip" id="{{ color }}-{{ i }}">
-            <div class="color-chip-bg bg-{{ color }}-{{ i }}">
+            <div class="ripple color-chip-bg bg-{{ color }}-{{ i }}" onclick="copyToClipboard('{{ site[idx][i] }}')">
             </div>
             <div class="color-name">{{ color }} {{ i }}</div>
             <input class="color-hex" type="text" readonly value="{{ site[idx][i] }}">
