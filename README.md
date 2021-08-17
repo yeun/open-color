@@ -22,13 +22,14 @@ Open color is an [open-source](https://en.wikipedia.org/wiki/Open-source_softwar
 ```
 $ npm install open-color
 ```
+or
 ```
 $ bower install open-color
 ```
 
-## Currently Supported Formats
+## Currently Supported Formats, Language Environments, Libraries
 
-css, sass, less, styl, json, svg, tex, oco(Open Color Tools), rcpx(PowerPaint), sketchpalette(Sketch), inkscape, aco, clr
+CSS, Sass, Less, Stylus, JSON, SVG, TeX, Open Color Tools (.oco), PowerPaint (.rcpx), Sketch (.sketchpalette), Inkscape, aco, clr, Tailwind, TypeScript
 
 ## Variable Convention
 
@@ -164,30 +165,3 @@ a:active {
   color: var(--oc-indigo-7);
 }
 ```
-
-## Contribution
-
-Check out the list below.
-
-### Color Value
-
-- `open-color.json`
-   - Change and `$ npm run compile-templates`
-- `docs/asset/download/open-color_*.*.*.aco`
-- `docs/asset/download/open-color_*.*.*.clr`
-- Adobe library (admin rights)
-
-### Version Number
-
-- `package.json`
-- `docs/asset/download/open-color_*.*.*.aco`
-- Adobe library (admin rights)
-
-### Document
-
-- `README.md`
-- `docs/documents.html`
-
-### Introduction
-
-- `README.md`
