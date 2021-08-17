@@ -1,3 +1,4 @@
+
 const path = require('path');
 const pkg = require('./package.json');
 
@@ -21,6 +22,8 @@ templatedBuilder.build('open-color.scss',
     [path.join(__dirname, 'open-color.scss'), path.join(__dirname, 'docs', '_sass', '_open-color.scss')]);
 templatedBuilder.build('open-color.css',
     [path.join(__dirname, 'open-color.css')]);
+templatedBuilder.build('open-color.js',
+    [path.join(__dirname, 'open-color.js')]);
 templatedBuilder.build('open-color.less',
     [path.join(__dirname, 'open-color.less')]);
 templatedBuilder.build('open-color.styl',

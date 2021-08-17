@@ -68,6 +68,25 @@ layout: default
       color: $oc-indigo-7;
     }
   }{% endhighlight %}
+      
+       <h4 class="docs-subtitle">Example for Tailwind CSS</h4>
+{% highlight js %}
+// tailwind.config.js      
+module.exports = {
+  presets: [require("./open-color.js")],
+  purge: [],
+  mode: "jit",
+  darkMode: false,
+  theme: {
+    extend: {},
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+};
+{% endhighlight %}
+      
 
       <h4 class="docs-subtitle">Example for Less</h4>
       {% highlight scss %}
