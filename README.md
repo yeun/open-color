@@ -169,3 +169,4 @@ a:active {
 ## Other Language Bindings
 
 - Julia : [OpenColor.jl](https://github.com/appleparan/OpenColor.jl)
+- Go : [opencolor](https://pkg.go.dev/github.com/jsynacek/go-open-color/opencolor)
