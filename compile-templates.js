@@ -31,6 +31,8 @@ templatedBuilder.build('open-color.svg',
     [path.join(__dirname, 'docs', 'asset', 'images', 'open-color.svg')]);
 templatedBuilder.build('open-color.tex',
     [path.join(__dirname, 'open-color.tex')]);
+templatedBuilder.build('open_color.dart',
+    [path.join(__dirname, 'open_color.dart')]);
 
 templatedBuilder.build('open-color.sketchpalette',
     [path.join(__dirname, 'docs', 'asset', 'download', `open-color_${pkg.version}.sketchpalette`)]);
