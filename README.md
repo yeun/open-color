@@ -170,3 +170,4 @@ a:active {
 
 - Julia : [OpenColor.jl](https://github.com/appleparan/OpenColor.jl)
 - Go : [opencolor](https://pkg.go.dev/github.com/jsynacek/go-open-color/opencolor)
+- Emacs Lisp: [open-color.el](https://github.com/a13/open-color.el)
